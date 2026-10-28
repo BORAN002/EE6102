@@ -1,0 +1,715 @@
+{
+  "id": 3,
+  "title": {
+    "en": "Planning & identity",
+    "zh": "安全规划与身份认证"
+  },
+  "subtitle": {
+    "en": "Policies, leadership, authentication, and biometrics",
+    "zh": "政策、管理支持、身份认证与生物识别"
+  },
+  "source": "Sample Quiz Part 3.pdf",
+  "concepts": [
+    {
+      "id": "p3-planning",
+      "title": {
+        "en": "Start with assessment",
+        "zh": "安全规划从评估开始"
+      },
+      "body": {
+        "en": "A security plan begins by assessing the current security situation: assets, threats, vulnerabilities, and existing controls. This identifies the actual gaps before selecting tools or spending money.",
+        "zh": "安全规划首先评估当前的资产、威胁、漏洞和已有控制措施。这能帮助组织在选择工具或投入资金之前识别真正的缺口。"
+      },
+      "memory": {
+        "en": "Assess the current security state before buying technology.",
+        "zh": "先评估当前安全状况，再购买技术产品。"
+      },
+      "questionIds": [
+        1
+      ]
+    },
+    {
+      "id": "p3-leadership",
+      "title": {
+        "en": "Management support",
+        "zh": "管理层支持"
+      },
+      "body": {
+        "en": "Security requires sustained leadership support throughout planning, implementation, and operation. Adequate budgets and managers following the same security procedures demonstrate commitment more clearly than an announcement alone.",
+        "zh": "安全工作需要管理层在规划、实施和运行全过程中持续支持。充足预算与管理者亲自遵守安全程序，比单纯发布支持声明更能体现承诺。"
+      },
+      "memory": {
+        "en": "Management support must continue throughout the project.",
+        "zh": "管理层支持必须贯穿项目全过程。"
+      },
+      "questionIds": [
+        2,
+        3
+      ]
+    },
+    {
+      "id": "p3-policy",
+      "title": {
+        "en": "Policies and procedures",
+        "zh": "政策与执行程序"
+      },
+      "body": {
+        "en": "A policy states what should be done or what behavior is required. Procedures describe how to put that guidance into operation. Policies should be sensible and practical; otherwise users may circumvent them.",
+        "zh": "政策说明应该做什么或要求什么行为。执行程序说明如何把政策落实到实际操作。政策应合理、可行，否则用户可能绕过它们。"
+      },
+      "memory": {
+        "en": "Policy = what; procedure = how.",
+        "zh": "政策回答做什么；程序回答怎样做。"
+      },
+      "questionIds": [
+        4,
+        5
+      ]
+    },
+    {
+      "id": "p3-standards",
+      "title": {
+        "en": "Standards and guidelines",
+        "zh": "标准与指南"
+      },
+      "body": {
+        "en": "Standards impose mandatory requirements. Guidelines offer recommended approaches and allow judgment. This quiz additionally expects decision makers to carefully consider guidelines, even though following the recommendation is discretionary.",
+        "zh": "标准规定必须遵守的要求。指南提供建议的方法，并允许自行判断。本题库另外要求决策者认真考虑指南，尽管是否采用其中建议具有自主性。"
+      },
+      "memory": {
+        "en": "Standards are mandatory; guidelines are discretionary but should be considered.",
+        "zh": "标准必须遵守；指南可酌情采用，但应认真考虑。"
+      },
+      "questionIds": [
+        6,
+        7
+      ]
+    },
+    {
+      "id": "p3-authentication",
+      "title": {
+        "en": "Authentication factors",
+        "zh": "身份认证因素"
+      },
+      "body": {
+        "en": "Authentication verifies who someone is; authorization determines what that identity may access. The three classic factors are something you know (password), have (token), and are (biometric trait). Something you see is not one of these factors.",
+        "zh": "身份认证验证你是谁；授权决定这一身份可以访问什么。经典三类认证因素是你知道的（密码）、你拥有的（令牌）和你本身的特征（生物识别）。你看到的东西不属于这三类因素。"
+      },
+      "memory": {
+        "en": "Know, have, are: the three authentication factors.",
+        "zh": "知道、拥有、本身特征：三类身份认证因素。"
+      },
+      "questionIds": [
+        8,
+        9
+      ]
+    },
+    {
+      "id": "p3-passwords",
+      "title": {
+        "en": "Password strength",
+        "zh": "密码强度"
+      },
+      "body": {
+        "en": "Short, predictable passwords have small or easily guessed search spaces. Reusing a password also lets a leak from one service affect other accounts. Practical resistance depends on both password choice and protections such as rate limiting and additional factors.",
+        "zh": "短而可预测的密码，其候选空间较小或容易猜中。重复使用密码还会让一个服务的泄露影响其他账户。实际抵抗能力取决于密码选择，以及限速和额外认证因素等保护。"
+      },
+      "memory": {
+        "en": "Short, simple, reused passwords are weak credentials.",
+        "zh": "短、简单且重复使用的密码是薄弱凭据。"
+      },
+      "questionIds": [
+        10
+      ]
+    },
+    {
+      "id": "p3-biometrics",
+      "title": {
+        "en": "Biometric identification",
+        "zh": "生物识别"
+      },
+      "body": {
+        "en": "Biometrics use physiological or behavioral characteristics, such as fingerprints, to support identity checks. Fingerprint readers are the quiz’s familiar widely deployed example. Convenience and fraud reduction can build trust, but spoof resistance depends on sensors, matching, liveness detection, and secure enrollment.",
+        "zh": "生物识别使用指纹等生理或行为特征辅助身份验证。题库将指纹读取器作为广泛部署的典型例子。便利性和降低欺诈可以增强信任，但防伪能力取决于传感器、匹配、活体检测和安全注册等因素。"
+      },
+      "memory": {
+        "en": "Biometrics can improve convenience, but they are not immune to spoofing.",
+        "zh": "生物识别可以改善便利性，但并非无法伪造。"
+      },
+      "questionIds": [
+        11,
+        12,
+        15
+      ]
+    },
+    {
+      "id": "p3-biometric-errors",
+      "title": {
+        "en": "False acceptance and deception",
+        "zh": "错误接纳与欺骗"
+      },
+      "body": {
+        "en": "False acceptance means an unauthorized person is incorrectly accepted as a valid template match; false rejection means a legitimate person is rejected. Deception describes a deliberate attempt to fool the system, rather than merely the classification outcome.",
+        "zh": "错误接纳指未经授权的人被错误判定为与合法模板匹配；错误拒绝指合法用户被拒绝。欺骗指蓄意蒙骗系统的行为，而不仅仅是分类结果。"
+      },
+      "memory": {
+        "en": "FAR lets an impostor in; FRR keeps a genuine user out.",
+        "zh": "FAR 把冒用者放进来；FRR 把合法用户拒之门外。"
+      },
+      "questionIds": [
+        13,
+        14
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p3-q1",
+      "number": 1,
+      "page": 1,
+      "prompt": {
+        "en": "In developing a cyber security plan, what should a company/organization do first (particularly when they are in the initial planning stages)?",
+        "zh": "制定网络安全计划时，公司或组织首先应该做什么，特别是在初始规划阶段？"
+      },
+      "options": [
+        {
+          "en": "It should buy state of the art technology",
+          "zh": "购买最先进的技术"
+        },
+        {
+          "en": "It must first assess the current state of its security",
+          "zh": "首先评估当前的安全状况"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A current-state assessment reveals risks and gaps so the plan can choose suitable controls. Buying technology before assessment may solve the wrong problem.",
+        "zh": "现状评估能识别风险和缺口，使计划选择合适的控制措施。未经评估就购买技术，可能无法解决真正的问题。"
+      },
+      "conceptIds": [
+        "p3-planning"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q2",
+      "number": 2,
+      "page": 1,
+      "prompt": {
+        "en": "Is top management support important in the success of cyber security project, when the project is being planned, implemented and executed?",
+        "zh": "在网络安全项目的规划、实施和执行阶段，高层管理者的支持对项目成功是否重要？"
+      },
+      "options": [
+        {
+          "en": "Yes, only at the initial stage",
+          "zh": "是，但只在初始阶段重要"
+        },
+        {
+          "en": "Yes, throughout the project stages",
+          "zh": "是，在项目各阶段都重要"
+        },
+        {
+          "en": "No",
+          "zh": "否"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Support is needed for resources, authority, and enforcement throughout the project, not only at launch.",
+        "zh": "项目全过程都需要资源、权威和执行支持，而不只是启动阶段。"
+      },
+      "conceptIds": [
+        "p3-leadership"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q3",
+      "number": 3,
+      "page": 1,
+      "prompt": {
+        "en": "What must top management do to demonstrate support for cyber security project?",
+        "zh": "高层管理者必须怎样做，才能体现对网络安全项目的支持？"
+      },
+      "options": [
+        {
+          "en": "Must ensure an adequate budget and follows security procedures themselves",
+          "zh": "确保充足的预算，并亲自遵守安全程序"
+        },
+        {
+          "en": "Send email to all staff and inform them that they are supporting the project",
+          "zh": "向所有员工发邮件，告知他们支持该项目"
+        },
+        {
+          "en": "Management cannot do anything as it is managed by technical staff",
+          "zh": "管理层无能为力，因为项目由技术人员管理"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Funding and leading by example make the commitment operational. An email alone is not enough to sustain a security program.",
+        "zh": "提供资金和以身作则能把承诺落实到行动。仅仅发邮件不足以维持安全工作。"
+      },
+      "conceptIds": [
+        "p3-leadership"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q4",
+      "number": 4,
+      "page": 2,
+      "prompt": {
+        "en": "What are policies?",
+        "zh": "什么是政策？"
+      },
+      "options": [
+        {
+          "en": "Policies are statements about what should be done under specific circumstances",
+          "zh": "政策说明在特定情况下应该做什么"
+        },
+        {
+          "en": "Policies describe the actions that are taken to place the policy guidance into operation",
+          "zh": "政策描述把政策指导落实到运行中的具体行动"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Policies establish required behavior and direction. Option B describes procedures, which implement policy guidance.",
+        "zh": "政策规定所要求的行为和方向。选项 B 描述的是将政策落实的执行程序。"
+      },
+      "conceptIds": [
+        "p3-policy"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q5",
+      "number": 5,
+      "page": 2,
+      "prompt": {
+        "en": "Why policies need to be acceptable to users?",
+        "zh": "为什么政策需要被用户接受？"
+      },
+      "options": [
+        {
+          "en": "If policies are not acceptable (sensible) then users will bypass it, which is a dangerous trend",
+          "zh": "如果政策不合理、无法接受，用户就可能绕过它，这是一种危险趋势"
+        },
+        {
+          "en": "So that users can modify it according to his/her needs",
+          "zh": "这样用户就可以根据自己的需要修改政策"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A sensible and usable policy is more likely to be followed. Acceptance does not give users permission to rewrite it at will.",
+        "zh": "合理且易执行的政策更容易被遵守。接受政策并不意味着用户可以随意修改政策。"
+      },
+      "conceptIds": [
+        "p3-policy"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q6",
+      "number": 6,
+      "page": 2,
+      "prompt": {
+        "en": "Distinguish between standards and guidelines.",
+        "zh": "标准和指南有什么区别？"
+      },
+      "options": [
+        {
+          "en": "Standards are mandatory while guidelines are discretionary",
+          "zh": "标准是强制性的，而指南可酌情采用"
+        },
+        {
+          "en": "Standards must be followed, while guidelines can be completely ignored",
+          "zh": "标准必须遵守，而指南可以完全忽视"
+        },
+        {
+          "en": "Standard can be optional while guidelines are fixed",
+          "zh": "标准可以选择性遵守，而指南是固定的"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Standards set mandatory requirements. Guidelines are recommendations; this course distinguishes discretion from simply ignoring them.",
+        "zh": "标准设定强制要求。指南提供建议；本课程区分酌情采用与完全无视。"
+      },
+      "conceptIds": [
+        "p3-standards"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q7",
+      "number": 7,
+      "page": 3,
+      "prompt": {
+        "en": "For guidelines, what is mandatory?",
+        "zh": "对于指南，什么是必须做到的？"
+      },
+      "options": [
+        {
+          "en": "It is mandatory for decision makers to carefully consider guidelines",
+          "zh": "决策者必须认真考虑指南"
+        },
+        {
+          "en": "Nothing is mandatory for guidelines",
+          "zh": "对于指南，没有任何强制要求"
+        },
+        {
+          "en": "Since guidelines are must, everything is mandatory in guidelines",
+          "zh": "既然指南是必须的，指南中的所有内容都是强制性的"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The marked answer requires careful consideration by decision makers while allowing discretion in application. It does not turn every guideline into a mandatory standard.",
+        "zh": "标注答案要求决策者认真考虑指南，同时允许在实际采用时自行判断。这并不使每条指南都成为强制标准。"
+      },
+      "conceptIds": [
+        "p3-standards"
+      ],
+      "note": {
+        "en": "This is a course-specific expectation about considering guidelines, not a universal rule that all guidelines are legally mandatory.",
+        "zh": "这是课程关于认真考虑指南的特定要求，不意味着所有指南在法律上都具有强制性。"
+      }
+    },
+    {
+      "id": "p3-q8",
+      "number": 8,
+      "page": 3,
+      "prompt": {
+        "en": "Which of the following is not an authentication factor?",
+        "zh": "以下哪一项不是身份认证因素？"
+      },
+      "options": [
+        {
+          "en": "Something you have",
+          "zh": "你拥有的东西"
+        },
+        {
+          "en": "Something you know",
+          "zh": "你知道的东西"
+        },
+        {
+          "en": "Something you see",
+          "zh": "你看到的东西"
+        },
+        {
+          "en": "Something you are",
+          "zh": "你本身的特征"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The classic factors are possession, knowledge, and inherence. Something you see is not a separate classic authentication factor.",
+        "zh": "经典认证因素是拥有、知识和固有特征。你看到的东西不属于独立的经典认证因素。"
+      },
+      "conceptIds": [
+        "p3-authentication"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q9",
+      "number": 9,
+      "page": 3,
+      "prompt": {
+        "en": "________ is the process of assessing the identity of each individual claiming to have permission to use a resource.",
+        "zh": "________ 是评估每个声称拥有资源使用权限的人的身份的过程。"
+      },
+      "options": [
+        {
+          "en": "Authorizations",
+          "zh": "授权"
+        },
+        {
+          "en": "Authentication",
+          "zh": "身份认证"
+        },
+        {
+          "en": "Availability",
+          "zh": "可用性"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Authentication checks the claimed identity. Authorization then determines which resources or actions are permitted.",
+        "zh": "身份认证检查所声称的身份。授权则决定允许访问哪些资源或执行哪些操作。"
+      },
+      "conceptIds": [
+        "p3-authentication"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q10",
+      "number": 10,
+      "page": 4,
+      "prompt": {
+        "en": "Short and simple reusable passwords are always easy for hackers to crack?",
+        "zh": "简短、简单且重复使用的密码总是容易被黑客破解吗？"
+      },
+      "options": [
+        {
+          "en": "Yes: As it can be cracked or guessed easily",
+          "zh": "是，因为它容易被破解或猜中"
+        },
+        {
+          "en": "No: Regardless whether it is simple or complex, no password can be easily cracked",
+          "zh": "否，无论密码简单还是复杂，都不容易破解"
+        },
+        {
+          "en": "It will still take very long time as no password is easy to crack",
+          "zh": "仍然需要很长时间，因为没有密码容易破解"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The quiz emphasizes that short and predictable passwords are weak and reusing them compounds risk. Stronger, distinct credentials reduce guessability and reuse exposure.",
+        "zh": "题库强调短而可预测的密码很薄弱，重复使用会进一步增加风险。更强且互不重复的凭据能降低被猜测和重复使用带来的暴露风险。"
+      },
+      "conceptIds": [
+        "p3-passwords"
+      ],
+      "note": {
+        "en": "The word always is too absolute: actual cracking difficulty also depends on rate limiting, password storage, and whether the attack is online or offline.",
+        "zh": "题目中的“总是”过于绝对：实际破解难度还取决于限速、密码存储方式，以及攻击是在在线还是离线环境中进行。"
+      }
+    },
+    {
+      "id": "p3-q11",
+      "number": 11,
+      "page": 4,
+      "prompt": {
+        "en": "Using biometric technology can enhance customer trust?",
+        "zh": "使用生物识别技术能否增强客户信任？"
+      },
+      "options": [
+        {
+          "en": "Yes: In fact, it does enhance customer trust and combat fraud",
+          "zh": "能，它可以增强客户信任并打击欺诈"
+        },
+        {
+          "en": "No: Trust is not related to biometric based technology",
+          "zh": "不能，信任与生物识别技术无关"
+        },
+        {
+          "en": "Trust can only be enhanced using complex system",
+          "zh": "只有复杂系统才能增强信任"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Well-designed biometric verification can make authentication convenient and reduce some forms of fraud, supporting user confidence. Trust still depends on the wider system and privacy safeguards.",
+        "zh": "设计良好的生物识别验证能使认证更便利，并减少部分欺诈，从而增强用户信心。信任仍取决于整体系统和隐私保护。"
+      },
+      "conceptIds": [
+        "p3-biometrics"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q12",
+      "number": 12,
+      "page": 4,
+      "prompt": {
+        "en": "What is the most common type of biometrics device in use today?",
+        "zh": "如今最常见的生物识别设备类型是什么？"
+      },
+      "options": [
+        {
+          "en": "Lie detectors that measure pulse rate",
+          "zh": "测量脉搏的测谎仪"
+        },
+        {
+          "en": "Long and complex passwords",
+          "zh": "长而复杂的密码"
+        },
+        {
+          "en": "Fingerprint scanners and readers",
+          "zh": "指纹扫描器和读取器"
+        },
+        {
+          "en": "Retinal scanners",
+          "zh": "视网膜扫描器"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The quiz selects fingerprint scanners and readers as the familiar commonly used biometric devices. Passwords are a knowledge factor rather than biometrics.",
+        "zh": "题库选择指纹扫描器和读取器，作为常见的生物识别设备。密码属于知识因素，而不是生物识别。"
+      },
+      "conceptIds": [
+        "p3-biometrics"
+      ],
+      "note": {
+        "en": "The source repeats the label b and contains five options. This site preserves the option order and labels them sequentially; the marked answer is the third option, fingerprint scanners and readers.",
+        "zh": "原题重复使用字母 b，并包含五个选项。本站保留选项顺序并重新连续编号；原资料标注的是第三个选项“指纹扫描器和读取器”。"
+      }
+    },
+    {
+      "id": "p3-q13",
+      "number": 13,
+      "page": 5,
+      "prompt": {
+        "en": "A false acceptance occurs when a person is improperly matched to a template?",
+        "zh": "当某人被错误地判定为与模板匹配时，就发生了错误接纳吗？"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "zh": "是"
+        },
+        {
+          "en": "No",
+          "zh": "否"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "False acceptance is an impostor being incorrectly accepted as a valid user. It differs from false rejection, where a genuine user fails verification.",
+        "zh": "错误接纳是把冒用者错误地当作合法用户接纳。错误拒绝则是合法用户未通过验证。"
+      },
+      "conceptIds": [
+        "p3-biometric-errors"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q14",
+      "number": 14,
+      "page": 5,
+      "prompt": {
+        "en": "When an attacker deliberately attempts to fool the system, this is called ________.",
+        "zh": "当攻击者蓄意试图蒙骗系统时，这称为 ________。"
+      },
+      "options": [
+        {
+          "en": "deception",
+          "zh": "欺骗"
+        },
+        {
+          "en": "false acceptance",
+          "zh": "错误接纳"
+        },
+        {
+          "en": "false rejection",
+          "zh": "错误拒绝"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Deception describes the intentional attack. False acceptance and false rejection describe the system’s decision outcomes.",
+        "zh": "欺骗描述蓄意攻击行为。错误接纳和错误拒绝描述系统的判定结果。"
+      },
+      "conceptIds": [
+        "p3-biometric-errors"
+      ],
+      "note": null
+    },
+    {
+      "id": "p3-q15",
+      "number": 15,
+      "page": 5,
+      "prompt": {
+        "en": "Which of the following statements accurately describes fingerprint recognition?",
+        "zh": "以下哪项陈述准确描述指纹识别？"
+      },
+      "options": [
+        {
+          "en": "Fingerprint recognition scanners are very expensive",
+          "zh": "指纹扫描器非常昂贵"
+        },
+        {
+          "en": "Fingerprint recognition is easily deceived",
+          "zh": "指纹识别容易受到欺骗"
+        },
+        {
+          "en": "Fingerprint recognition is rarely used",
+          "zh": "指纹识别很少使用"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The marked answer highlights fingerprint spoofing: artificial or copied prints may fool vulnerable implementations. It is a reminder that biometric checks are not inherently foolproof.",
+        "zh": "标注答案强调指纹伪造：人工制作或复制的指纹可能欺骗存在弱点的实现。这提醒我们生物识别并非天然万无一失。"
+      },
+      "conceptIds": [
+        "p3-biometrics"
+      ],
+      "note": {
+        "en": "“Easily deceived” is an overgeneralization. Actual resistance depends on the sensor, liveness checks, matching algorithm, enrollment, and system design. The source nevertheless marks B.",
+        "zh": "“容易受到欺骗”过于笼统。实际抵抗能力取决于传感器、活体检测、匹配算法、注册过程和系统设计；原资料仍标注 B。"
+      }
+    }
+  ]
+}

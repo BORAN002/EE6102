@@ -1,0 +1,1170 @@
+{
+  "id": 1,
+  "title": {
+    "en": "Cybersecurity foundations",
+    "zh": "网络安全基础"
+  },
+  "subtitle": {
+    "en": "Security goals, threats, malware & human behavior",
+    "zh": "安全目标、威胁、恶意软件与人的行为"
+  },
+  "source": "Sample Quiz Part 1.pdf",
+  "concepts": [
+    {
+      "id": "p1-foundations",
+      "title": {
+        "en": "Security is a system",
+        "zh": "安全是一个整体"
+      },
+      "body": {
+        "en": "Technology, standards, policies, and management practices jointly protect information. Exposure can be a breach even without malicious intent.",
+        "zh": "技术、标准、政策和管理共同保护信息；即使访问者没有恶意，信息暴露仍可能构成安全失守。"
+      },
+      "memory": {
+        "en": "Cybersecurity combines technical and managerial measures.",
+        "zh": "网络安全结合技术措施与管理措施。"
+      },
+      "questionIds": [
+        1,
+        2,
+        4
+      ]
+    },
+    {
+      "id": "p1-cia",
+      "title": {
+        "en": "CIA & authenticity",
+        "zh": "CIA 与真实性"
+      },
+      "body": {
+        "en": "Confidentiality prevents unauthorized disclosure; integrity protects against unauthorized modification; availability ensures timely access. Authenticity concerns a genuine identity or source.",
+        "zh": "机密性防止未经授权披露；完整性保护信息不被擅自修改；可用性确保及时访问；真实性关注身份和来源是否真实。"
+      },
+      "memory": {
+        "en": "Disclosure → confidentiality; alteration → integrity; disruption → availability.",
+        "zh": "泄露 → 机密性；篡改 → 完整性；中断 → 可用性。"
+      },
+      "questionIds": [
+        3,
+        5,
+        16
+      ]
+    },
+    {
+      "id": "p1-cycle",
+      "title": {
+        "en": "Plan · Protect · Respond",
+        "zh": "规划 · 防护 · 响应"
+      },
+      "body": {
+        "en": "Planning sets objectives; protection operates controls; response handles incidents and recovery. The quiz calls protection the most time-consuming phase.",
+        "zh": "规划确定目标；防护运行控制措施；响应处理事件和恢复；题目认为防护最耗时。"
+      },
+      "memory": {
+        "en": "Plan → Protect → Respond; response means recovery according to plan in this quiz.",
+        "zh": "规划 → 防护 → 响应；本题将响应概括为按计划恢复。"
+      },
+      "questionIds": [
+        6,
+        7,
+        8,
+        9
+      ]
+    },
+    {
+      "id": "p1-threats",
+      "title": {
+        "en": "Threats & motivations",
+        "zh": "威胁与动机"
+      },
+      "body": {
+        "en": "Understand adversaries, their goals, and their methods. Automation, speed, and remote reach enable scale; motives include money, publicity, espionage, and challenge.",
+        "zh": "理解对手、目标和手段；自动化、速度与远程能力支持规模化攻击；动机包括金钱、关注、情报和挑战。"
+      },
+      "memory": {
+        "en": "Motivation is why; method is how; impact is the resulting harm.",
+        "zh": "动机回答为什么；手段回答怎么做；后果是造成的损害。"
+      },
+      "questionIds": [
+        10,
+        11,
+        12,
+        19
+      ]
+    },
+    {
+      "id": "p1-identity",
+      "title": {
+        "en": "Impersonation & permission",
+        "zh": "身份冒充与权限"
+      },
+      "body": {
+        "en": "Masquerading and spoofing involve falsifying identity or origin, with overlapping usage. The quiz defines hacking to include both unauthorized access and exceeding granted permission.",
+        "zh": "Masquerading 和 Spoofing 涉及身份或来源伪造，用法重叠；本题 hacking 包括无权限访问与超越授权。"
+      },
+      "memory": {
+        "en": "No permission and exceeding permission are both unauthorized access.",
+        "zh": "没有权限和超越权限都属于未经授权的访问。"
+      },
+      "questionIds": [
+        13,
+        21
+      ]
+    },
+    {
+      "id": "p1-malware",
+      "title": {
+        "en": "Malware taxonomy",
+        "zh": "恶意软件分类"
+      },
+      "body": {
+        "en": "Malware is the umbrella term. A virus needs a host program; a worm is standalone; a Trojan appears legitimate; a logic bomb has a predefined trigger; spyware gathers information.",
+        "zh": "Malware 是总称；病毒依附宿主，蠕虫独立运行，木马伪装合法，逻辑炸弹按预设条件触发，间谍软件收集信息。"
+      },
+      "memory": {
+        "en": "Host → virus; standalone → worm; disguise → Trojan; trigger → logic bomb.",
+        "zh": "宿主 → 病毒；独立 → 蠕虫；伪装 → 木马；触发 → 逻辑炸弹。"
+      },
+      "questionIds": [
+        14,
+        15,
+        18,
+        22
+      ]
+    },
+    {
+      "id": "p1-payload",
+      "title": {
+        "en": "Delivery & payload",
+        "zh": "传播与载荷"
+      },
+      "body": {
+        "en": "Email, removable drives, file sharing, and downloads can carry malware. Delivery and propagation describe how it arrives or spreads; a payload describes the malicious task.",
+        "zh": "邮件、移动存储、文件共享和下载可携带恶意软件；传播描述怎样到达与扩散，载荷描述执行什么恶意任务。"
+      },
+      "memory": {
+        "en": "Propagation spreads malware; a payload performs the harmful action.",
+        "zh": "传播机制扩散恶意软件；载荷执行有害行为。"
+      },
+      "questionIds": [
+        17,
+        20
+      ]
+    },
+    {
+      "id": "p1-privacy",
+      "title": {
+        "en": "Cookies & privacy",
+        "zh": "Cookie 与隐私"
+      },
+      "body": {
+        "en": "Cookies are data used for functions such as sessions and tracking. Tracking can create privacy risks, but a cookie is not itself an executable spyware program.",
+        "zh": "Cookie 是用于会话、跟踪等功能的数据；跟踪可能导致隐私风险，但 Cookie 本身不是可执行的间谍程序。"
+      },
+      "memory": {
+        "en": "Tracking data can threaten privacy without being executable malware.",
+        "zh": "跟踪数据可能威胁隐私，但不等于可执行的恶意软件。"
+      },
+      "questionIds": [
+        23
+      ]
+    },
+    {
+      "id": "p1-social",
+      "title": {
+        "en": "Social engineering & phishing",
+        "zh": "社会工程与钓鱼"
+      },
+      "body": {
+        "en": "Social engineering manipulates people; phishing impersonates trusted sources; spam is unsolicited email, specifically commercial email in this quiz.",
+        "zh": "社会工程操纵人的行为；钓鱼冒充可信来源；Spam 是未经请求的邮件，本题特指商业邮件。"
+      },
+      "memory": {
+        "en": "Social engineering exploits people; phishing uses deception; spam is unsolicited.",
+        "zh": "社会工程利用人；钓鱼使用欺骗；垃圾邮件未经请求。"
+      },
+      "questionIds": [
+        24,
+        25,
+        26,
+        27
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p1-q1",
+      "number": 1,
+      "page": 1,
+      "prompt": {
+        "en": "What is cyber security?",
+        "zh": "什么是网络安全？"
+      },
+      "options": [
+        {
+          "en": "It is the collection of technologies, standards, policies and management practices that are applied to digital information to keep it secure",
+          "zh": "综合运用技术、标准、政策和管理措施来保护数字信息。"
+        },
+        {
+          "en": "It is only using technology to keep digital information secure",
+          "zh": "仅使用技术保护数字信息。"
+        },
+        {
+          "en": "It is just using the best policy to keep digital information secure",
+          "zh": "仅使用最好的政策保护数字信息。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Security combines people, procedures, and technology; technology-only and policy-only answers are incomplete.",
+        "zh": "安全结合人员、流程和技术；只强调技术或政策都不完整。"
+      },
+      "conceptIds": [
+        "p1-foundations"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q2",
+      "number": 2,
+      "page": 1,
+      "prompt": {
+        "en": "Why is cyber security important?",
+        "zh": "为什么网络安全很重要？"
+      },
+      "options": [
+        {
+          "en": "In today's high technology environment, organisations are becoming more and more dependent on their information systems",
+          "zh": "组织越来越依赖信息系统。"
+        },
+        {
+          "en": "Due to hype in the media about cyber security",
+          "zh": "因为媒体对网络安全的炒作。"
+        },
+        {
+          "en": "The threats from traditional brick and motor criminals are on the rise",
+          "zh": "传统现实世界犯罪者带来的威胁正在增加。"
+        },
+        {
+          "en": "Many organisations who are still using offline payment system are depending on cyber security",
+          "zh": "许多仍使用线下支付系统的组织依赖网络安全。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Dependence on information systems makes disruption, disclosure, and loss consequential to business.",
+        "zh": "组织依赖信息系统，因此中断、泄露和损失会影响业务。"
+      },
+      "conceptIds": [
+        "p1-foundations"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q3",
+      "number": 3,
+      "page": 1,
+      "prompt": {
+        "en": "What are the three basic cyber security concepts?",
+        "zh": "网络安全的三个基本概念是什么？"
+      },
+      "options": [
+        {
+          "en": "Confidentiality, Integrity and Access",
+          "zh": "机密性、完整性和访问。"
+        },
+        {
+          "en": "Consideration, Integrity, and Availability",
+          "zh": "考虑、完整性和可用性。"
+        },
+        {
+          "en": "Confidentiality, Integrity, Availability",
+          "zh": "机密性、完整性和可用性。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "CIA stands for Confidentiality, Integrity, and Availability. Access and Consideration are distractors.",
+        "zh": "CIA 指机密性、完整性、可用性；Access 和 Consideration 是干扰项。"
+      },
+      "conceptIds": [
+        "p1-cia"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q4",
+      "number": 4,
+      "page": 2,
+      "prompt": {
+        "en": "You visit an organization’s website and you realized that you are able to view sensitive files on their web server. Even though it is not your fault, it is still considered a cyber security breach?",
+        "zh": "你访问某组织的网站时发现自己能查看服务器上的敏感文件；即使不是你的过错，这仍属于安全失守吗？"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Exposure of sensitive files is a security failure regardless of whether the visitor intended harm.",
+        "zh": "无论访问者是否有恶意，敏感文件暴露都意味着安全保护失效。"
+      },
+      "conceptIds": [
+        "p1-foundations"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q5",
+      "number": 5,
+      "page": 2,
+      "prompt": {
+        "en": "Verifying that users are who they say they are and that each input arriving at the system came from a trusted source.",
+        "zh": "验证用户确实是其声称的人，并确认系统收到的输入来自可信来源，指的是什么？"
+      },
+      "options": [
+        {
+          "en": "Authenticity",
+          "zh": "真实性。"
+        },
+        {
+          "en": "Integrity",
+          "zh": "完整性。"
+        },
+        {
+          "en": "Confidentiality",
+          "zh": "机密性。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Authenticity concerns a genuine identity or source; integrity concerns unauthorized modification.",
+        "zh": "真实性关注身份或来源是否真实；完整性关注未经授权的修改。"
+      },
+      "conceptIds": [
+        "p1-cia"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q6",
+      "number": 6,
+      "page": 2,
+      "prompt": {
+        "en": "List the three stages in the plan-protect-respond cycle.",
+        "zh": "规划—防护—响应循环的三个阶段是什么？"
+      },
+      "options": [
+        {
+          "en": "Planning, protection, and response",
+          "zh": "规划、防护和响应。"
+        },
+        {
+          "en": "Planning, Checking and protecting",
+          "zh": "规划、检查和防护。"
+        },
+        {
+          "en": "Plan, do and check",
+          "zh": "计划、执行和检查。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The course uses the Plan–Protect–Respond lifecycle.",
+        "zh": "课程采用规划—防护—响应这一循环。"
+      },
+      "conceptIds": [
+        "p1-cycle"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q7",
+      "number": 7,
+      "page": 3,
+      "prompt": {
+        "en": "In plan, protect and response cycle, which stage consumes the most time?",
+        "zh": "在规划—防护—响应循环中，哪个阶段消耗最多时间？"
+      },
+      "options": [
+        {
+          "en": "Protection",
+          "zh": "防护。"
+        },
+        {
+          "en": "Planning",
+          "zh": "规划。"
+        },
+        {
+          "en": "Response",
+          "zh": "响应。"
+        },
+        {
+          "en": "All three take the same time",
+          "zh": "三个阶段耗时相同。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Protection is the ongoing operational phase, so the quiz identifies it as the most time-consuming.",
+        "zh": "防护是持续运行的阶段，因此题目认为它最耗时。"
+      },
+      "conceptIds": [
+        "p1-cycle"
+      ],
+      "note": {
+        "en": "This is the course answer, not a universal timing rule for every organization.",
+        "zh": "这是课程答案，并非所有组织都遵循的普遍耗时规律。"
+      }
+    },
+    {
+      "id": "p1-q8",
+      "number": 8,
+      "page": 3,
+      "prompt": {
+        "en": "How is protection defined?",
+        "zh": "如何定义防护？"
+      },
+      "options": [
+        {
+          "en": "Protection is defined as the plan-based creation of operation and countermeasures",
+          "zh": "依据计划建立运行活动和应对措施。"
+        },
+        {
+          "en": "To use technologies to protect against attacks",
+          "zh": "使用技术抵御攻击。"
+        },
+        {
+          "en": "To use policy-based protection to protect against attacks",
+          "zh": "使用基于政策的措施抵御攻击。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "All listed descriptions contribute to protection: planned countermeasures, technology, and policies.",
+        "zh": "按计划的应对措施、技术和政策都属于防护。"
+      },
+      "conceptIds": [
+        "p1-cycle"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q9",
+      "number": 9,
+      "page": 3,
+      "prompt": {
+        "en": "How is the response defined?",
+        "zh": "如何定义响应？"
+      },
+      "options": [
+        {
+          "en": "Response is defined as recovery according to plan",
+          "zh": "按照计划进行恢复。"
+        },
+        {
+          "en": "Punish the attackers so that they don’t attack again",
+          "zh": "惩罚攻击者，使其不再攻击。"
+        },
+        {
+          "en": "Attack the attackers and destroy their abilities to attack again",
+          "zh": "反过来攻击攻击者，并摧毁其再次攻击的能力。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The quiz emphasizes planned recovery rather than retaliation. Real incident response also includes containment and investigation.",
+        "zh": "本题强调按计划恢复，而非报复；实际事件响应也包括遏制和调查。"
+      },
+      "conceptIds": [
+        "p1-cycle"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q10",
+      "number": 10,
+      "page": 4,
+      "prompt": {
+        "en": "Why there is need to understand cyber security Threat landscape?",
+        "zh": "为什么需要了解网络安全威胁态势？"
+      },
+      "options": [
+        {
+          "en": "We will not be able to defend as we will not know how are the attackers and how are they going to attack us",
+          "zh": "如果不知道攻击者是谁以及如何攻击，就无法有效防御。"
+        },
+        {
+          "en": "Business requirements make it essential to understand it",
+          "zh": "因为业务要求必须了解。"
+        },
+        {
+          "en": "It is requirement of information cyber security policy, so we have no choice",
+          "zh": "因为安全政策要求如此，所以别无选择。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Knowing likely adversaries and methods helps select appropriate defenses.",
+        "zh": "了解可能的攻击者和手段，才能选择适合的防御。"
+      },
+      "conceptIds": [
+        "p1-threats"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q11",
+      "number": 11,
+      "page": 4,
+      "prompt": {
+        "en": "Do automation, speed, and action at a distance aid online attacks?",
+        "zh": "自动化、高速度和远距离行动是否有助于网络攻击？"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Automation, computing speed, and remote reach enable repeated attacks at scale.",
+        "zh": "自动化、计算速度和远程能力让攻击可以大规模重复执行。"
+      },
+      "conceptIds": [
+        "p1-threats"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q12",
+      "number": 12,
+      "page": 4,
+      "prompt": {
+        "en": "Most obvious reason (s) for cyber security attacks is (are):",
+        "zh": "网络安全攻击涉及的明显原因或类别有哪些？"
+      },
+      "options": [
+        {
+          "en": "Privacy violations",
+          "zh": "侵犯隐私。"
+        },
+        {
+          "en": "Criminal attacks",
+          "zh": "犯罪攻击。"
+        },
+        {
+          "en": "Publicity attacks",
+          "zh": "为了获取关注而进行的攻击。"
+        },
+        {
+          "en": "Legal attacks",
+          "zh": "法律攻击（原题用语）。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 4,
+      "explanation": {
+        "en": "The source marks all listed categories. The useful learning point is that attacks can have varied objectives.",
+        "zh": "资料选择所有类别；应理解攻击可以有不同目的。"
+      },
+      "conceptIds": [
+        "p1-threats"
+      ],
+      "note": {
+        "en": "The source mixes motives and categories and does not define “legal attacks.” Retain the marked answer for this sample; do not treat it as a precise taxonomy.",
+        "zh": "原题混合动机和类别，且未定义“legal attacks”；本题保留标注答案，但不要将其作为严格分类。"
+      }
+    },
+    {
+      "id": "p1-q13",
+      "number": 13,
+      "page": 5,
+      "prompt": {
+        "en": "The fabrication of information that is purported to be from someone who is not actually the author is called",
+        "zh": "伪造信息，使其看起来来自某个实际上并非作者的人，这种行为叫什么？"
+      },
+      "options": [
+        {
+          "en": "Masquerading",
+          "zh": "身份冒充。"
+        },
+        {
+          "en": "Eavesdropping",
+          "zh": "窃听。"
+        },
+        {
+          "en": "Spoofing",
+          "zh": "欺骗、伪造来源。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The source labels falsely attributed information as masquerading: impersonating another identity.",
+        "zh": "资料将伪造信息来源归为身份冒充，即假装成另一个身份。"
+      },
+      "conceptIds": [
+        "p1-identity"
+      ],
+      "note": {
+        "en": "The marked answer is Masquerading. Spoofing overlaps with impersonation in standard usage, so this is not a cleanly exclusive distinction.",
+        "zh": "标注答案为 Masquerading；Spoofing 在常见定义中与身份冒充重叠，因此本题并非严格互斥。"
+      }
+    },
+    {
+      "id": "p1-q14",
+      "number": 14,
+      "page": 5,
+      "prompt": {
+        "en": "Malware is a generic term for “evil/malicious software”",
+        "zh": "Malware 是恶意软件的通用称呼。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Malware is the umbrella category for software with malicious functionality.",
+        "zh": "Malware 是具有恶意功能的软件总称。"
+      },
+      "conceptIds": [
+        "p1-malware"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q15",
+      "number": 15,
+      "page": 5,
+      "prompt": {
+        "en": "Distinguish between viruses and worms",
+        "zh": "病毒和蠕虫有什么区别？"
+      },
+      "options": [
+        {
+          "en": "Virus needs a host program while worms are full program and don’t need a host program",
+          "zh": "病毒需要宿主程序，而蠕虫是完整程序，不需要宿主程序。"
+        },
+        {
+          "en": "Both are same",
+          "zh": "两者相同。"
+        },
+        {
+          "en": "Worm cannot be detected by antivirus program, while virus can be detected",
+          "zh": "蠕虫不能被杀毒软件检测，而病毒可以被检测。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A virus attaches to a host program; a worm is standalone. Detection ability does not define the difference.",
+        "zh": "病毒依附宿主程序，蠕虫独立运行；能否检测不是分类依据。"
+      },
+      "conceptIds": [
+        "p1-malware"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q16",
+      "number": 16,
+      "page": 6,
+      "prompt": {
+        "en": "The interruption or degradation of a data service or information access is called",
+        "zh": "中断数据服务或信息访问，或者降低其服务能力，叫什么？"
+      },
+      "options": [
+        {
+          "en": "Denial of service",
+          "zh": "拒绝服务。"
+        },
+        {
+          "en": "Non-repudiation",
+          "zh": "不可否认性。"
+        },
+        {
+          "en": "Masquerading",
+          "zh": "身份冒充。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Denial of service targets availability by interrupting or degrading access for legitimate users.",
+        "zh": "拒绝服务通过中断或降低合法用户的访问能力，破坏可用性。"
+      },
+      "conceptIds": [
+        "p1-cia"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q17",
+      "number": 17,
+      "page": 6,
+      "prompt": {
+        "en": "How do most viruses spread between computers today?",
+        "zh": "病毒通过哪些途径在计算机之间传播？"
+      },
+      "options": [
+        {
+          "en": "Mostly via email messages, but also through thumb drives, file sharing programs, downloading infected programs from a malicious website, social networking sites.",
+          "zh": "主要通过邮件，也通过 U 盘、文件共享程序、恶意网站上的感染程序和社交网站。"
+        },
+        {
+          "en": "By installing mobile applications",
+          "zh": "安装移动应用程序。"
+        },
+        {
+          "en": "Hackers cracking your password",
+          "zh": "黑客破解你的密码。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The first option describes multiple infection routes, unlike the narrower or unrelated alternatives.",
+        "zh": "第一项列出多种感染途径；其他选项过于狭窄或并非病毒传播定义。"
+      },
+      "conceptIds": [
+        "p1-payload"
+      ],
+      "note": {
+        "en": "The marked option lists infection channels. Its “mostly” claim is a course statement, not a current statistical estimate.",
+        "zh": "标注选项列出感染渠道；其中“主要”属于课程表述，并非当前统计结论。"
+      }
+    },
+    {
+      "id": "p1-q18",
+      "number": 18,
+      "page": 6,
+      "prompt": {
+        "en": "What is a Logic Bomb?",
+        "zh": "什么是逻辑炸弹？"
+      },
+      "options": [
+        {
+          "en": "It gives the impression that it is useful program however in reality it is harmful",
+          "zh": "看起来是有用的程序，实际上却有害。"
+        },
+        {
+          "en": "Malicious codes that execute when a certain predefined events occurs.",
+          "zh": "在预先设定的事件发生时执行的恶意代码。"
+        },
+        {
+          "en": "A Virus which bypasses the antivirus program",
+          "zh": "绕过杀毒软件的病毒。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A predefined trigger is the defining feature of a logic bomb. Appearing useful while harmful describes a Trojan.",
+        "zh": "预设触发条件是逻辑炸弹的特点；伪装有用但有害描述的是木马。"
+      },
+      "conceptIds": [
+        "p1-malware"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q19",
+      "number": 19,
+      "page": 7,
+      "prompt": {
+        "en": "What are the likely motivations for hackers",
+        "zh": "黑客可能有哪些动机？"
+      },
+      "options": [
+        {
+          "en": "Financial gain, publicity and espionage",
+          "zh": "经济利益、获得关注和间谍活动。"
+        },
+        {
+          "en": "They are too smart and want people to know about it",
+          "zh": "认为自己很聪明，并希望别人知道。"
+        },
+        {
+          "en": "They do it for a challenge",
+          "zh": "为了挑战。"
+        },
+        {
+          "en": "They do it as they are bored",
+          "zh": "因为无聊。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 4,
+      "explanation": {
+        "en": "Attackers may have financial, reputational, intelligence, personal-challenge, or recreational motives.",
+        "zh": "攻击者可能出于经济、名声、情报、挑战或娱乐目的。"
+      },
+      "conceptIds": [
+        "p1-threats"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q20",
+      "number": 20,
+      "page": 7,
+      "prompt": {
+        "en": "What is a virus or worm payload?",
+        "zh": "什么是病毒或蠕虫的载荷？"
+      },
+      "options": [
+        {
+          "en": "It is a virus or worm designed for mobile devices",
+          "zh": "专为移动设备设计的病毒或蠕虫。"
+        },
+        {
+          "en": "Payloads are pieces of code that do damage",
+          "zh": "执行破坏行为的代码部分。"
+        },
+        {
+          "en": "Payload is just a computer jargon for virus",
+          "zh": "只是病毒的另一种计算机术语。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The payload performs the malicious action; the propagation mechanism spreads the malware.",
+        "zh": "载荷执行恶意行为；传播机制负责扩散恶意软件。"
+      },
+      "conceptIds": [
+        "p1-payload"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q21",
+      "number": 21,
+      "page": 7,
+      "prompt": {
+        "en": "What is the definition of hacking.",
+        "zh": "本题如何定义 hacking？"
+      },
+      "options": [
+        {
+          "en": "When you share your password with someone",
+          "zh": "与他人共享密码。"
+        },
+        {
+          "en": "Hacking is intentionally accessing a computer resource without authorization or in excess of authorization.",
+          "zh": "故意进行未经授权或超出授权范围的计算机资源访问。"
+        },
+        {
+          "en": "When you reset your password and don’t encrypt it",
+          "zh": "重设密码但没有加密。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Both completely unauthorized access and exceeding granted permissions fit the quiz definition.",
+        "zh": "完全无权限的访问和超出已有权限的访问都符合本题定义。"
+      },
+      "conceptIds": [
+        "p1-identity"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q22",
+      "number": 22,
+      "page": 8,
+      "prompt": {
+        "en": "What is spyware?",
+        "zh": "什么是间谍软件？"
+      },
+      "options": [
+        {
+          "en": "Spyware refers to a broad spectrum of Trojan horse programs that gather information about you and make it available to an attacker.",
+          "zh": "收集你的信息并让攻击者获得这些信息的一大类木马程序。"
+        },
+        {
+          "en": "When you visit a suspicious website and are infected",
+          "zh": "访问可疑网站后受到感染。"
+        },
+        {
+          "en": "When you browse a website, and you are infected with adware",
+          "zh": "浏览网站后感染广告软件。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The defining behavior is covert collection and disclosure of user information.",
+        "zh": "定义特征是秘密收集并向攻击者提供用户信息。"
+      },
+      "conceptIds": [
+        "p1-malware"
+      ],
+      "note": {
+        "en": "Spyware is defined by information collection; it need not always be a Trojan horse.",
+        "zh": "间谍软件按信息收集行为定义，不一定都属于木马。"
+      }
+    },
+    {
+      "id": "p1-q23",
+      "number": 23,
+      "page": 8,
+      "prompt": {
+        "en": "Why can cookies be dangerous?",
+        "zh": "为什么 Cookie 可能带来危险？"
+      },
+      "options": [
+        {
+          "en": "Cookies can record too much sensitive information about you and could become spyware",
+          "zh": "可能记录过多敏感信息，并可能成为间谍软件。"
+        },
+        {
+          "en": "Cookies can never be dangerous as it is now legally allowed on any web sites",
+          "zh": "永远不会有危险，因为网站可以合法使用它们。"
+        },
+        {
+          "en": "Cookies were only dangerous in the past",
+          "zh": "只在过去有危险。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The intended concern is privacy: cookies may enable tracking and association of browsing activity.",
+        "zh": "本题意图强调隐私风险：Cookie 可用于跟踪并关联浏览活动。"
+      },
+      "conceptIds": [
+        "p1-privacy"
+      ],
+      "note": {
+        "en": "Source wording is imprecise: cookies are data, not executable spyware. They can enable tracking and privacy harms.",
+        "zh": "原题措辞不严谨：Cookie 是数据，不是可执行的间谍软件；它们可以支持跟踪并造成隐私风险。"
+      }
+    },
+    {
+      "id": "p1-q24",
+      "number": 24,
+      "page": 8,
+      "prompt": {
+        "en": "What is social engineering?",
+        "zh": "什么是社会工程？"
+      },
+      "options": [
+        {
+          "en": "Social Engineering means using social networks",
+          "zh": "使用社交网络。"
+        },
+        {
+          "en": "Social engineering attacks take advantage of flawed human judgment by convincing the victim to take actions that are counter to security policies.",
+          "zh": "利用人的判断弱点，诱使受害者采取违反安全政策的行动。"
+        },
+        {
+          "en": "Social Engineering is technical term for reverse engineering in IT field",
+          "zh": "IT 领域中逆向工程的专业术语。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Social engineering exploits human judgment to induce unsafe actions; it is not simply social networking.",
+        "zh": "社会工程利用人的判断诱导不安全行为，并非单纯使用社交网络。"
+      },
+      "conceptIds": [
+        "p1-social"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q25",
+      "number": 25,
+      "page": 9,
+      "prompt": {
+        "en": "What is spam?",
+        "zh": "什么是垃圾邮件？"
+      },
+      "options": [
+        {
+          "en": "Spam is unsolicited commercial e-mail.",
+          "zh": "未经请求的商业邮件。"
+        },
+        {
+          "en": "When your computer is infected with a ransomware",
+          "zh": "电脑感染勒索软件。"
+        },
+        {
+          "en": "When your mailbox is full",
+          "zh": "邮箱已满。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Unsolicited means not requested. The quiz specifically uses the commercial-email definition.",
+        "zh": "Unsolicited 指未经请求；题目采用商业邮件这一具体定义。"
+      },
+      "conceptIds": [
+        "p1-social"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q26",
+      "number": 26,
+      "page": 9,
+      "prompt": {
+        "en": "What is phishing?",
+        "zh": "什么是网络钓鱼？"
+      },
+      "options": [
+        {
+          "en": "Phishing means when your computer has a virus",
+          "zh": "电脑感染病毒。"
+        },
+        {
+          "en": "Phishing attack victims receive an email message that appears to come from a bank or another firm with which the victim does business",
+          "zh": "受害者收到看起来来自银行或与其有业务往来的公司的邮件。"
+        },
+        {
+          "en": "It is a technical term for Ransomware",
+          "zh": "勒索软件的专业术语。"
+        },
+        {
+          "en": "A and C",
+          "zh": "A 和 C。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Phishing impersonates a trusted source to deceive recipients. Receiving a message does not itself imply infection.",
+        "zh": "钓鱼冒充可信来源欺骗收件人；收到邮件并不等于已经感染。"
+      },
+      "conceptIds": [
+        "p1-social"
+      ],
+      "note": null
+    },
+    {
+      "id": "p1-q27",
+      "number": 27,
+      "page": 9,
+      "prompt": {
+        "en": "How can social engineering be used to get access to a sensitive file?",
+        "zh": "如何利用社会工程获取敏感文件？"
+      },
+      "options": [
+        {
+          "en": "Simply by asking someone to send the file or to give access to the file by tricking the user",
+          "zh": "通过欺骗，让他人发送文件或授予访问权限。"
+        },
+        {
+          "en": "Using brute force attack to find password",
+          "zh": "通过暴力破解找到密码。"
+        },
+        {
+          "en": "Cracking password using social networks",
+          "zh": "利用社交网络破解密码。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The attacker persuades an authorized person to provide access, rather than guessing or cracking credentials.",
+        "zh": "攻击者诱骗有权限的人提供访问，而不是猜测或破解凭据。"
+      },
+      "conceptIds": [
+        "p1-social"
+      ],
+      "note": null
+    }
+  ]
+}

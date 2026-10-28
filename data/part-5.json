@@ -1,0 +1,785 @@
+{
+  "id": 5,
+  "title": {
+    "en": "Web & network defense",
+    "zh": "Web 与网络防护"
+  },
+  "subtitle": {
+    "en": "TLS, firewalls, and intrusion detection",
+    "zh": "TLS、防火墙与入侵检测"
+  },
+  "source": "Sample Quiz Part 5.pdf",
+  "concepts": [
+    {
+      "id": "p5-tls-handshake",
+      "title": {
+        "en": "TLS handshake and cipher suites",
+        "zh": "TLS 握手与密码套件"
+      },
+      "body": {
+        "en": "The handshake negotiates security settings, authenticates peers as configured, and establishes shared key material. A cipher suite identifies a combination of cryptographic algorithms; a client offers a list of supported suites. The exact suite components and handshake steps vary between TLS versions.",
+        "zh": "握手协商安全设置、按配置验证通信方，并建立共享密钥材料。一个密码套件标识一组密码算法；客户端会提供支持的套件列表。套件的具体组成和握手步骤随 TLS 版本而变化。"
+      },
+      "memory": {
+        "en": "Handshake establishes security; the record layer protects application data.",
+        "zh": "握手建立安全参数；记录层保护应用数据。"
+      },
+      "questionIds": [
+        1,
+        2,
+        5
+      ]
+    },
+    {
+      "id": "p5-tls-record",
+      "title": {
+        "en": "TLS record protection",
+        "zh": "TLS 记录层保护"
+      },
+      "body": {
+        "en": "The record protocol protects transmitted application data using key material established for the connection. Its core security goals in the quiz are confidentiality and message integrity. Encryption hides contents, while integrity protection detects unauthorized modification.",
+        "zh": "记录协议使用为连接建立的密钥材料保护传输中的应用数据。本题库强调的核心目标是机密性和消息完整性。加密隐藏内容，完整性保护检测未经授权的修改。"
+      },
+      "memory": {
+        "en": "Record protection = confidentiality + integrity.",
+        "zh": "记录层保护 = 机密性 + 完整性。"
+      },
+      "questionIds": [
+        3
+      ]
+    },
+    {
+      "id": "p5-tls-alert",
+      "title": {
+        "en": "TLS alerts",
+        "zh": "TLS 告警"
+      },
+      "body": {
+        "en": "The alert protocol communicates TLS-related status and error conditions to the peer. An alert is not a digital certificate or signature; it is a protocol message about the connection.",
+        "zh": "告警协议向通信对端传递 TLS 相关状态和错误情况。告警不是数字证书或签名，而是关于连接状态的协议消息。"
+      },
+      "memory": {
+        "en": "The alert protocol conveys TLS-related alerts to the peer.",
+        "zh": "告警协议向通信对端传递 TLS 相关告警。"
+      },
+      "questionIds": [
+        4
+      ]
+    },
+    {
+      "id": "p5-firewall",
+      "title": {
+        "en": "Firewalls and their limits",
+        "zh": "防火墙及其边界"
+      },
+      "body": {
+        "en": "A firewall enforces rules on traffic between systems or networks. It may be one device, host software, or coordinated systems. A personal firewall protects a single computer. Traffic or actions that bypass the firewall are outside that firewall’s direct inspection and control.",
+        "zh": "防火墙对系统或网络之间的流量实施规则。它可以是单个设备、主机软件，或协同工作的多个系统。个人防火墙保护单台计算机。绕过防火墙的流量或行为不在该防火墙直接检查和控制的范围内。"
+      },
+      "memory": {
+        "en": "A firewall cannot inspect an attack path that bypasses it.",
+        "zh": "防火墙无法检查绕过自身的攻击路径。"
+      },
+      "questionIds": [
+        6,
+        8,
+        11,
+        12
+      ]
+    },
+    {
+      "id": "p5-packet-filter",
+      "title": {
+        "en": "Packet filtering",
+        "zh": "包过滤"
+      },
+      "body": {
+        "en": "A traditional stateless packet filter examines individual packet headers and applies rules such as source address, destination address, protocol, and port. It forwards or discards each packet without tracking a conversation’s broader state or understanding application content.",
+        "zh": "传统无状态包过滤器检查各个数据包的报头，并应用源地址、目标地址、协议和端口等规则。它逐包转发或丢弃，不跟踪整个会话状态，也不理解应用内容。"
+      },
+      "memory": {
+        "en": "Packet filtering evaluates individual packets against rules.",
+        "zh": "包过滤根据规则逐个判断数据包。"
+      },
+      "questionIds": [
+        7,
+        9
+      ]
+    },
+    {
+      "id": "p5-spoofing",
+      "title": {
+        "en": "IP address spoofing",
+        "zh": "IP 地址欺骗"
+      },
+      "body": {
+        "en": "IP spoofing falsifies a packet’s source address. An external attacker may use an address resembling an internal host to exploit address-based trust. A claimed source address alone is not proof of identity.",
+        "zh": "IP 欺骗伪造数据包的源地址。外部攻击者可能使用看起来属于内部主机的地址，利用基于地址的信任。声称的源地址本身并不能证明身份。"
+      },
+      "memory": {
+        "en": "IP spoofing falsifies the source IP address.",
+        "zh": "IP 欺骗伪造源 IP 地址。"
+      },
+      "questionIds": [
+        10
+      ]
+    },
+    {
+      "id": "p5-ids-scope",
+      "title": {
+        "en": "Host-based and network-based IDS",
+        "zh": "主机型与网络型入侵检测"
+      },
+      "body": {
+        "en": "An IDS analyzes activity for indicators that may distinguish intrusions from legitimate use. A HIDS focuses on one host’s events, files, logs, or processes. A NIDS inspects traffic at network observation points. Their visibility and limitations differ, and detection can produce false positives or miss attacks.",
+        "zh": "入侵检测系统分析活动，寻找可区分入侵与合法使用的迹象。HIDS 关注单台主机上的事件、文件、日志或进程。NIDS 检查网络观察点的流量。两者的可见范围和局限不同，检测也可能误报或漏报。"
+      },
+      "memory": {
+        "en": "HIDS watches a host; NIDS watches network traffic.",
+        "zh": "HIDS 看主机活动；NIDS 看网络流量。"
+      },
+      "questionIds": [
+        13,
+        15,
+        16
+      ]
+    },
+    {
+      "id": "p5-ids-method",
+      "title": {
+        "en": "Signatures and anomalies",
+        "zh": "签名检测与异常检测"
+      },
+      "body": {
+        "en": "Signature detection looks for known attack patterns or rules. Anomaly detection models expected legitimate behavior and flags deviations; building behavioral profiles is one way to do this. The source’s Q17 marks anomaly detection despite wording that describes signature-based detection, so review its correction note.",
+        "zh": "签名检测查找已知攻击模式或规则。异常检测建立正常合法行为模型，并标记偏离；建立行为画像是实现方式之一。原资料 Q17 的题干描述签名检测，却标注异常检测，需结合纠错说明理解。"
+      },
+      "memory": {
+        "en": "Signatures match known attacks; anomalies deviate from normal behavior.",
+        "zh": "签名匹配已知攻击；异常偏离正常行为。"
+      },
+      "questionIds": [
+        14,
+        17,
+        18
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p5-q1",
+      "number": 1,
+      "page": 1,
+      "prompt": {
+        "en": "The most complex part of TLS is the __________.",
+        "zh": "TLS 中最复杂的部分是 ________。"
+      },
+      "options": [
+        {
+          "en": "signature",
+          "zh": "签名"
+        },
+        {
+          "en": "message header",
+          "zh": "消息报头"
+        },
+        {
+          "en": "payload",
+          "zh": "载荷"
+        },
+        {
+          "en": "handshake protocol",
+          "zh": "握手协议"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The handshake coordinates algorithm negotiation, authentication, and key establishment. This makes it the most complex component in the course’s comparison.",
+        "zh": "握手协调算法协商、身份认证和密钥建立，因此在课程的比较中最复杂。"
+      },
+      "conceptIds": [
+        "p5-tls-handshake"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q2",
+      "number": 2,
+      "page": 1,
+      "prompt": {
+        "en": "_______ is a list that contains the combinations of cryptographic algorithms supported by the client",
+        "zh": "________ 包含客户端支持的密码算法组合。"
+      },
+      "options": [
+        {
+          "en": "Compression method",
+          "zh": "压缩方法"
+        },
+        {
+          "en": "Session ID",
+          "zh": "会话 ID"
+        },
+        {
+          "en": "Cipher Suite",
+          "zh": "密码套件"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Cipher suites specify combinations of cryptographic algorithms. Clients advertise supported suites during negotiation; session identifiers and compression methods do not themselves specify that combination.",
+        "zh": "密码套件指定密码算法的组合。客户端在协商时公布支持的套件；会话标识和压缩方法本身并不指定这种组合。"
+      },
+      "conceptIds": [
+        "p5-tls-handshake"
+      ],
+      "note": {
+        "en": "Strictly, a cipher suite is one algorithm combination; a cipher-suite list contains the supported combinations. Suite contents also differ across TLS versions.",
+        "zh": "严格来说，一个密码套件是一种算法组合；密码套件列表包含所支持的各个组合。套件内容还会随 TLS 版本而不同。"
+      }
+    },
+    {
+      "id": "p5-q3",
+      "number": 3,
+      "page": 1,
+      "prompt": {
+        "en": "The SSL record protocol provides two services for SSL/TLS connection: message integrity and _________",
+        "zh": "SSL 记录协议为 SSL/TLS 连接提供两种服务：消息完整性和 ________。"
+      },
+      "options": [
+        {
+          "en": "Confidentiality",
+          "zh": "机密性"
+        },
+        {
+          "en": "Availability",
+          "zh": "可用性"
+        },
+        {
+          "en": "Authentication",
+          "zh": "身份认证"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The record layer protects message contents from disclosure and modification. The handshake handles the relevant peer authentication and key setup.",
+        "zh": "记录层防止消息内容被泄露和修改。相关的通信方认证和密钥建立由握手处理。"
+      },
+      "conceptIds": [
+        "p5-tls-record"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q4",
+      "number": 4,
+      "page": 2,
+      "prompt": {
+        "en": "The _________ is used to convey SSL-related alerts to the peer entity",
+        "zh": "________ 用于向通信对端传递与 SSL 相关的告警。"
+      },
+      "options": [
+        {
+          "en": "alert protocol",
+          "zh": "告警协议"
+        },
+        {
+          "en": "digital signature",
+          "zh": "数字签名"
+        },
+        {
+          "en": "Digital certificate",
+          "zh": "数字证书"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The alert protocol carries alert messages about connection conditions or errors. Signatures and certificates serve different security functions.",
+        "zh": "告警协议传递关于连接状态或错误的告警消息。签名和证书承担不同的安全功能。"
+      },
+      "conceptIds": [
+        "p5-tls-alert"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q5",
+      "number": 5,
+      "page": 2,
+      "prompt": {
+        "en": "Most browsers come equipped with TLS/SSL and most Web servers have implemented the protocol",
+        "zh": "大多数浏览器配备 TLS/SSL，且大多数 Web 服务器实现了该协议。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The course’s intended point is that secure web communication is broadly supported by browsers and servers through TLS. HTTPS uses TLS to protect HTTP traffic.",
+        "zh": "课程意图是说明浏览器和服务器广泛支持通过 TLS 进行安全 Web 通信。HTTPS 使用 TLS 保护 HTTP 流量。"
+      },
+      "conceptIds": [
+        "p5-tls-handshake"
+      ],
+      "note": {
+        "en": "The material uses SSL/TLS as a combined historical label. Modern secure web deployments use TLS; obsolete SSL protocols should not be enabled.",
+        "zh": "资料将 SSL/TLS 作为历史沿用的合称。现代安全 Web 部署使用 TLS，不应启用已淘汰的 SSL 协议。"
+      }
+    },
+    {
+      "id": "p5-q6",
+      "number": 6,
+      "page": 2,
+      "prompt": {
+        "en": "The firewall may be a single computer system or a set of two or more systems that cooperate to perform the firewall function.",
+        "zh": "防火墙可以是单个计算机系统，也可以由两个或多个系统协同实现防火墙功能。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Firewall describes a security function and architecture, not a requirement for exactly one physical box. Multiple components can enforce the boundary together.",
+        "zh": "防火墙描述一种安全功能和架构，并不要求必须只有一个物理设备。多个组件可以共同实施边界防护。"
+      },
+      "conceptIds": [
+        "p5-firewall"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q7",
+      "number": 7,
+      "page": 2,
+      "prompt": {
+        "en": "A traditional packet filter makes filtering decisions on an individual packet basis and does not take into consideration any higher layer context",
+        "zh": "传统包过滤器逐个数据包做出过滤决定，不考虑更高层的上下文。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A traditional stateless packet filter uses packet header fields and rules. Stateful inspection or application-layer inspection provides additional context.",
+        "zh": "传统无状态包过滤器使用数据包报头字段和规则。状态检测或应用层检查能提供更多上下文。"
+      },
+      "conceptIds": [
+        "p5-packet-filter"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q8",
+      "number": 8,
+      "page": 3,
+      "prompt": {
+        "en": "The _________ is inserted between the premises network and the Internet to establish a controlled link and to erect an outer security wall or perimeter to protect the premises network from Internet-based attacks.",
+        "zh": "________ 部署在内部网络与互联网之间，建立受控连接和外部安全边界，以抵御来自互联网的攻击。"
+      },
+      "options": [
+        {
+          "en": "Firewall",
+          "zh": "防火墙"
+        },
+        {
+          "en": "Session ID",
+          "zh": "会话 ID"
+        },
+        {
+          "en": "IP protocol field",
+          "zh": "IP 协议字段"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A firewall applies access rules at a network boundary to allow or block traffic. A session ID or protocol field is information, not a boundary-enforcement system.",
+        "zh": "防火墙在网络边界应用访问规则，以允许或阻断流量。会话 ID 和协议字段是信息，不是边界防护系统。"
+      },
+      "conceptIds": [
+        "p5-firewall"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q9",
+      "number": 9,
+      "page": 3,
+      "prompt": {
+        "en": "A _________ applies a set of rules to each incoming and outgoing IP packet and then forwards or discards the packet.",
+        "zh": "________ 对每个进入和离开的 IP 数据包应用一组规则，然后转发或丢弃该包。"
+      },
+      "options": [
+        {
+          "en": "packet filtering firewall",
+          "zh": "包过滤防火墙"
+        },
+        {
+          "en": "IP protocol field",
+          "zh": "IP 协议字段"
+        },
+        {
+          "en": "Both of the above",
+          "zh": "以上两项"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Packet-filtering firewalls compare packets with rules and decide whether to forward or discard them. The IP protocol field can be an input to a rule, but it does not perform filtering.",
+        "zh": "包过滤防火墙将数据包与规则比较，决定转发或丢弃。IP 协议字段可以作为规则依据，但它本身不执行过滤。"
+      },
+      "conceptIds": [
+        "p5-packet-filter"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q10",
+      "number": 10,
+      "page": 3,
+      "prompt": {
+        "en": "An intruder transmitting packets from the outside with a source IP address field containing an address of an internal host is known as IP address _________.",
+        "zh": "入侵者从外部发送数据包，却在源 IP 地址字段中填入内部主机的地址，这称为 IP 地址 ________。"
+      },
+      "options": [
+        {
+          "en": "spoofing",
+          "zh": "欺骗"
+        },
+        {
+          "en": "authentication",
+          "zh": "认证"
+        },
+        {
+          "en": "generation",
+          "zh": "生成"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The source address has been falsified to appear trusted. That is spoofing, not proof that the packet originated from the claimed host.",
+        "zh": "源地址被伪造成看起来可信的地址。这属于欺骗，不能证明数据包确实来自所声称的主机。"
+      },
+      "conceptIds": [
+        "p5-spoofing"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q11",
+      "number": 11,
+      "page": 4,
+      "prompt": {
+        "en": "A __________ firewall controls the traffic between a personal computer or workstation on one side and the Internet or enterprise network on the other side",
+        "zh": "________ 防火墙控制个人计算机或工作站与互联网或企业网络之间的流量。"
+      },
+      "options": [
+        {
+          "en": "personnel",
+          "zh": "个人（原文误写为 personnel）"
+        },
+        {
+          "en": "poxy server",
+          "zh": "代理服务器（原文误写为 poxy server）"
+        },
+        {
+          "en": "application-level gateway",
+          "zh": "应用层网关"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A personal firewall runs on or protects an individual computer, controlling its inbound and outbound traffic.",
+        "zh": "个人防火墙运行在或保护单台计算机，控制其入站和出站流量。"
+      },
+      "conceptIds": [
+        "p5-firewall"
+      ],
+      "note": {
+        "en": "Option A is printed “personnel” but means “personal”; option B prints “poxy” instead of “proxy.” The source marks A.",
+        "zh": "选项 A 的 personnel 应为 personal；选项 B 的 poxy 应为 proxy。原资料标注 A。"
+      }
+    },
+    {
+      "id": "p5-q12",
+      "number": 12,
+      "page": 4,
+      "prompt": {
+        "en": "The firewall can protect against attacks that bypass the firewall",
+        "zh": "防火墙能够防御绕过该防火墙的攻击。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "A firewall can control only traffic or activity that passes through the enforcement points it covers. Bypassing those points avoids that protection.",
+        "zh": "防火墙只能控制经过其覆盖的控制点的流量或活动。绕过这些控制点就避开了该保护。"
+      },
+      "conceptIds": [
+        "p5-firewall"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q13",
+      "number": 13,
+      "page": 4,
+      "prompt": {
+        "en": "Intrusion detection is based on the assumption that the behavior of the intruder differs from that of a legitimate user in ways that can be quantified.",
+        "zh": "入侵检测基于这样一个假设：入侵者的行为与合法用户的行为存在可以量化的差异。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Detection looks for measurable patterns or deviations that indicate suspicious activity. This does not mean every intrusion is detectable or that every alert is correct.",
+        "zh": "检测寻找可测量的模式或偏离，以识别可疑活动。这并不意味着每次入侵都能被检测，也不意味着每个告警都正确。"
+      },
+      "conceptIds": [
+        "p5-ids-scope"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q14",
+      "number": 14,
+      "page": 4,
+      "prompt": {
+        "en": "Signature-based approaches attempt to define normal, or expected behavior, whereas anomaly approaches attempt to define proper behavior",
+        "zh": "基于签名的方法试图定义正常或预期行为，而异常检测方法试图定义恰当行为。"
+      },
+      "options": [
+        {
+          "en": "TRUE",
+          "zh": "正确"
+        },
+        {
+          "en": "FALSE",
+          "zh": "错误"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "This statement mischaracterizes the distinction: signatures identify known attack patterns, while anomaly detection compares observations against expected normal behavior.",
+        "zh": "该说法混淆了两者区别：签名识别已知攻击模式，异常检测将观察到的活动与预期正常行为进行比较。"
+      },
+      "conceptIds": [
+        "p5-ids-method"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q15",
+      "number": 15,
+      "page": 5,
+      "prompt": {
+        "en": "A _________ monitors the characteristics of a single host and the events occurring within that host for suspicious activity",
+        "zh": "________ 监控单台主机的特征和主机内发生的事件，以发现可疑活动。"
+      },
+      "options": [
+        {
+          "en": "host-based IDS",
+          "zh": "主机型入侵检测系统"
+        },
+        {
+          "en": "security intrusion",
+          "zh": "安全入侵"
+        },
+        {
+          "en": "network-based IDS",
+          "zh": "网络型入侵检测系统"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Host-based IDS has visibility into activity on a particular host, such as logs, file changes, and local events.",
+        "zh": "主机型 IDS 关注特定主机上的活动，例如日志、文件变化和本地事件。"
+      },
+      "conceptIds": [
+        "p5-ids-scope"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q16",
+      "number": 16,
+      "page": 5,
+      "prompt": {
+        "en": "A ________ monitors network traffic for particular network segments or devices and analyzes network, transport, and application protocols to identify suspicious activity",
+        "zh": "________ 监控特定网段或设备的网络流量，并分析网络层、传输层和应用层协议，以识别可疑活动。"
+      },
+      "options": [
+        {
+          "en": "host-based IDS",
+          "zh": "主机型入侵检测系统"
+        },
+        {
+          "en": "security intrusion",
+          "zh": "安全入侵"
+        },
+        {
+          "en": "network-based IDS",
+          "zh": "网络型入侵检测系统"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Network-based IDS observes traffic at network monitoring points and analyzes protocols for suspicious activity. Its scope differs from the local events seen by a host-based IDS.",
+        "zh": "网络型 IDS 在网络监测点观察流量，并分析协议以发现可疑活动。它的范围不同于主机型 IDS 所看到的本地事件。"
+      },
+      "conceptIds": [
+        "p5-ids-scope"
+      ],
+      "note": null
+    },
+    {
+      "id": "p5-q17",
+      "number": 17,
+      "page": 5,
+      "prompt": {
+        "en": "__________ involves an attempt to define a set of rules or attack patterns that can be used to decide if a given behaviour is that of an intruder.",
+        "zh": "________ 尝试定义一组规则或攻击模式，用于判断某种行为是否属于入侵者。"
+      },
+      "options": [
+        {
+          "en": "Profile based detection",
+          "zh": "基于画像的检测"
+        },
+        {
+          "en": "Signature detection",
+          "zh": "签名检测"
+        },
+        {
+          "en": "Threshold detection",
+          "zh": "阈值检测"
+        },
+        {
+          "en": "Anomaly detection",
+          "zh": "异常检测"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The PDF marks D, Anomaly detection. However, the wording about known rules or attack patterns describes signature-based detection; anomaly detection instead identifies departures from a normal baseline.",
+        "zh": "PDF 标注 D“异常检测”。但题干所说的规则或攻击模式描述的是签名检测；异常检测识别的是相对于正常基线的偏离。"
+      },
+      "conceptIds": [
+        "p5-ids-method"
+      ],
+      "note": {
+        "en": "Source-answer conflict: the marked answer is D, but the technically appropriate answer to this wording is B, Signature detection. Practice scoring follows the provided source key; learn the conceptual distinction from this note.",
+        "zh": "原题答案冲突：资料标注 D，但按题干含义，技术上合适的答案是 B“签名检测”。练习评分沿用原资料答案；概念理解请以此处区别为准。"
+      }
+    },
+    {
+      "id": "p5-q18",
+      "number": 18,
+      "page": 6,
+      "prompt": {
+        "en": "_________ involves the collection of data relating to the behavior of legitimate users over a period.",
+        "zh": "________ 涉及在一段时间内收集合法用户行为的相关数据。"
+      },
+      "options": [
+        {
+          "en": "Profile based detection",
+          "zh": "基于画像的检测"
+        },
+        {
+          "en": "Signature detection",
+          "zh": "签名检测"
+        },
+        {
+          "en": "Threshold detection",
+          "zh": "阈值检测"
+        },
+        {
+          "en": "Anomaly detection",
+          "zh": "异常检测"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The marked answer is anomaly detection: legitimate-user observations help establish a normal baseline, against which later behavior is compared.",
+        "zh": "标注答案是异常检测：对合法用户的观察有助于建立正常基线，再据此比较后续行为。"
+      },
+      "conceptIds": [
+        "p5-ids-method"
+      ],
+      "note": {
+        "en": "Profile-based detection is a method within anomaly detection, so option A also fits the wording at a more specific level. The source selects the broader category D.",
+        "zh": "基于画像的检测属于异常检测的一种方法，因此选项 A 在更具体的层面也符合题干。原资料选择较宽泛的类别 D。"
+      }
+    }
+  ]
+}

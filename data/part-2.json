@@ -1,0 +1,828 @@
+{
+  "id": 2,
+  "title": {
+    "en": "Connected industry & people",
+    "zh": "互联工业与人员安全"
+  },
+  "subtitle": {
+    "en": "Industry 4.0, awareness, scams & compliance",
+    "zh": "工业 4.0、安全意识、诈骗与合规"
+  },
+  "source": "Sample Quiz  Part 2.pdf",
+  "concepts": [
+    {
+      "id": "p2-industry",
+      "title": {
+        "en": "Industry 4.0 & connected systems",
+        "zh": "工业 4.0 与互联系统"
+      },
+      "body": {
+        "en": "Industry 4.0 is associated with Germany and integrates IoT, AI, networks, cloud computing, and virtualization. Connected production increases both capability and exposure.",
+        "zh": "工业 4.0 与德国相关，整合 IoT、AI、网络、云计算和虚拟化；互联生产提升能力，也增加暴露面。"
+      },
+      "memory": {
+        "en": "Connectivity enables smart industry and introduces security risks.",
+        "zh": "互联支持智能工业，也带来安全风险。"
+      },
+      "questionIds": [
+        1,
+        2,
+        3,
+        5
+      ]
+    },
+    {
+      "id": "p2-twin",
+      "title": {
+        "en": "Digital twins",
+        "zh": "数字孪生"
+      },
+      "body": {
+        "en": "A digital twin is a virtual representation of an asset, person, system, or process. Digital models support analysis, prototyping, and improvement.",
+        "zh": "数字孪生是资产、人员、系统或过程的虚拟表示；数字模型支持分析、原型开发与改进。"
+      },
+      "memory": {
+        "en": "A digital twin is a virtual representation or digital replica.",
+        "zh": "数字孪生是虚拟表示或数字副本。"
+      },
+      "questionIds": [
+        4
+      ]
+    },
+    {
+      "id": "p2-cloud",
+      "title": {
+        "en": "Cloud security & CIA",
+        "zh": "云安全与 CIA"
+      },
+      "body": {
+        "en": "Cloud computing uses network-accessible remote resources to store and process data. DDoS threatens availability; disclosure and tampering threaten confidentiality and integrity.",
+        "zh": "云计算使用可通过网络访问的远程资源存储与处理数据；DDoS 威胁可用性，泄露和篡改威胁机密性与完整性。"
+      },
+      "memory": {
+        "en": "DDoS → availability; leaked data → confidentiality; changed data → integrity.",
+        "zh": "DDoS → 可用性；泄露 → 机密性；篡改 → 完整性。"
+      },
+      "questionIds": [
+        6
+      ]
+    },
+    {
+      "id": "p2-human",
+      "title": {
+        "en": "Human factors",
+        "zh": "人的因素"
+      },
+      "body": {
+        "en": "Employees can act maliciously or make unintentional mistakes. The course lists errors and omissions, fraud, and actions by disgruntled employees.",
+        "zh": "员工可能恶意行事，也可能无意犯错；课程列出错误与疏漏、欺诈、心怀不满员工的行为。"
+      },
+      "memory": {
+        "en": "Employee behavior can be malicious or unintentional.",
+        "zh": "员工行为可能是恶意的，也可能是无意的。"
+      },
+      "questionIds": [
+        7,
+        8
+      ]
+    },
+    {
+      "id": "p2-awareness",
+      "title": {
+        "en": "Awareness, training & responsibility",
+        "zh": "意识、培训与责任"
+      },
+      "body": {
+        "en": "Awareness explains risks and responsibilities; training teaches secure task performance. Participation should be required and time allocated; accountability and penalties can deter misconduct.",
+        "zh": "意识帮助理解风险与责任；培训教授安全执行任务的方法；应要求参与并提供时间，责任与处罚可威慑不当行为。"
+      },
+      "memory": {
+        "en": "Training teaches what to do and how to do it.",
+        "zh": "培训教授应该做什么以及怎样做。"
+      },
+      "questionIds": [
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "p2-phishing",
+      "title": {
+        "en": "Targeted & voice phishing",
+        "zh": "定向与语音钓鱼"
+      },
+      "body": {
+        "en": "Social engineering uses deception to influence people. Spear phishing personalizes an attack to a target; vishing uses voice or telephone communication and may spoof caller ID.",
+        "zh": "社会工程通过欺骗影响人；鱼叉式钓鱼针对目标个性化；语音钓鱼使用电话或语音，并可能伪造来电号码。"
+      },
+      "memory": {
+        "en": "Spear phishing → specific target; vishing → voice.",
+        "zh": "鱼叉式钓鱼 → 特定目标；语音钓鱼 → 语音渠道。"
+      },
+      "questionIds": [
+        12,
+        13,
+        16
+      ]
+    },
+    {
+      "id": "p2-trust",
+      "title": {
+        "en": "Trust signals can be copied",
+        "zh": "可信外观可以被伪造"
+      },
+      "body": {
+        "en": "Search ranking, familiar names, profile photos, and caller IDs are not sufficient proof of identity. Scammers can create convincing lookalikes.",
+        "zh": "搜索排名、熟悉姓名、头像和来电号码都不足以证明身份；骗子可以制作有说服力的仿冒。"
+      },
+      "memory": {
+        "en": "Visibility and familiarity do not prove authenticity.",
+        "zh": "显眼与熟悉不等于真实。"
+      },
+      "questionIds": [
+        14,
+        15
+      ]
+    },
+    {
+      "id": "p2-compliance",
+      "title": {
+        "en": "Compliance & security controls",
+        "zh": "合规与安全控制"
+      },
+      "body": {
+        "en": "Compliance follows applicable standards and requirements. A team coordinates risk assessment, controls, policies, monitoring, and response. Controls include technical and physical measures.",
+        "zh": "合规遵守适用标准与要求；团队协调风险评估、控制、政策、监控和响应；措施包括技术与物理控制。"
+      },
+      "memory": {
+        "en": "Passwords → technical controls; cameras and fences → physical controls.",
+        "zh": "密码 → 技术控制；摄像头和围栏 → 物理控制。"
+      },
+      "questionIds": [
+        17,
+        18,
+        19,
+        20
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p2-q1",
+      "number": 1,
+      "page": 1,
+      "prompt": {
+        "en": "The term industry 4 or i4.0 originated in __________ .",
+        "zh": "Industry 4 或 i4.0 这一术语起源于哪里？"
+      },
+      "options": [
+        {
+          "en": "USA",
+          "zh": "美国。"
+        },
+        {
+          "en": "China and Singapore",
+          "zh": "中国和新加坡。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The course associates Industry 4.0 with Germany, which is absent from the named choices.",
+        "zh": "课程将工业 4.0 的起源归于德国，具体选项中没有德国。"
+      },
+      "conceptIds": [
+        "p2-industry"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q2",
+      "number": 2,
+      "page": 1,
+      "prompt": {
+        "en": "i4.0 encompasses a wide range of advanced technologies, such as:",
+        "zh": "工业 4.0 涵盖多种先进技术，例如："
+      },
+      "options": [
+        {
+          "en": "Digital twins and artificial intelligence",
+          "zh": "数字孪生和人工智能。"
+        },
+        {
+          "en": "High-speed wireless/wired networks",
+          "zh": "高速无线或有线网络。"
+        },
+        {
+          "en": "Cloud computing and virtualization",
+          "zh": "云计算和虚拟化。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Industry 4.0 integrates digital representations, AI, connectivity, cloud resources, and virtualization.",
+        "zh": "工业 4.0 整合数字表示、AI、网络连接、云资源与虚拟化。"
+      },
+      "conceptIds": [
+        "p2-industry"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q3",
+      "number": 3,
+      "page": 1,
+      "prompt": {
+        "en": "IoT are driving force for industry 4.0, however __________ .",
+        "zh": "物联网是工业 4.0 的推动力，但是："
+      },
+      "options": [
+        {
+          "en": "Currently they are only being used in smart homes",
+          "zh": "目前只用于智能家居。"
+        },
+        {
+          "en": "They are vulnerable to cyber security attacks",
+          "zh": "容易受到网络攻击。"
+        },
+        {
+          "en": "They will only be popular in 2030, which might be too late",
+          "zh": "直到 2030 年才会普及，可能太晚。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Connected devices are useful beyond smart homes, but connectivity and implementation weaknesses can expose them to attacks.",
+        "zh": "联网设备不限于智能家居；连接和实现缺陷也可能让它们遭受攻击。"
+      },
+      "conceptIds": [
+        "p2-industry"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q4",
+      "number": 4,
+      "page": 2,
+      "prompt": {
+        "en": "Choose the correct statement about Digital Twins.",
+        "zh": "选择关于数字孪生的正确说法。"
+      },
+      "options": [
+        {
+          "en": "It is a virtual representation or digital replica (copy) of assets, people, processes, systems, devices, and places",
+          "zh": "资产、人员、过程、系统、设备和场所的虚拟表示或数字副本。"
+        },
+        {
+          "en": "Companies utilize digital twin technology to develop virtual prototypes of new products and get insights",
+          "zh": "公司利用数字孪生开发新产品的虚拟原型并获得洞见。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A digital twin represents an object or process digitally and supports simulation and product development.",
+        "zh": "数字孪生以数字方式表示对象或过程，可支持模拟与产品开发。"
+      },
+      "conceptIds": [
+        "p2-twin"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q5",
+      "number": 5,
+      "page": 2,
+      "prompt": {
+        "en": "The concept of Industry 4.0 depends upon connectivity, however, this interconnectivity creates cyber security holes.",
+        "zh": "工业 4.0 依赖连接，但这种互联也会产生网络安全漏洞。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Connectivity supports collaboration and data exchange but adds possible access points and dependencies.",
+        "zh": "互联支持协作与数据交换，也增加潜在访问入口与依赖。"
+      },
+      "conceptIds": [
+        "p2-industry"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q6",
+      "number": 6,
+      "page": 2,
+      "prompt": {
+        "en": "Cloud computing supports Industry 4.0, but DDoS can compromise its availability. Other attacks can compromise which properties of stored data?",
+        "zh": "DDoS 可破坏云计算的可用性；其他攻击还可能破坏所存储数据的哪些属性？"
+      },
+      "options": [
+        {
+          "en": "Confidentiality",
+          "zh": "机密性。"
+        },
+        {
+          "en": "Integrity",
+          "zh": "完整性。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "DDoS targets availability. Disclosure compromises confidentiality, while unauthorized modification compromises integrity.",
+        "zh": "DDoS 影响可用性；泄露影响机密性，未经授权修改影响完整性。"
+      },
+      "conceptIds": [
+        "p2-cloud"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q7",
+      "number": 7,
+      "page": 3,
+      "prompt": {
+        "en": "The main reason for cyber security compromises is employee behavior which can be__________.",
+        "zh": "本题认为员工行为是安全失守的主要原因；这些行为可能是："
+      },
+      "options": [
+        {
+          "en": "Malicious",
+          "zh": "恶意的。"
+        },
+        {
+          "en": "Unintentional",
+          "zh": "无意的。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Deliberate misconduct and accidental mistakes can both undermine security.",
+        "zh": "故意的不当行为和无意失误都可能破坏安全。"
+      },
+      "conceptIds": [
+        "p2-human"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q8",
+      "number": 8,
+      "page": 3,
+      "prompt": {
+        "en": "The principal problems associated with employee behavior in cyber security includes __________.",
+        "zh": "与员工行为有关的主要安全问题包括："
+      },
+      "options": [
+        {
+          "en": "Errors and omissions",
+          "zh": "错误与疏漏。"
+        },
+        {
+          "en": "Fraud",
+          "zh": "欺诈。"
+        },
+        {
+          "en": "Actions by disgruntled employees",
+          "zh": "心怀不满的员工所采取的行为。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The course lists errors and omissions, fraud, and disgruntled employees as major human-related concerns.",
+        "zh": "课程列出错误与疏漏、欺诈和心怀不满的员工作为主要人员风险。"
+      },
+      "conceptIds": [
+        "p2-human"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q9",
+      "number": 9,
+      "page": 3,
+      "prompt": {
+        "en": "Choose the correct statement about cyber security awareness, training and education.",
+        "zh": "选择关于网络安全意识、培训和教育的正确说法。"
+      },
+      "options": [
+        {
+          "en": "Can serve as a deterrent to fraud and actions by disgruntled employees, by increasing employee’s knowledge of their accountability and of potential penalties",
+          "zh": "提高员工对责任和潜在处罚的认识，可以遏制欺诈及心怀不满员工的不当行为。"
+        },
+        {
+          "en": "Employees cannot be asked to attend cyber security awareness program as this will make them liable",
+          "zh": "不能要求员工参加安全意识活动，因为这会使他们承担责任。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Awareness and training clarify responsibilities and consequences, supporting prevention and deterrence.",
+        "zh": "意识和培训明确责任与后果，有助于预防和威慑。"
+      },
+      "conceptIds": [
+        "p2-awareness"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q10",
+      "number": 10,
+      "page": 4,
+      "prompt": {
+        "en": "Cyber security awareness policy should include.",
+        "zh": "网络安全意识政策应包括："
+      },
+      "options": [
+        {
+          "en": "Participation is required for every employee",
+          "zh": "要求每位员工参与。"
+        },
+        {
+          "en": "Everyone will be given sufficient time to participate",
+          "zh": "为每个人提供足够的参与时间。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Participation requirements need allocated time so that employees can actually take part.",
+        "zh": "参与要求应配合时间安排，确保员工能够实际参加。"
+      },
+      "conceptIds": [
+        "p2-awareness"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q11",
+      "number": 11,
+      "page": 4,
+      "prompt": {
+        "en": "Cyber security training teaches what people should do and how they should do it.",
+        "zh": "网络安全培训教会员工应该做什么，以及应该怎样做。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Training develops practical skills: both what to do and how to perform tasks securely.",
+        "zh": "培训培养实践技能：知道做什么，以及怎样安全地完成任务。"
+      },
+      "conceptIds": [
+        "p2-awareness"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q12",
+      "number": 12,
+      "page": 4,
+      "prompt": {
+        "en": "Choose the correct social engineering examples.",
+        "zh": "选择属于社会工程攻击的例子。"
+      },
+      "options": [
+        {
+          "en": "Phone Call: This is John, the System Administrator. What is your password?",
+          "zh": "电话：我是系统管理员 John，你的密码是什么？"
+        },
+        {
+          "en": "Email: ABC Bank has noticed a problem with your account, click on the link below and provide the password to resolve it",
+          "zh": "邮件：ABC 银行发现你的账户有问题，请点击链接并提供密码解决。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "Both examples impersonate a trusted role to obtain a password through human manipulation.",
+        "zh": "两个例子都冒充可信角色，通过操纵人的行为获取密码。"
+      },
+      "conceptIds": [
+        "p2-phishing"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q13",
+      "number": 13,
+      "page": 5,
+      "prompt": {
+        "en": "Spear phishing scam is when they target you specifically. They have researched you, they know your family members, where you work, and who is your boss. The chances of fooling you are higher.",
+        "zh": "鱼叉式钓鱼专门针对你；攻击者了解你的家人、工作单位和上司，使欺骗成功的概率更高。"
+      },
+      "options": [
+        {
+          "en": "True.",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Spear phishing is targeted and personalized using information about the victim.",
+        "zh": "鱼叉式钓鱼根据目标的信息进行定向、个性化欺骗。"
+      },
+      "conceptIds": [
+        "p2-phishing"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q14",
+      "number": 14,
+      "page": 5,
+      "prompt": {
+        "en": "Some of the top search results in Google are phishing links.",
+        "zh": "Google 排名靠前的搜索结果中可能包含钓鱼链接。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Search ranking is not an assurance of authenticity; a prominent result may still lead to a fraudulent site.",
+        "zh": "搜索排名不是真实性保证；显眼的结果也可能指向欺诈网站。"
+      },
+      "conceptIds": [
+        "p2-trust"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q15",
+      "number": 15,
+      "page": 5,
+      "prompt": {
+        "en": "Social media is full of fake accounts and scammers make it look like it is your real friend.",
+        "zh": "社交媒体上存在大量假账户，骗子会把它们伪装成真实朋友的账户。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A familiar name or photo can be copied; it is not sufficient evidence of a real friend’s identity.",
+        "zh": "熟悉的姓名或头像可以被复制，不能充分证明是朋友本人。"
+      },
+      "conceptIds": [
+        "p2-trust"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q16",
+      "number": 16,
+      "page": 5,
+      "prompt": {
+        "en": "In vishing attack, which is made over the telephone, scammers can spoof a phone number that looks identical to a known number, like your bank.",
+        "zh": "语音钓鱼通过电话进行；骗子可能伪造号码，使其看起来与银行等熟悉机构的号码相同。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Vishing uses voice communication, and caller-ID spoofing can make a call appear to come from a trusted number.",
+        "zh": "Vishing 使用语音通信；来电号码伪造可让电话看起来来自可信号码。"
+      },
+      "conceptIds": [
+        "p2-phishing"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q17",
+      "number": 17,
+      "page": 6,
+      "prompt": {
+        "en": "Choose the correct statement about cyber security compliance.",
+        "zh": "选择关于网络安全合规的正确说法。"
+      },
+      "options": [
+        {
+          "en": "It means following standards and regulatory requirements set by some agency, law or authority group.",
+          "zh": "遵守机构、法律或主管部门制定的标准与监管要求。"
+        },
+        {
+          "en": "It means make cyber security challenging both for attackers and users",
+          "zh": "让攻击者和用户都觉得网络安全很困难。"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确。"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Compliance is adherence to applicable requirements, not making security difficult.",
+        "zh": "合规是遵守适用要求，而不是让安全变得困难。"
+      },
+      "conceptIds": [
+        "p2-compliance"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q18",
+      "number": 18,
+      "page": 6,
+      "prompt": {
+        "en": "Some benefits of Cybersecurity Compliance include:",
+        "zh": "网络安全合规的好处包括："
+      },
+      "options": [
+        {
+          "en": "Helps identify, interpret and prepare for potential data breaches",
+          "zh": "帮助识别、理解潜在数据泄露并做好准备。"
+        },
+        {
+          "en": "Improves an organization’s security position",
+          "zh": "改善组织的安全状况。"
+        },
+        {
+          "en": "Builds customer confidence and loyalty",
+          "zh": "建立客户信心和忠诚度。"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部。"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "Compliance programs can improve preparedness, security practices, and customer trust.",
+        "zh": "合规计划可改善准备程度、安全实践和客户信任。"
+      },
+      "conceptIds": [
+        "p2-compliance"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q19",
+      "number": 19,
+      "page": 6,
+      "prompt": {
+        "en": "Forming a compliance team is necessary when implementing a thorough compliance program.",
+        "zh": "实施全面的合规计划时，需要组建合规团队。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A designated team provides ownership and coordination for a comprehensive compliance program.",
+        "zh": "专门团队为全面合规计划提供责任归属与协调。"
+      },
+      "conceptIds": [
+        "p2-compliance"
+      ],
+      "note": null
+    },
+    {
+      "id": "p2-q20",
+      "number": 20,
+      "page": 6,
+      "prompt": {
+        "en": "Cyber security controls can be technical controls (passwords), or physical (camera and fences).",
+        "zh": "安全控制措施可以是密码等技术措施，也可以是摄像头和围栏等物理措施。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确。"
+        },
+        {
+          "en": "False",
+          "zh": "错误。"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Technical and physical controls are both valid categories; administrative controls also exist.",
+        "zh": "技术控制和物理控制都是有效类别；也存在管理控制措施。"
+      },
+      "conceptIds": [
+        "p2-compliance"
+      ],
+      "note": null
+    }
+  ]
+}

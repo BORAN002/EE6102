@@ -1,0 +1,1495 @@
+{
+  "id": 4,
+  "title": {
+    "en": "Cryptography & trust",
+    "zh": "密码学与信任"
+  },
+  "subtitle": {
+    "en": "Encryption, RSA, key roles, hashing, signatures and certificates.",
+    "zh": "加密、RSA、密钥角色、哈希、签名与数字证书。"
+  },
+  "source": "Sample Quiz Part 4.pdf",
+  "concepts": [
+    {
+      "id": "p4-encryption",
+      "title": {
+        "en": "Encryption and block ciphers",
+        "zh": "加密与分组密码"
+      },
+      "body": {
+        "en": "Encryption transforms plaintext into ciphertext; decryption reverses it with the appropriate key. A block cipher processes fixed-size data blocks.",
+        "zh": "加密将明文转换为密文；解密使用适当密钥恢复明文。分组密码处理固定大小的数据块。"
+      },
+      "memory": {
+        "en": "Plaintext → encryption → ciphertext; ciphertext → decryption → plaintext.",
+        "zh": "明文 → 加密 → 密文；密文 → 解密 → 明文。"
+      },
+      "questionIds": [
+        1,
+        3
+      ]
+    },
+    {
+      "id": "p4-symmetric",
+      "title": {
+        "en": "Symmetric encryption and DES",
+        "zh": "对称加密与 DES"
+      },
+      "body": {
+        "en": "Symmetric encryption uses a shared secret key. DES has a 64-bit block size but only 56 effective key bits; the remaining key-representation bits are parity bits. Securely distributing a shared key is a central challenge. DES is a historical teaching algorithm, not a recommended choice for new protection.",
+        "zh": "对称加密使用共享秘密密钥。DES 的分组长度为 64 位，有效密钥为 56 位；密钥表示中的其余位是奇偶校验位。安全分发共享密钥是核心难点。DES 是历史教学算法，不是新系统的推荐保护方案。"
+      },
+      "memory": {
+        "en": "DES: 64-bit blocks, 56 effective key bits; symmetric encryption uses a shared key.",
+        "zh": "DES：64 位分组，56 位有效密钥；对称加密使用共享密钥。"
+      },
+      "questionIds": [
+        2,
+        4,
+        5,
+        6,
+        7
+      ]
+    },
+    {
+      "id": "p4-assurance",
+      "title": {
+        "en": "Evaluating cryptographic claims",
+        "zh": "评估密码技术的宣传与证据"
+      },
+      "body": {
+        "en": "Security claims need independent analysis, appropriate parameters, sound implementation, and evidence. Age can provide time for scrutiny but cannot prove security. The quiz contains a disputed claim denying certified encryption; real validation programs such as NIST CMVP exist.",
+        "zh": "安全宣传需要独立分析、合适参数、可靠实现和证据。时间能提供审查机会，但不能证明安全。题目中否认加密认证的说法存在争议，现实中有 NIST CMVP 等验证计划。"
+      },
+      "memory": {
+        "en": "A marketing claim of “unbreakable” is not evidence of security.",
+        "zh": "“无法破解”的营销宣传不是安全证据。"
+      },
+      "questionIds": [
+        8,
+        9,
+        10,
+        11
+      ]
+    },
+    {
+      "id": "p4-public",
+      "title": {
+        "en": "Public-key cryptography",
+        "zh": "公钥密码"
+      },
+      "body": {
+        "en": "A public/private key pair supports public-key encryption and, with suitable signature algorithms, authentication. Two keys do not automatically imply stronger security than a symmetric system. RSA is the public-key algorithm emphasized by these quiz questions.",
+        "zh": "公私钥对支持公钥加密，并可通过适当的签名算法支持认证。两把密钥并不自动意味着比对称系统更安全。RSA 是这些题目重点讨论的公钥算法。"
+      },
+      "memory": {
+        "en": "Public-key cryptography uses a key pair; key count alone does not determine security.",
+        "zh": "公钥密码使用密钥对；密钥数量本身不决定安全性。"
+      },
+      "questionIds": [
+        12,
+        13,
+        14,
+        15,
+        17
+      ]
+    },
+    {
+      "id": "p4-dh",
+      "title": {
+        "en": "Diffie–Hellman key agreement",
+        "zh": "Diffie–Hellman 密钥协商"
+      },
+      "body": {
+        "en": "Two parties exchange public values derived from private exponents and calculate a common secret. The course explains its hardness through discrete logarithms. Authentication must be added to protect against active impersonation.",
+        "zh": "双方交换由秘密指数产生的公开值，并计算同一共享秘密。课程使用离散对数困难性解释其安全基础。还需加入身份认证，以防主动冒充。"
+      },
+      "memory": {
+        "en": "Diffie–Hellman establishes a shared secret; it does not authenticate identities by itself.",
+        "zh": "Diffie–Hellman 建立共享秘密，但本身不认证身份。"
+      },
+      "questionIds": [
+        16
+      ]
+    },
+    {
+      "id": "p4-rsa",
+      "title": {
+        "en": "RSA modulus, totient, and hardness",
+        "zh": "RSA 模数、欧拉函数与困难性"
+      },
+      "body": {
+        "en": "For distinct primes p and q: n = pq and φ(n) = (p − 1)(q − 1). Choose e coprime to φ(n), then d satisfies ed ≡ 1 mod φ(n). Textbook encryption is C = M^e mod n; decryption is M = C^d mod n. With p = 5 and q = 11, n = 55 and φ(n) = 40.",
+        "zh": "对于不同质数 p、q：n = pq，φ(n) = (p − 1)(q − 1)。选择与 φ(n) 互素的 e，令 d 满足 ed ≡ 1 mod φ(n)。教科书加密为 C = M^e mod n，解密为 M = C^d mod n。若 p = 5、q = 11，则 n = 55、φ(n) = 40。"
+      },
+      "memory": {
+        "en": "n = pq; φ(n) = (p − 1)(q − 1). Do not confuse the two.",
+        "zh": "n = pq；φ(n) = (p − 1)(q − 1)，两者不可混淆。"
+      },
+      "questionIds": [
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "id": "p4-keyroles",
+      "title": {
+        "en": "Whose key is used?",
+        "zh": "应该使用谁的密钥？"
+      },
+      "body": {
+        "en": "For confidentiality, encrypt with the receiver’s public key and decrypt with the receiver’s private key. A sender’s signature instead uses the sender’s private key. The classroom key-count question has an underspecified reference answer; one recipient key pair suffices for simple one-way confidential submissions.",
+        "zh": "为实现保密，使用接收者公钥加密、接收者私钥解密。发送者签名则使用发送者私钥。课堂密钥数量题的参考答案条件不充分；简单的单向保密提交只需接收者的一对密钥。"
+      },
+      "memory": {
+        "en": "Confidentiality: receiver public key encrypts; receiver private key decrypts.",
+        "zh": "保密：接收者公钥加密，接收者私钥解密。"
+      },
+      "questionIds": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "id": "p4-cert",
+      "title": {
+        "en": "Digital certificates and CA",
+        "zh": "数字证书与 CA"
+      },
+      "body": {
+        "en": "A certificate authority digitally signs a document binding an identity to a public key. A certificate is different from a message signature: it helps establish which identity a public key represents. Certificate validation must consider trust, validity, and relevant status checks.",
+        "zh": "证书颁发机构对将身份与公钥绑定的文档进行数字签名。证书与消息签名不同，它帮助确认公钥代表哪个身份。证书验证需要考虑信任、有效期及相关状态检查。"
+      },
+      "memory": {
+        "en": "A digital certificate binds an identity to a public key.",
+        "zh": "数字证书将身份与公钥绑定。"
+      },
+      "questionIds": [
+        25,
+        32
+      ]
+    },
+    {
+      "id": "p4-hash",
+      "title": {
+        "en": "Hashes, digests, and integrity",
+        "zh": "哈希、摘要与完整性"
+      },
+      "body": {
+        "en": "A cryptographic hash maps a message to a fixed-size digest. Hashes support integrity checks, but an unkeyed hash alone does not authenticate the sender. SHA is a family of hash algorithms. Hashing is not reversible encryption.",
+        "zh": "密码学哈希将消息映射到固定长度摘要。哈希支持完整性检查，但单独的无密钥哈希不能认证发送者。SHA 是哈希算法族。哈希不是可逆加密。"
+      },
+      "memory": {
+        "en": "Hashing produces a digest; encryption produces decryptable ciphertext.",
+        "zh": "哈希产生摘要；加密产生可解密的密文。"
+      },
+      "questionIds": [
+        26,
+        27,
+        33
+      ]
+    },
+    {
+      "id": "p4-sign",
+      "title": {
+        "en": "Digital signatures",
+        "zh": "数字签名"
+      },
+      "body": {
+        "en": "The signer uses a private signing key and the verifier uses the corresponding public key. A valid signature supports integrity and source authentication when the identity binding and key protection are trustworthy. Signing is not generally equivalent to encrypting a hash, and it does not itself provide confidentiality.",
+        "zh": "签名者使用私有签名密钥，验证者使用对应公钥。在身份绑定可信且密钥受到保护时，有效签名支持完整性和来源认证。一般签名不等同于加密哈希，也不自行提供机密性。"
+      },
+      "memory": {
+        "en": "Sign with the sender’s private key; verify with the sender’s public key.",
+        "zh": "使用发送者私钥签名，使用发送者公钥验证。"
+      },
+      "questionIds": [
+        28,
+        29,
+        30,
+        31
+      ]
+    },
+    {
+      "id": "p4-hybrid",
+      "title": {
+        "en": "Hybrid cryptosystems",
+        "zh": "混合密码系统"
+      },
+      "body": {
+        "en": "A hybrid system uses public-key mechanisms to establish a shared session key and uses efficient symmetric encryption for the session’s bulk data. This connects key establishment with practical data protection.",
+        "zh": "混合系统使用公钥机制建立共享会话密钥，再使用高效的对称加密保护会话中的大量数据，将密钥建立与实际数据保护结合起来。"
+      },
+      "memory": {
+        "en": "Public-key mechanisms establish keys; symmetric encryption protects session data.",
+        "zh": "公钥机制建立密钥；对称加密保护会话数据。"
+      },
+      "questionIds": [
+        34,
+        35
+      ]
+    }
+  ],
+  "questions": [
+    {
+      "id": "p4-q1",
+      "number": 1,
+      "page": 1,
+      "prompt": {
+        "en": "The process of converting from plaintext to cipher text is known as deciphering or decryption.",
+        "zh": "将明文转换为密文的过程称为解码或解密。"
+      },
+      "options": [
+        {
+          "en": "Yes",
+          "zh": "是"
+        },
+        {
+          "en": "No",
+          "zh": "否"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Plaintext becomes ciphertext through encryption; decryption reverses that transformation. The statement swaps the two directions.",
+        "zh": "明文变成密文称为加密；解密是相反方向。本题把两个方向颠倒了。"
+      },
+      "conceptIds": [
+        "p4-encryption"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q2",
+      "number": 2,
+      "page": 1,
+      "prompt": {
+        "en": "If both sender and receiver use the same key to encrypt and decrypt, the system is referred to as:",
+        "zh": "如果发送者和接收者使用相同的密钥进行加密和解密，该系统称为："
+      },
+      "options": [
+        {
+          "en": "Public-key crypto system",
+          "zh": "公钥密码系统"
+        },
+        {
+          "en": "Asymmetric key crypto system",
+          "zh": "非对称密钥密码系统"
+        },
+        {
+          "en": "Symmetric key crypto system",
+          "zh": "对称密钥密码系统"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A symmetric cryptosystem uses a shared secret key for encryption and decryption. Public-key systems instead use a related public/private key pair.",
+        "zh": "对称密码系统使用共享秘密密钥进行加密和解密；公钥系统使用相关联的公钥与私钥。"
+      },
+      "conceptIds": [
+        "p4-symmetric"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q3",
+      "number": 3,
+      "page": 1,
+      "prompt": {
+        "en": "When message is divided into blocks (e.g., sets of 8- or 16-bit blocks) and each is transformed into encrypted block of cipher using algorithm and key it is called",
+        "zh": "将消息分成若干块（例如每块 8 位或 16 位），再使用算法和密钥将每块转换为密文块，这称为："
+      },
+      "options": [
+        {
+          "en": "Block Cipher",
+          "zh": "分组密码"
+        },
+        {
+          "en": "Bit Stream Cipher",
+          "zh": "比特流密码"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Processing a message in fixed-size blocks is the defining feature of a block cipher. A stream cipher processes a stream of data rather than these fixed blocks.",
+        "zh": "按固定大小的分组处理消息是分组密码的定义特征；流密码处理连续的数据流。"
+      },
+      "conceptIds": [
+        "p4-encryption"
+      ],
+      "note": {
+        "en": "The source’s 8- or 16-bit examples are illustrative; DES uses 64-bit blocks and AES uses 128-bit blocks.",
+        "zh": "原题的 8 位或 16 位仅为示意例子；DES 使用 64 位分组，AES 使用 128 位分组。"
+      }
+    },
+    {
+      "id": "p4-q4",
+      "number": 4,
+      "page": 2,
+      "prompt": {
+        "en": "Which of the following is a symmetric crypto system using 64-bit blocks?",
+        "zh": "以下哪一种是使用 64 位分组的对称密码系统？"
+      },
+      "options": [
+        {
+          "en": "RSA",
+          "zh": "RSA"
+        },
+        {
+          "en": "DES",
+          "zh": "DES"
+        },
+        {
+          "en": "PGP",
+          "zh": "PGP"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "DES is a symmetric block cipher with a 64-bit block size. RSA is asymmetric, while PGP is a broader security system rather than this cipher.",
+        "zh": "DES 是分组长度为 64 位的对称分组密码；RSA 是非对称算法，PGP 则是更广泛的安全系统。"
+      },
+      "conceptIds": [
+        "p4-symmetric"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q5",
+      "number": 5,
+      "page": 2,
+      "prompt": {
+        "en": "What size key does a DES system use?",
+        "zh": "DES 系统使用多长的密钥？"
+      },
+      "options": [
+        {
+          "en": "64 bit",
+          "zh": "64 位"
+        },
+        {
+          "en": "128 bit",
+          "zh": "128 位"
+        },
+        {
+          "en": "56 bit",
+          "zh": "56 位"
+        },
+        {
+          "en": "256 bit",
+          "zh": "256 位"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "DES has 56 effective key bits. Its conventional 64-bit key representation also includes eight parity bits, which do not add key-search strength.",
+        "zh": "DES 的有效密钥长度为 56 位；常见的 64 位表示还包含 8 个奇偶校验位，这些位不增加密钥搜索强度。"
+      },
+      "conceptIds": [
+        "p4-symmetric"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q6",
+      "number": 6,
+      "page": 2,
+      "prompt": {
+        "en": "What is data encryption standard (DES)?",
+        "zh": "数据加密标准 DES 属于哪一种密码？"
+      },
+      "options": [
+        {
+          "en": "Block cipher",
+          "zh": "分组密码"
+        },
+        {
+          "en": "Stream cipher",
+          "zh": "流密码"
+        },
+        {
+          "en": "Bit cipher",
+          "zh": "比特密码"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "DES transforms fixed 64-bit blocks, so it is classified as a block cipher. Block size and effective key size are different quantities.",
+        "zh": "DES 处理固定的 64 位数据块，因此属于分组密码；分组长度与有效密钥长度是两个不同概念。"
+      },
+      "conceptIds": [
+        "p4-symmetric"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q7",
+      "number": 7,
+      "page": 3,
+      "prompt": {
+        "en": "Which is the largest disadvantage of the symmetric Encryption?",
+        "zh": "对称加密最大的缺点是什么？"
+      },
+      "options": [
+        {
+          "en": "More complex and therefore more time-consuming calculations",
+          "zh": "计算更复杂，因此更耗时"
+        },
+        {
+          "en": "Problem of the secure transmission of the Secret Key",
+          "zh": "秘密密钥的安全传输问题"
+        },
+        {
+          "en": "Less secure encryption function",
+          "zh": "加密功能的安全性较低"
+        },
+        {
+          "en": "Isn't used any more",
+          "zh": "现在已经不再使用"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Both parties need the same secret key, so distributing that key securely is a central difficulty. Symmetric encryption remains useful for efficient bulk-data protection.",
+        "zh": "双方必须拥有同一把秘密密钥，因此如何安全分发密钥是核心难点；对称加密仍适合高效保护大量数据。"
+      },
+      "conceptIds": [
+        "p4-symmetric"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q8",
+      "number": 8,
+      "page": 3,
+      "prompt": {
+        "en": "What you should be most careful of when looking for an encryption method to use?",
+        "zh": "选择加密方法时，应最留意哪一点？"
+      },
+      "options": [
+        {
+          "en": "Complexity of the algorithm",
+          "zh": "算法的复杂性"
+        },
+        {
+          "en": "Veracity of the vendor’s claims",
+          "zh": "厂商宣传的真实性"
+        },
+        {
+          "en": "Speed of the algorithm",
+          "zh": "算法的速度"
+        },
+        {
+          "en": "How long the algorithm has been around",
+          "zh": "算法已经存在多长时间"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The marked answer is D. The intended lesson is that time allows independent examination and cryptanalysis of an algorithm; novelty alone is not evidence of security.",
+        "zh": "资料标注 D。题目意图是强调算法需要时间接受独立审查和密码分析，不能仅因算法新颖就认为它安全。"
+      },
+      "conceptIds": [
+        "p4-assurance"
+      ],
+      "note": {
+        "en": "Algorithm age is not sufficient evidence of security: an old algorithm can be broken. The PDF marks D; independent analysis and current security assessments are what matter in practice.",
+        "zh": "算法存在时间长并不足以证明安全，旧算法也可能已被攻破。PDF 标注 D；实践中更应看独立分析和安全评估。"
+      }
+    },
+    {
+      "id": "p4-q9",
+      "number": 9,
+      "page": 3,
+      "prompt": {
+        "en": "Which of the following is most likely to be true of an encryption method that is advertised as unbreakable?",
+        "zh": "对于宣传为“无法破解”的加密方法，下列哪项最可能成立？"
+      },
+      "options": [
+        {
+          "en": "It is probably suitable for military use.",
+          "zh": "它可能适合军用"
+        },
+        {
+          "en": "It may be too expensive for your organization.",
+          "zh": "它对你的组织来说可能太贵"
+        },
+        {
+          "en": "It is likely to be exaggerated.",
+          "zh": "这种宣传很可能被夸大了"
+        },
+        {
+          "en": "It is probably one you want to use.",
+          "zh": "它可能正是你想使用的方法"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The marked answer is C. An unqualified marketing claim of being unbreakable should be treated skeptically; it does not establish security or suitability.",
+        "zh": "资料标注 C。对毫无限定的“无法破解”营销宣传应保持审慎，它不能证明安全性或适用性。"
+      },
+      "conceptIds": [
+        "p4-assurance"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q10",
+      "number": 10,
+      "page": 4,
+      "prompt": {
+        "en": "Which of the following is most true regarding certified encryption methods?",
+        "zh": "关于经过认证的加密方法，以下哪项最正确？"
+      },
+      "options": [
+        {
+          "en": "These are the only methods you should use.",
+          "zh": "只能使用这些方法"
+        },
+        {
+          "en": "It depends on the level of certification.",
+          "zh": "取决于认证的级别"
+        },
+        {
+          "en": "It depends on the source of the certification.",
+          "zh": "取决于认证的来源"
+        },
+        {
+          "en": "There is no such thing as certified encryption.",
+          "zh": "不存在经过认证的加密"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The PDF marks D. Treat this as the source answer for quiz review, rather than a reliable general statement about real-world cryptographic validation.",
+        "zh": "PDF 标注 D。复习时将它视为资料答案，不应把它当作现实世界密码验证制度的一般事实。"
+      },
+      "conceptIds": [
+        "p4-assurance"
+      ],
+      "note": {
+        "en": "Source-answer caveat: D is underlined, but cryptographic module and algorithm validation programs do exist. For example, NIST operates the Cryptographic Module Validation Program (CMVP). Do not memorize D as a universal technical fact.",
+        "zh": "资料答案提示：原文划线选 D，但现实中确实存在密码模块和算法验证计划，例如 NIST 的密码模块验证计划 CMVP。不要把 D 背成普遍技术事实。"
+      }
+    },
+    {
+      "id": "p4-q11",
+      "number": 11,
+      "page": 4,
+      "prompt": {
+        "en": "Which of the following is most true regarding new encryption methods?",
+        "zh": "关于新的加密方法，以下哪项最正确？"
+      },
+      "options": [
+        {
+          "en": "Never use them until they have been proven.",
+          "zh": "在证明其安全之前，绝不能使用"
+        },
+        {
+          "en": "You can use them, but you must be cautious.",
+          "zh": "可以使用，但必须谨慎"
+        },
+        {
+          "en": "Only use them if they are certified.",
+          "zh": "只有经过认证才能使用"
+        },
+        {
+          "en": "Only use them if they are rated unbreakable.",
+          "zh": "只有被评为无法破解才能使用"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The marked answer is B. A new method needs careful evaluation of its design, implementation, assumptions, and independent scrutiny.",
+        "zh": "资料标注 B。新的方法需要谨慎评估其设计、实现、安全假设以及独立审查情况。"
+      },
+      "conceptIds": [
+        "p4-assurance"
+      ],
+      "note": {
+        "en": "This is the source’s broad wording, not an instruction to deploy experimental cryptography. Evaluation and appropriate review remain essential.",
+        "zh": "这是资料的宽泛表述，不是在建议部署实验性密码算法；评估和适当审查仍然必要。"
+      }
+    },
+    {
+      "id": "p4-q12",
+      "number": 12,
+      "page": 4,
+      "prompt": {
+        "en": "Asymmetric encryption utilizes only a public key for encryption and decryption.",
+        "zh": "非对称加密只使用公钥完成加密和解密。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Asymmetric systems use a public/private key pair. For confidentiality, the public key encrypts and the corresponding private key decrypts.",
+        "zh": "非对称系统使用公钥与私钥对；在保密场景中，公钥加密，对应私钥解密。"
+      },
+      "conceptIds": [
+        "p4-public"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q13",
+      "number": 13,
+      "page": 4,
+      "prompt": {
+        "en": "Asymmetric encryption can be used for confidentiality but not for authentication.",
+        "zh": "非对称加密可以用于机密性保护，但不能用于身份认证。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Public-key cryptography supports authentication through digital signatures as well as confidentiality through encryption. The statement is therefore false.",
+        "zh": "公钥密码既可通过加密保护机密性，也可通过数字签名支持身份认证，因此该说法错误。"
+      },
+      "conceptIds": [
+        "p4-public"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q14",
+      "number": 14,
+      "page": 5,
+      "prompt": {
+        "en": "Public-key encryption is more secure than symmetric encryption as it uses two keys.",
+        "zh": "公钥加密使用两把密钥，因此比对称加密更安全。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Having two keys does not automatically make a system more secure. Security depends on the algorithm, parameters, implementation, and key handling.",
+        "zh": "拥有两把密钥并不会自动更安全；安全性取决于算法、参数、实现以及密钥管理。"
+      },
+      "conceptIds": [
+        "p4-public"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q15",
+      "number": 15,
+      "page": 5,
+      "prompt": {
+        "en": "The most widely used public-key cryptosystem is __________ .",
+        "zh": "最广泛使用的公钥密码系统是 ________。"
+      },
+      "options": [
+        {
+          "en": "RSA",
+          "zh": "RSA"
+        },
+        {
+          "en": "DES",
+          "zh": "DES"
+        },
+        {
+          "en": "3DES",
+          "zh": "3DES"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The course answer is RSA. DES and 3DES are symmetric ciphers, so they are not public-key cryptosystems.",
+        "zh": "课程答案为 RSA；DES 和 3DES 是对称密码，因此不属于公钥密码系统。"
+      },
+      "conceptIds": [
+        "p4-public"
+      ],
+      "note": {
+        "en": "Treat “most widely used” as the course’s framing, not a verified current market ranking. RSA is the only public-key algorithm among the substantive options.",
+        "zh": "“最广泛使用”属于课程表述，不是已核实的当前市场排名；实质选项中只有 RSA 属于公钥算法。"
+      }
+    },
+    {
+      "id": "p4-q16",
+      "number": 16,
+      "page": 5,
+      "prompt": {
+        "en": "The Diffie-Hellman algorithm depends on the difficulty of computing discrete logarithms for its effectiveness.",
+        "zh": "Diffie–Hellman 算法的有效性依赖于计算离散对数的困难性。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "In the course model, computing public values is easy but recovering a secret exponent from them is hard. This is the discrete-logarithm intuition behind Diffie–Hellman.",
+        "zh": "按课程模型，计算公开值容易，而由公开值恢复秘密指数困难；这就是 Diffie–Hellman 背后的离散对数直觉。"
+      },
+      "conceptIds": [
+        "p4-dh"
+      ],
+      "note": {
+        "en": "Unauthenticated Diffie–Hellman does not by itself prevent an active man-in-the-middle attack. Key agreement and identity authentication are separate needs.",
+        "zh": "未经认证的 Diffie–Hellman 本身不能阻止主动中间人攻击；密钥协商和身份认证是不同需求。"
+      }
+    },
+    {
+      "id": "p4-q17",
+      "number": 17,
+      "page": 5,
+      "prompt": {
+        "en": "Most of the products and standards that use public-key cryptography for encryption and digital signatures use RSA.",
+        "zh": "大多数使用公钥密码进行加密和数字签名的产品及标准都使用 RSA。"
+      },
+      "options": [
+        {
+          "en": "True",
+          "zh": "正确"
+        },
+        {
+          "en": "False",
+          "zh": "错误"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The PDF marks True, emphasizing RSA as an important public-key algorithm used for encryption and signatures in the course.",
+        "zh": "PDF 标注正确，强调 RSA 是本课程中用于加密和签名的重要公钥算法。"
+      },
+      "conceptIds": [
+        "p4-public"
+      ],
+      "note": {
+        "en": "This historical/generalized popularity claim is preserved for source-based review; it should not be interpreted as a measurement of modern deployments.",
+        "zh": "保留这一历史性、概括性的普及程度说法以便按原资料复习；不应把它当成现代部署情况的统计结论。"
+      }
+    },
+    {
+      "id": "p4-q18",
+      "number": 18,
+      "page": 6,
+      "prompt": {
+        "en": "Suppose that you are using the RSA algorithm and have chosen two prime numbers, p = 5 and q = 11. What will be value of Phi",
+        "zh": "使用 RSA 算法，选择两个质数 p = 5 和 q = 11，φ(n) 的值是多少？"
+      },
+      "options": [
+        {
+          "en": "55",
+          "zh": "55"
+        },
+        {
+          "en": "13",
+          "zh": "13"
+        },
+        {
+          "en": "14",
+          "zh": "14"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "For distinct primes, φ(n) = (p − 1)(q − 1) = 4 × 10 = 40. Since 40 is not listed, choose None of the above.",
+        "zh": "对于两个不同质数，φ(n) = (p − 1)(q − 1) = 4 × 10 = 40；选项中没有 40，因此选“以上都不是”。"
+      },
+      "conceptIds": [
+        "p4-rsa"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q19",
+      "number": 19,
+      "page": 6,
+      "prompt": {
+        "en": "In RSA algorithm, if the two prime numbers are, 5 and 11 then what will be value of Modulus, N",
+        "zh": "在 RSA 算法中，如果两个质数是 5 和 11，模数 N 的值是多少？"
+      },
+      "options": [
+        {
+          "en": "55",
+          "zh": "55"
+        },
+        {
+          "en": "44",
+          "zh": "44"
+        },
+        {
+          "en": "20",
+          "zh": "20"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The modulus is n = p × q = 5 × 11 = 55. Do not confuse n with φ(n), which is 40 in this example.",
+        "zh": "模数 n = p × q = 5 × 11 = 55；不要与本例中等于 40 的 φ(n) 混淆。"
+      },
+      "conceptIds": [
+        "p4-rsa"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q20",
+      "number": 20,
+      "page": 6,
+      "prompt": {
+        "en": "Given two very large prime numbers p and q, a composite number N (Modulus) can be calculated as N = p* q. However, given just N, it is not feasible for hackers to find p and q.",
+        "zh": "给定两个很大的质数 p 和 q，很容易计算合数 N = p × q；但只给定 N，攻击者难以求出 p 和 q。"
+      },
+      "options": [
+        {
+          "en": "Yes, that is true",
+          "zh": "是，正确"
+        },
+        {
+          "en": "No, that is not true at all",
+          "zh": "不，完全不正确"
+        },
+        {
+          "en": "It may be possible in some cases",
+          "zh": "某些情况下可能做得到"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The marked answer assumes appropriately generated large RSA primes: multiplication is easy, while factoring the resulting modulus is computationally difficult.",
+        "zh": "资料答案假设使用适当生成的大 RSA 质数：乘法容易，而分解所得模数在计算上困难。"
+      },
+      "conceptIds": [
+        "p4-rsa"
+      ],
+      "note": {
+        "en": "This is computational difficulty under suitable parameters, not mathematical impossibility. Small, poorly chosen, or otherwise weak factors may be recoverable.",
+        "zh": "这里指适当参数下的计算困难，而不是数学上不可能；很小、选择不当或其他弱质因数可能被恢复。"
+      }
+    },
+    {
+      "id": "p4-q21",
+      "number": 21,
+      "page": 7,
+      "prompt": {
+        "en": "In public key cryptosystem when Carol sends a message to Bob for confidentiality, what key will she use to encrypt the message?",
+        "zh": "在公钥密码系统中，Carol 为了保密向 Bob 发送消息，她应使用哪把密钥加密？"
+      },
+      "options": [
+        {
+          "en": "Public Key",
+          "zh": "公钥"
+        },
+        {
+          "en": "Bob’s Public Key",
+          "zh": "Bob 的公钥"
+        },
+        {
+          "en": "Carols’ Private Key",
+          "zh": "Carol 的私钥"
+        },
+        {
+          "en": "None of the above.",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "Carol encrypts using the intended recipient Bob’s public key, so Bob can decrypt using his own private key. Option A is less specific than the correct option B.",
+        "zh": "Carol 使用目标接收者 Bob 的公钥加密，使 Bob 能用自己的私钥解密；A 没有明确是哪一方的公钥。"
+      },
+      "conceptIds": [
+        "p4-keyroles"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q22",
+      "number": 22,
+      "page": 7,
+      "prompt": {
+        "en": "In public key cryptosystem when Carol sends an encrypted message to Bob for confidentiality, what key will Bob use to decrypt the message?",
+        "zh": "Carol 为了保密向 Bob 发送加密消息，Bob 应使用哪把密钥解密？"
+      },
+      "options": [
+        {
+          "en": "Bob’s Private Key",
+          "zh": "Bob 的私钥"
+        },
+        {
+          "en": "Bob’s Public Key",
+          "zh": "Bob 的公钥"
+        },
+        {
+          "en": "Carols’ Private Key",
+          "zh": "Carol 的私钥"
+        },
+        {
+          "en": "Carol’s Public Key",
+          "zh": "Carol 的公钥"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The private key corresponding to Bob’s public key is Bob’s private key. Carol’s keys do not decrypt ciphertext encrypted to Bob.",
+        "zh": "与 Bob 公钥对应的是 Bob 的私钥；使用 Bob 公钥加密的密文不能由 Carol 的密钥解密。"
+      },
+      "conceptIds": [
+        "p4-keyroles"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q23",
+      "number": 23,
+      "page": 7,
+      "prompt": {
+        "en": "In a classroom with 30 students and a professor, how many public and private keys will be used if all students want to submit the encrypted assignment to the professor?",
+        "zh": "班上有 30 名学生和一位教授，如果所有学生都想把加密作业提交给教授，会使用多少把公钥和私钥？"
+      },
+      "options": [
+        {
+          "en": "30 public and 30 private",
+          "zh": "30 把公钥和 30 把私钥"
+        },
+        {
+          "en": "1 public and 30 private",
+          "zh": "1 把公钥和 30 把私钥"
+        },
+        {
+          "en": "1 public and 1 private",
+          "zh": "1 把公钥和 1 把私钥"
+        },
+        {
+          "en": "Variable keys depending on the application",
+          "zh": "密钥数量取决于具体应用"
+        }
+      ],
+      "answer": 3,
+      "explanation": {
+        "en": "The source marks D, apparently allowing different application designs. The intended key roles still matter: submissions encrypted to the professor use the professor’s public key.",
+        "zh": "资料标注 D，似乎考虑了不同应用设计；关键角色仍然是：发给教授的保密作业使用教授的公钥加密。"
+      },
+      "conceptIds": [
+        "p4-keyroles"
+      ],
+      "note": {
+        "en": "The PDF underlines D. Under the narrow confidentiality-only scenario, one professor public/private key pair suffices for all 30 students, so C is the natural textbook answer. Additional authentication or other application requirements change the count; the question is underspecified.",
+        "zh": "PDF 划线选择 D。若仅要求所有学生向教授保密提交作业，教授的一对公私钥就足够，因此 C 是自然的教科书答案。额外认证或其他应用要求会改变数量，原题条件不充分。"
+      }
+    },
+    {
+      "id": "p4-q24",
+      "number": 24,
+      "page": 8,
+      "prompt": {
+        "en": "In asymmetric cryptography system for confidential communication, the private key is used by ---- --------------- to decrypt ciphertext",
+        "zh": "在用于保密通信的非对称密码系统中，谁使用私钥解密密文？"
+      },
+      "options": [
+        {
+          "en": "Sender",
+          "zh": "发送者"
+        },
+        {
+          "en": "Receiver",
+          "zh": "接收者"
+        },
+        {
+          "en": "Sender and receiver",
+          "zh": "发送者和接收者"
+        },
+        {
+          "en": "All the connected devices on the network",
+          "zh": "网络中的所有设备"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "For confidential public-key communication, the sender encrypts to the receiver’s public key, and the receiver decrypts with the matching private key.",
+        "zh": "在公钥保密通信中，发送者使用接收者公钥加密，接收者使用配对私钥解密。"
+      },
+      "conceptIds": [
+        "p4-keyroles"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q25",
+      "number": 25,
+      "page": 8,
+      "prompt": {
+        "en": "A __________ is a digital document issued and digitally signed by Certification Authority that binds the name of a subscriber to a public key.",
+        "zh": "由证书颁发机构签发并数字签名、将持有者姓名与公钥绑定的数字文档称为 ________。"
+      },
+      "options": [
+        {
+          "en": "Digital certificate",
+          "zh": "数字证书"
+        },
+        {
+          "en": "Digital signature",
+          "zh": "数字签名"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A digital certificate binds an identity to a public key and is digitally signed by a certificate authority (CA). A signature alone is not the identity-binding document.",
+        "zh": "数字证书把身份与公钥绑定，并由证书颁发机构 CA 数字签名；数字签名本身不是这种身份绑定文档。"
+      },
+      "conceptIds": [
+        "p4-cert"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q26",
+      "number": 26,
+      "page": 8,
+      "prompt": {
+        "en": "The principal object of a hash function is __________ .",
+        "zh": "哈希函数的主要用途是 ________。"
+      },
+      "options": [
+        {
+          "en": "Data integrity",
+          "zh": "数据完整性"
+        },
+        {
+          "en": "Authentication",
+          "zh": "身份认证"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "A hash produces a digest useful for detecting changes to data, supporting integrity checks. An unkeyed hash alone does not authenticate who sent the message.",
+        "zh": "哈希生成摘要，可用于检测数据变化并支持完整性检查；单独的无密钥哈希不能认证消息发送者。"
+      },
+      "conceptIds": [
+        "p4-hash"
+      ],
+      "note": {
+        "en": "To resist an active attacker, a digest must itself be obtained or protected through a trusted mechanism; an attacker could otherwise replace both the message and its hash.",
+        "zh": "为抵抗主动攻击者，摘要本身也需通过可信机制获得或保护，否则攻击者可能同时替换消息和哈希。"
+      }
+    },
+    {
+      "id": "p4-q27",
+      "number": 27,
+      "page": 9,
+      "prompt": {
+        "en": "The most important and widely used family of cryptographic hash functions is the __________ family",
+        "zh": "最重要且广泛使用的密码学哈希函数族是 ________。"
+      },
+      "options": [
+        {
+          "en": "Secure Hash Algorithm (SHA)",
+          "zh": "安全哈希算法 SHA"
+        },
+        {
+          "en": "Digest",
+          "zh": "摘要"
+        },
+        {
+          "en": "Hash Value",
+          "zh": "哈希值"
+        },
+        {
+          "en": "All of the above",
+          "zh": "以上全部"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "SHA is the named family of hash algorithms. Digest and hash value describe outputs, not competing algorithm families in these options.",
+        "zh": "SHA 是哈希算法族的名称；Digest 和 Hash value 指摘要输出，不是这些选项中的算法族名称。"
+      },
+      "conceptIds": [
+        "p4-hash"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q28",
+      "number": 28,
+      "page": 9,
+      "prompt": {
+        "en": "The hash value of a message in __________ application is encrypted with a sender's private key.",
+        "zh": "在 ________ 应用中，消息的哈希值使用发送者的私钥加密。"
+      },
+      "options": [
+        {
+          "en": "Digital signature",
+          "zh": "数字签名"
+        },
+        {
+          "en": "Digital certificate",
+          "zh": "数字证书"
+        },
+        {
+          "en": "Secure Hash Algorithm (SHA)",
+          "zh": "安全哈希算法 SHA"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The intended answer is digital signature: the sender signs using a private key, and others verify with the corresponding public key.",
+        "zh": "题目意图是数字签名：发送者使用私钥签名，其他人使用对应公钥验证。"
+      },
+      "conceptIds": [
+        "p4-sign"
+      ],
+      "note": {
+        "en": "“Encrypting the hash with the private key” is a simplified RSA-style teaching description. Digital signatures in general use signing and verification algorithms, not necessarily encryption and decryption.",
+        "zh": "“用私钥加密哈希”是简化的 RSA 式教学描述。一般数字签名使用签名与验证算法，不一定采用加密和解密操作。"
+      }
+    },
+    {
+      "id": "p4-q29",
+      "number": 29,
+      "page": 9,
+      "prompt": {
+        "en": "A digital signature can guarantee",
+        "zh": "数字签名可以保证："
+      },
+      "options": [
+        {
+          "en": "The integrity of the message",
+          "zh": "消息的完整性"
+        },
+        {
+          "en": "The source of the message",
+          "zh": "消息的来源"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "A valid signature supports checking that the signed message was not altered and that it was signed by the holder of the corresponding private key.",
+        "zh": "有效签名支持检查已签名消息是否被修改，以及签名是否由对应私钥的持有者生成。"
+      },
+      "conceptIds": [
+        "p4-sign"
+      ],
+      "note": {
+        "en": "Source attribution requires trust in the public-key identity binding and protection of the private key. A signature alone does not keep the message confidential.",
+        "zh": "确认来源需要信任公钥与身份的绑定，并保护私钥；单独的签名不提供消息机密性。"
+      }
+    },
+    {
+      "id": "p4-q30",
+      "number": 30,
+      "page": 10,
+      "prompt": {
+        "en": "When a message and a digital signature (signed hash) are received, a new hash is created from the received message and compared to the original hash in the digital signature. The message has not been altered when the hash values are:",
+        "zh": "收到消息和数字签名（已签名的哈希）后，接收者对消息重新计算哈希，并与签名中的原始哈希比较；什么情况下表明消息未被修改？"
+      },
+      "options": [
+        {
+          "en": "Not equal",
+          "zh": "哈希值不相等"
+        },
+        {
+          "en": "Equal",
+          "zh": "哈希值相等"
+        },
+        {
+          "en": "It doesn’t matter",
+          "zh": "无关紧要"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In the simplified signed-digest model, the verifier computes a fresh digest and compares it with the authenticated digest; matching values support integrity verification.",
+        "zh": "在简化的已签名摘要模型中，验证者重新计算摘要，并与经过认证的摘要比较；匹配支持完整性验证。"
+      },
+      "conceptIds": [
+        "p4-sign"
+      ],
+      "note": {
+        "en": "Equality of bare hashes alone is not proof of origin or an absolute guarantee against collisions. This question assumes the digest is authenticated by a valid signature and a suitable hash.",
+        "zh": "仅有裸哈希相等不能证明来源，也不是绝对无碰撞保证。本题假设摘要受有效签名认证，并使用合适的哈希。"
+      }
+    },
+    {
+      "id": "p4-q31",
+      "number": 31,
+      "page": 10,
+      "prompt": {
+        "en": "Digital signatures are created using a public key crypto system. Which key does a sender use when they wish to digitally sign a hash before it is sent?",
+        "zh": "数字签名使用公钥密码系统创建，发送者对哈希进行数字签名时使用哪把密钥？"
+      },
+      "options": [
+        {
+          "en": "Senders public key",
+          "zh": "发送者的公钥"
+        },
+        {
+          "en": "Senders private key",
+          "zh": "发送者的私钥"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "The sender signs with the sender’s private key. The corresponding public key is used for verification, not for generating that sender’s signature.",
+        "zh": "发送者使用自己的私钥签名；对应公钥用于验证，而不是生成该发送者的签名。"
+      },
+      "conceptIds": [
+        "p4-sign"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q32",
+      "number": 32,
+      "page": 10,
+      "prompt": {
+        "en": "The purpose of a digital certificate is to -------",
+        "zh": "数字证书的用途是 ________。"
+      },
+      "options": [
+        {
+          "en": "Authenticate the public key",
+          "zh": "认证公钥"
+        },
+        {
+          "en": "Authenticate the private key",
+          "zh": "认证私钥"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "The certificate authenticates the binding between an identity and a public key. It does not reveal or certify possession by exposing a private key.",
+        "zh": "证书认证的是身份与公钥之间的绑定关系；它不通过公开私钥来证明身份或持有关系。"
+      },
+      "conceptIds": [
+        "p4-cert"
+      ],
+      "note": null
+    },
+    {
+      "id": "p4-q33",
+      "number": 33,
+      "page": 11,
+      "prompt": {
+        "en": "A special mathematical function that performs one-way encryption is called",
+        "zh": "执行“单向加密”的特殊数学函数称为："
+      },
+      "options": [
+        {
+          "en": "Asymmetric encryption",
+          "zh": "非对称加密"
+        },
+        {
+          "en": "Transposition cipher",
+          "zh": "置换密码"
+        },
+        {
+          "en": "Hashing",
+          "zh": "哈希"
+        },
+        {
+          "en": "Multiple encryption",
+          "zh": "多重加密"
+        }
+      ],
+      "answer": 2,
+      "explanation": {
+        "en": "The PDF calls hashing one-way encryption, and marks Hashing. The concept to learn is a one-way digest function, not reversible encryption.",
+        "zh": "PDF 将哈希称为单向加密并标注 Hashing；应掌握的概念是单向摘要函数，而不是可逆加密。"
+      },
+      "conceptIds": [
+        "p4-hash"
+      ],
+      "note": {
+        "en": "Hashing is not encryption: a hash maps data to a fixed-size digest and has no decryption operation that restores the original message.",
+        "zh": "哈希不是加密：它将数据映射到固定长度摘要，不存在恢复原消息的解密操作。"
+      }
+    },
+    {
+      "id": "p4-q34",
+      "number": 34,
+      "page": 11,
+      "prompt": {
+        "en": "Hybrid system uses public key cryptography for",
+        "zh": "混合系统使用公钥密码来完成："
+      },
+      "options": [
+        {
+          "en": "Encryption",
+          "zh": "加密"
+        },
+        {
+          "en": "Key exchange",
+          "zh": "密钥交换"
+        },
+        {
+          "en": "Both a and b",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 1,
+      "explanation": {
+        "en": "In the course’s hybrid model, public-key cryptography establishes or transports a shared session key; symmetric cryptography then protects the actual session data.",
+        "zh": "在课程的混合模型中，公钥密码用于建立或传输共享会话密钥，之后使用对称密码保护实际会话数据。"
+      },
+      "conceptIds": [
+        "p4-hybrid"
+      ],
+      "note": {
+        "en": "“Key exchange” is used broadly here. Depending on the protocol, public-key mechanisms may transport a key, agree on one, or authenticate the exchange.",
+        "zh": "本题广义使用“密钥交换”；具体协议可利用公钥机制传输密钥、协商密钥或认证交换过程。"
+      }
+    },
+    {
+      "id": "p4-q35",
+      "number": 35,
+      "page": 11,
+      "prompt": {
+        "en": "In hybrid system ------- crypto system is used to encrypt the session data",
+        "zh": "混合系统使用 ________ 密码系统加密会话数据。"
+      },
+      "options": [
+        {
+          "en": "Symmetric",
+          "zh": "对称"
+        },
+        {
+          "en": "Asymmetric",
+          "zh": "非对称"
+        },
+        {
+          "en": "Both a and B",
+          "zh": "A 和 B 都正确"
+        },
+        {
+          "en": "None of the above",
+          "zh": "以上都不是"
+        }
+      ],
+      "answer": 0,
+      "explanation": {
+        "en": "Symmetric encryption efficiently protects bulk session data after a shared session key has been established. Public-key operations handle key establishment and related authentication.",
+        "zh": "建立共享会话密钥后，对称加密高效保护大量会话数据；公钥操作负责密钥建立及相关认证。"
+      },
+      "conceptIds": [
+        "p4-hybrid"
+      ],
+      "note": null
+    }
+  ]
+}

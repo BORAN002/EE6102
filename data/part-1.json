@@ -28,6 +28,83 @@
         1,
         2,
         4
+      ],
+      "lesson": [
+        {
+          "en": "Cybersecurity protects the information and systems that an organization depends on. A useful starting question is: what harm would follow if information were exposed, changed, or unavailable?",
+          "zh": "网络安全保护组织所依赖的信息与系统。理解它时，可以先问：如果信息被泄露、被修改或无法使用，会造成什么损害？"
+        },
+        {
+          "en": "Protection needs people, rules, and technology working together. A password system is a technical measure; a rule about who may receive an account and a process for removing former employees are managerial measures.",
+          "zh": "防护需要人员、规则和技术共同发挥作用。密码系统是技术措施；谁可以获得账号的规则，以及离职后注销账号的流程，则属于管理措施。"
+        },
+        {
+          "en": "A security breach describes a failure of protection, not necessarily malicious intent by the person who notices it. A misconfigured website exposing confidential files can therefore be a breach even if a visitor discovers it accidentally.",
+          "zh": "安全失守描述防护失败，并不一定意味着发现问题的人具有恶意。因此，网站配置错误导致机密文件暴露，即使由访客偶然发现，也可能构成安全失守。"
+        }
+      ],
+      "example": {
+        "en": "A school encrypts student records, gives access only to authorized staff, and trains staff not to share accounts. These measures protect the same information from different directions.",
+        "zh": "学校加密学生档案，只允许获授权的员工访问，并培训员工不要共享账号。这些措施从不同方面保护同一批信息。"
+      },
+      "pitfall": {
+        "en": "In Q1, answers containing only technology or only policy are incomplete. In Q4, an innocent visitor does not make the exposure of sensitive files harmless.",
+        "zh": "Q1 中，只强调技术或只强调政策的选项都不完整。Q4 中，访客没有恶意，并不能使敏感文件暴露变成没有安全问题。"
+      },
+      "statements": [
+        {
+          "en": "Cybersecurity combines technologies, policies, standards, and management practices.",
+          "zh": "网络安全结合技术、政策、标准和管理措施。",
+          "audio": "audio/en/374013d45df92bbadb0b.m4a"
+        },
+        {
+          "en": "Organizations need cybersecurity because they depend on information systems.",
+          "zh": "组织需要网络安全，因为它们依赖信息系统。",
+          "audio": "audio/en/af1d2607ffb617a39bea.m4a"
+        },
+        {
+          "en": "Accidental exposure of sensitive information can still be a security breach.",
+          "zh": "敏感信息的意外暴露仍可能构成安全失守。",
+          "audio": "audio/en/c04777aa74fb415c2781.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "cybersecurity",
+          "zh": "网络安全",
+          "definition": {
+            "en": "The protection of digital information and systems against security threats.",
+            "zh": "保护数字信息与系统免受安全威胁。"
+          },
+          "audio": "audio/en/446fe0628ae4b3c9b819.m4a"
+        },
+        {
+          "term": "breach",
+          "zh": "安全失守；安全事件",
+          "definition": {
+            "en": "A failure of security that exposes information or allows an unauthorized action.",
+            "zh": "导致信息暴露或未经授权操作的防护失败。"
+          },
+          "audio": "audio/en/cb6192865f3e51b93947.m4a"
+        },
+        {
+          "term": "sensitive information",
+          "zh": "敏感信息",
+          "definition": {
+            "en": "Information requiring protection because exposure could cause harm.",
+            "zh": "因暴露可能造成损害而需要保护的信息。"
+          },
+          "audio": "audio/en/5b7b25dc4c082da6f8ba.m4a"
+        },
+        {
+          "term": "management practice",
+          "zh": "管理措施",
+          "definition": {
+            "en": "An organizational action used to direct and sustain security work.",
+            "zh": "用于指导并持续推进安全工作的组织管理行为。"
+          },
+          "audio": "audio/en/68fa8462f382160583c8.m4a"
+        }
       ]
     },
     {
@@ -48,6 +125,92 @@
         3,
         5,
         16
+      ],
+      "lesson": [
+        {
+          "en": "Confidentiality, integrity, and availability answer three different questions: who may read the information, whether it has been changed improperly, and whether authorized users can obtain it when needed.",
+          "zh": "机密性、完整性和可用性分别回答三个问题：谁可以读取信息，信息是否被不当修改，以及合法用户能否在需要时获取信息。"
+        },
+        {
+          "en": "Classify an incident by its effect. Reading a private record without permission harms confidentiality; changing the record harms integrity; blocking access to it harms availability. One incident can affect more than one property.",
+          "zh": "根据事件造成的影响进行分类。未经许可读取私人档案损害机密性；修改档案损害完整性；阻断访问损害可用性。一次事件可能影响多个属性。"
+        },
+        {
+          "en": "Authenticity adds a question about genuineness: is the claimed identity or source real? A message may remain unchanged during transmission but still originate from an impostor.",
+          "zh": "真实性进一步关注真伪：所声称的身份或来源是真的吗？一条消息在传输中即使没有被修改，也仍可能来自冒用者。"
+        }
+      ],
+      "example": {
+        "en": "Someone views your grades without permission: confidentiality. Someone changes your grades: integrity. The portal is overwhelmed and you cannot log in: availability. A fake lecturer sends a message: authenticity.",
+        "zh": "有人擅自查看你的成绩：机密性；有人修改成绩：完整性；门户被大量请求压垮而无法登录：可用性；假冒教师发送消息：真实性。"
+      },
+      "pitfall": {
+        "en": "The A in CIA means availability, not access or authenticity. Denial of service mainly targets availability, even if no information is stolen.",
+        "zh": "CIA 中的 A 是 Availability（可用性），不是 Access（访问）或 Authenticity（真实性）。拒绝服务主要攻击可用性，即使没有信息被窃取。"
+      },
+      "statements": [
+        {
+          "en": "The CIA triad consists of confidentiality, integrity, and availability.",
+          "zh": "CIA 三要素由机密性、完整性和可用性组成。",
+          "audio": "audio/en/41a6fc9dcff8e97cd8ac.m4a"
+        },
+        {
+          "en": "Denial of service attacks threaten availability.",
+          "zh": "拒绝服务攻击威胁可用性。",
+          "audio": "audio/en/402b760d04625d4830fb.m4a"
+        },
+        {
+          "en": "Authenticity concerns whether an identity or information source is genuine.",
+          "zh": "真实性关注身份或信息来源是否真实。",
+          "audio": "audio/en/50537065a42d31ad4cc6.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "confidentiality",
+          "zh": "机密性",
+          "definition": {
+            "en": "Protection against disclosure to unauthorized people.",
+            "zh": "防止信息向未经授权的人披露。"
+          },
+          "audio": "audio/en/61c564e42127ec94e89c.m4a"
+        },
+        {
+          "term": "integrity",
+          "zh": "完整性",
+          "definition": {
+            "en": "Protection against unauthorized or improper changes to information.",
+            "zh": "防止信息遭到未经授权或不当的修改。"
+          },
+          "audio": "audio/en/95cc58aa84369f8eade0.m4a"
+        },
+        {
+          "term": "availability",
+          "zh": "可用性",
+          "definition": {
+            "en": "Timely access to information and services for authorized users.",
+            "zh": "确保合法用户及时获取信息与服务。"
+          },
+          "audio": "audio/en/63010a65198e3d7dbfcc.m4a"
+        },
+        {
+          "term": "authenticity",
+          "zh": "真实性",
+          "definition": {
+            "en": "Confidence that an identity or source is genuine.",
+            "zh": "确认身份或来源真实可靠的属性。"
+          },
+          "audio": "audio/en/6dc423cf6c7b77df8374.m4a"
+        },
+        {
+          "term": "denial of service",
+          "zh": "拒绝服务",
+          "definition": {
+            "en": "An attack that disrupts or degrades access to a service.",
+            "zh": "使服务访问中断或能力下降的攻击。"
+          },
+          "audio": "audio/en/095147c2f7ca2dbd06e5.m4a"
+        }
       ]
     },
     {
@@ -69,6 +232,83 @@
         7,
         8,
         9
+      ],
+      "lesson": [
+        {
+          "en": "Planning decides what needs protection, which risks matter, and what actions should be taken. It gives later work a direction rather than leaving staff to improvise during an incident.",
+          "zh": "规划决定保护什么、哪些风险重要，以及应采取什么行动。它为后续工作提供方向，避免员工在事件发生时临时猜测该怎么做。"
+        },
+        {
+          "en": "Protection turns the plan into everyday controls and operations, such as managing accounts and applying safeguards. Response deals with incidents; the quiz summarizes it as recovery according to plan.",
+          "zh": "防护把计划落实为日常控制与运行，例如管理账号和实施保护措施。响应处理已经发生的事件；题库将其概括为按照计划恢复。"
+        },
+        {
+          "en": "The stages form a cycle because lessons from an incident can improve the next plan. The quiz marks protection as the most time-consuming stage, reflecting ongoing operation rather than a one-off setup.",
+          "zh": "这些阶段形成循环，因为事件中的经验可以改善下一轮计划。题库将防护标为最耗时阶段，强调它是持续运行，而不是一次性配置。"
+        }
+      ],
+      "example": {
+        "en": "Before a server failure, a company plans backups. During normal operation, it maintains those backups. After an incident, it restores service using the prepared recovery plan.",
+        "zh": "服务器故障前，公司规划备份方案；平时持续维护备份；事件发生后，按照预先制定的恢复计划恢复服务。"
+      },
+      "pitfall": {
+        "en": "For this quiz, response is described as recovery according to plan, and protection is the longest stage. These are course summaries; actual incident response includes more activities, and timing varies by organization.",
+        "zh": "本题库把响应描述为按计划恢复，并认为防护耗时最长。这些是课程概括；实际事件响应包含更多活动，各组织的耗时分配也不同。"
+      },
+      "statements": [
+        {
+          "en": "The security cycle contains planning, protection, and response.",
+          "zh": "安全循环包括规划、防护和响应。",
+          "audio": "audio/en/8b8b440655a211728e7a.m4a"
+        },
+        {
+          "en": "Protection implements the controls and operations defined by the security plan.",
+          "zh": "防护实施安全计划所规定的控制措施与运行活动。",
+          "audio": "audio/en/8675e9a571f0df49751f.m4a"
+        },
+        {
+          "en": "The sample quiz defines response as recovery according to plan.",
+          "zh": "样题将响应定义为按照计划恢复。",
+          "audio": "audio/en/99b078b197c82b733e07.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "planning",
+          "zh": "规划",
+          "definition": {
+            "en": "Deciding security objectives and the actions needed to achieve them.",
+            "zh": "决定安全目标及实现目标所需行动。"
+          },
+          "audio": "audio/en/66a70ca253e64408ff63.m4a"
+        },
+        {
+          "term": "protection",
+          "zh": "防护",
+          "definition": {
+            "en": "Applying and operating measures that reduce security threats.",
+            "zh": "实施并运行降低安全威胁的措施。"
+          },
+          "audio": "audio/en/cb3803ef74f0f7509036.m4a"
+        },
+        {
+          "term": "response",
+          "zh": "响应",
+          "definition": {
+            "en": "Actions taken to handle a security incident and support recovery.",
+            "zh": "处理安全事件并支持恢复的行动。"
+          },
+          "audio": "audio/en/2a305b7d9006adfa234b.m4a"
+        },
+        {
+          "term": "recovery",
+          "zh": "恢复",
+          "definition": {
+            "en": "Returning affected systems or services to an acceptable operating state.",
+            "zh": "使受影响的系统或服务恢复到可接受的运行状态。"
+          },
+          "audio": "audio/en/eccf1e123897879e7943.m4a"
+        }
       ]
     },
     {
@@ -90,6 +330,83 @@
         11,
         12,
         19
+      ],
+      "lesson": [
+        {
+          "en": "Separate motivation, method, and impact. Motivation is why an attacker acts, method is how the attack is carried out, and impact is the harm that follows.",
+          "zh": "把动机、手段和后果分开理解。动机是攻击者为什么行动，手段是攻击怎样实施，后果是最终造成什么损害。"
+        },
+        {
+          "en": "Money, attention, espionage, and the desire to demonstrate skill are possible motives. The same motive can lead to different methods, so knowing the motive alone does not fully describe a threat.",
+          "zh": "金钱、关注、情报和展示技术能力都可能成为动机。同一个动机可以对应不同手段，因此仅知道动机，还不能完整描述威胁。"
+        },
+        {
+          "en": "Automation lets an attacker repeat attempts, speed reduces the time per attempt, and remote reach removes the need to be physically near the target. Understanding these capabilities helps explain why online attacks can affect many targets.",
+          "zh": "自动化让攻击者重复尝试，高速度减少每次尝试的时间，远程能力使其无需靠近目标。理解这些能力，就能理解网络攻击为什么可以影响大量目标。"
+        }
+      ],
+      "example": {
+        "en": "An attacker wants money, tricks an employee with a fake payment email, and causes a fraudulent transfer. Money is the motive, the deceptive email is the method, and the financial loss is the impact.",
+        "zh": "攻击者为了获利，用假冒付款邮件欺骗员工，导致欺诈性转账。金钱是动机，欺骗邮件是手段，资金损失是后果。"
+      },
+      "pitfall": {
+        "en": "Do not confuse a motive such as profit with a technique such as phishing. Q12 mixes motives and categories, so its marked answer should not be memorized as a strict classification.",
+        "zh": "不要把获利这样的动机与钓鱼这样的技术手段混淆。Q12 混合了动机和类别，因此不要将其标注答案背成严格分类。"
+      },
+      "statements": [
+        {
+          "en": "A threat landscape describes relevant attackers, capabilities, and attack methods.",
+          "zh": "威胁态势描述相关攻击者、能力和攻击手段。",
+          "audio": "audio/en/ad29d3b702a2ace63f22.m4a"
+        },
+        {
+          "en": "Attack motivation explains why an attacker acts.",
+          "zh": "攻击动机解释攻击者为什么行动。",
+          "audio": "audio/en/e42e238f2ffddb5e04a7.m4a"
+        },
+        {
+          "en": "Automation, speed, and remote reach can increase the scale of online attacks.",
+          "zh": "自动化、高速度和远程能力可以扩大网络攻击的规模。",
+          "audio": "audio/en/01e551fc24a04c17a5ce.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "threat landscape",
+          "zh": "威胁态势",
+          "definition": {
+            "en": "The overall picture of threats relevant to a system or organization.",
+            "zh": "与系统或组织有关的安全威胁整体状况。"
+          },
+          "audio": "audio/en/ed90204a5cbcf1dc76e9.m4a"
+        },
+        {
+          "term": "motivation",
+          "zh": "动机",
+          "definition": {
+            "en": "The reason or goal behind an action.",
+            "zh": "某个行为背后的原因或目标。"
+          },
+          "audio": "audio/en/9bc596fd2491056ae2bb.m4a"
+        },
+        {
+          "term": "espionage",
+          "zh": "间谍活动；情报窃取",
+          "definition": {
+            "en": "Secretly obtaining information for an adversary.",
+            "zh": "秘密获取信息并提供给对手。"
+          },
+          "audio": "audio/en/b9efbc667ebcfcdd3dc6.m4a"
+        },
+        {
+          "term": "automation",
+          "zh": "自动化",
+          "definition": {
+            "en": "Using systems to perform repeated actions with limited manual effort.",
+            "zh": "利用系统重复执行行动，减少人工操作。"
+          },
+          "audio": "audio/en/2c8a34b0c4fca56f2d7d.m4a"
+        }
       ]
     },
     {
@@ -109,6 +426,83 @@
       "questionIds": [
         13,
         21
+      ],
+      "lesson": [
+        {
+          "en": "Impersonation makes an action or message appear to come from someone else. The attacker benefits because a victim may trust the familiar identity rather than verify the real source.",
+          "zh": "身份冒充使行为或消息看起来来自另一个人。受害者可能相信熟悉的身份，而没有核验真实来源，攻击者便可从中获利。"
+        },
+        {
+          "en": "Authorization describes permission to use a resource or perform an action. Having some access does not mean having every permission: an account may be allowed to read a file but not alter it.",
+          "zh": "授权描述使用资源或执行操作的许可。拥有部分访问权不代表拥有全部权限：一个账号可能允许读取文件，却不允许修改文件。"
+        },
+        {
+          "en": "The quiz uses hacking to describe intentional access without authorization or beyond the permission granted. Its focus is the boundary of permission, rather than whether the person already has a login.",
+          "zh": "题库用 hacking 描述故意进行未经授权或超出授权范围的访问。其重点是权限边界，而不是这个人是否已经拥有登录账号。"
+        }
+      ],
+      "example": {
+        "en": "A student can view their own grades but uses an account to open another student’s private record. Logging in successfully does not authorize that extra access.",
+        "zh": "学生可以查看自己的成绩，却使用账号打开其他学生的私人档案。成功登录并不意味着获准进行这项额外访问。"
+      },
+      "pitfall": {
+        "en": "Q13 marks masquerading, but spoofing can also involve falsifying identity or origin. Treat the quiz’s chosen term as its reference answer rather than assuming the two words never overlap.",
+        "zh": "Q13 标注 Masquerading，但 Spoofing 也可涉及伪造身份或来源。应将其理解为本题参考用词，而不是认为两个词的含义绝不重叠。"
+      },
+      "statements": [
+        {
+          "en": "Masquerading makes information appear to come from an identity that is not its true source.",
+          "zh": "身份冒充使信息看起来来自并非其真实来源的身份。",
+          "audio": "audio/en/463e13ebcd430624664e.m4a"
+        },
+        {
+          "en": "Authorization determines which resources and actions an identity may access.",
+          "zh": "授权决定某个身份可以访问哪些资源及执行哪些操作。",
+          "audio": "audio/en/35e1c6b7598046acbcb0.m4a"
+        },
+        {
+          "en": "Access beyond granted permission is unauthorized access.",
+          "zh": "超出已授予权限范围的访问属于未经授权的访问。",
+          "audio": "audio/en/184b332296df5205ccac.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "masquerading",
+          "zh": "身份冒充",
+          "definition": {
+            "en": "Pretending to be another identity in a security context.",
+            "zh": "在安全语境中假装成另一身份。"
+          },
+          "audio": "audio/en/5dcf6addb2fa4501a2ad.m4a"
+        },
+        {
+          "term": "spoofing",
+          "zh": "伪造；欺骗",
+          "definition": {
+            "en": "Falsifying a claimed identity, source, or address.",
+            "zh": "伪造所声称的身份、来源或地址。"
+          },
+          "audio": "audio/en/a12ae30503927ffbd2c6.m4a"
+        },
+        {
+          "term": "authorization",
+          "zh": "授权",
+          "definition": {
+            "en": "Permission to access a resource or perform an action.",
+            "zh": "访问某项资源或执行某个操作的许可。"
+          },
+          "audio": "audio/en/fd983b7946e1ecde56a9.m4a"
+        },
+        {
+          "term": "exceed",
+          "zh": "超出",
+          "definition": {
+            "en": "Go beyond a limit, such as the permissions granted to an account.",
+            "zh": "超过某个限制，例如超出账号被授予的权限。"
+          },
+          "audio": "audio/en/d5497f2f1bc10e5325a0.m4a"
+        }
       ]
     },
     {
@@ -130,6 +524,92 @@
         15,
         18,
         22
+      ],
+      "lesson": [
+        {
+          "en": "Malware is the broad category of software designed to perform harmful or unauthorized actions. Virus, worm, Trojan, logic bomb, and spyware describe different characteristics within that broad category.",
+          "zh": "恶意软件是为执行有害或未经授权行为而设计的软件总称。病毒、蠕虫、木马、逻辑炸弹和间谍软件描述这一大类中的不同特征。"
+        },
+        {
+          "en": "A virus attaches to a host program or file, while a worm is a standalone program capable of propagating itself. A Trojan is defined by its disguise as legitimate software, rather than by a particular method of self-replication.",
+          "zh": "病毒依附宿主程序或文件；蠕虫是能自行传播的独立程序。木马的定义重点在于伪装成合法软件，而不是某种特定的自我复制方式。"
+        },
+        {
+          "en": "A logic bomb waits for a predefined condition before activating its harmful behavior. Spyware is defined by collecting information without appropriate authorization; these labels can overlap in one malicious program.",
+          "zh": "逻辑炸弹等待预设条件满足后才启动有害行为。间谍软件的特征是未经适当授权收集信息；同一个恶意程序可能同时符合多个标签。"
+        }
+      ],
+      "example": {
+        "en": "A program advertised as a useful tool secretly records browsing activity. Its legitimate-looking disguise makes it a Trojan, while its information collection is spyware behavior.",
+        "zh": "一个被宣传为实用工具的程序偷偷记录浏览行为。伪装成正常工具是木马特征，收集信息则是间谍软件行为。"
+      },
+      "pitfall": {
+        "en": "Do not call every malware program a virus. Q22 describes spyware as Trojan programs, but information collection is the defining behavior and not all spyware must be a Trojan.",
+        "zh": "不要把所有恶意软件都叫作病毒。Q22 将间谍软件描述为木马程序，但其定义核心是信息收集，并非所有间谍软件都必须是木马。"
+      },
+      "statements": [
+        {
+          "en": "A virus requires a host, while a worm is a standalone program.",
+          "zh": "病毒需要宿主，而蠕虫是独立程序。",
+          "audio": "audio/en/c0f6ef4176532b0bbc51.m4a"
+        },
+        {
+          "en": "A logic bomb activates when a predefined condition is met.",
+          "zh": "逻辑炸弹在预设条件满足时被激活。",
+          "audio": "audio/en/bbc82091249de547198d.m4a"
+        },
+        {
+          "en": "Spyware collects information without appropriate authorization.",
+          "zh": "间谍软件在未经适当授权的情况下收集信息。",
+          "audio": "audio/en/db856457494ac877edf6.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "malware",
+          "zh": "恶意软件",
+          "definition": {
+            "en": "The general category of software intended to cause harm or unauthorized effects.",
+            "zh": "旨在造成损害或未经授权影响的软件总称。"
+          },
+          "audio": "audio/en/852652c1f7a6592e7d20.m4a"
+        },
+        {
+          "term": "host program",
+          "zh": "宿主程序",
+          "definition": {
+            "en": "A program to which a virus attaches.",
+            "zh": "病毒依附的程序。"
+          },
+          "audio": "audio/en/45e708bd6c3c7e86a9c8.m4a"
+        },
+        {
+          "term": "worm",
+          "zh": "蠕虫",
+          "definition": {
+            "en": "A standalone malicious program capable of spreading itself.",
+            "zh": "能够自行传播的独立恶意程序。"
+          },
+          "audio": "audio/en/81f4cdbc3502c4a27dc8.m4a"
+        },
+        {
+          "term": "logic bomb",
+          "zh": "逻辑炸弹",
+          "definition": {
+            "en": "Malicious code activated by a predefined condition.",
+            "zh": "在预设条件满足时激活的恶意代码。"
+          },
+          "audio": "audio/en/51928ee05dec82c852fd.m4a"
+        },
+        {
+          "term": "spyware",
+          "zh": "间谍软件",
+          "definition": {
+            "en": "Software that gathers information without appropriate authorization.",
+            "zh": "未经适当授权收集信息的软件。"
+          },
+          "audio": "audio/en/f87c28e5c61565ff05e8.m4a"
+        }
       ]
     },
     {
@@ -149,6 +629,83 @@
       "questionIds": [
         17,
         20
+      ],
+      "lesson": [
+        {
+          "en": "Delivery is how malicious software reaches a device, and propagation is how it spreads further. Email attachments, removable drives, shared files, and infected downloads are possible channels.",
+          "zh": "投递描述恶意软件如何到达设备，传播描述它如何进一步扩散。邮件附件、移动存储、共享文件和受感染的下载内容都可能成为渠道。"
+        },
+        {
+          "en": "The payload is the part that carries out the intended harmful task after the malware is present. Its action might steal information, damage files, or interfere with service, while a different component handles spreading.",
+          "zh": "载荷是恶意软件进入系统后执行预定有害任务的部分。它可能窃取信息、破坏文件或干扰服务，而另一个组成部分负责传播。"
+        },
+        {
+          "en": "Ask two separate questions when reading a scenario: how did it get here, and what did it do? The first identifies the delivery channel; the second identifies the payload’s effect.",
+          "zh": "阅读情境题时，分开问两个问题：它怎样到达这里，以及它做了什么？第一个问题识别投递渠道，第二个问题识别载荷的影响。"
+        }
+      ],
+      "example": {
+        "en": "An infected attachment arrives by email and then deletes local files when opened. The email attachment is the delivery channel; the file-deletion code is the harmful payload.",
+        "zh": "一个受感染的附件通过邮件到达，打开后删除本地文件。邮件附件是投递渠道，删除文件的代码是有害载荷。"
+      },
+      "pitfall": {
+        "en": "A payload is not the file size or the number of infected computers. Q17 lists possible infection channels; its claim about the most common channel should be read as course wording, not a current statistic.",
+        "zh": "载荷不是文件大小，也不是受感染计算机的数量。Q17 列举可能的感染渠道；其中关于最常见渠道的说法应按课程措辞理解，而非当前统计数据。"
+      },
+      "statements": [
+        {
+          "en": "Delivery describes how malware reaches a target device.",
+          "zh": "投递描述恶意软件如何到达目标设备。",
+          "audio": "audio/en/955d2bbb8b3ab91193d0.m4a"
+        },
+        {
+          "en": "Propagation describes how malware spreads between targets.",
+          "zh": "传播描述恶意软件如何在目标之间扩散。",
+          "audio": "audio/en/8dff21eee9fc7e72593e.m4a"
+        },
+        {
+          "en": "A malicious payload performs the harmful action of the malware.",
+          "zh": "恶意载荷执行恶意软件的有害行为。",
+          "audio": "audio/en/aadd54a4e0cdcef3fb3f.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "payload",
+          "zh": "载荷",
+          "definition": {
+            "en": "The component that performs a malicious program’s intended harmful task.",
+            "zh": "执行恶意程序预定有害任务的组成部分。"
+          },
+          "audio": "audio/en/2db822ee17f016de0c17.m4a"
+        },
+        {
+          "term": "propagation",
+          "zh": "传播；扩散",
+          "definition": {
+            "en": "The process by which malware spreads to additional targets.",
+            "zh": "恶意软件扩散到其他目标的过程。"
+          },
+          "audio": "audio/en/620c957b1128acf373f6.m4a"
+        },
+        {
+          "term": "attachment",
+          "zh": "附件",
+          "definition": {
+            "en": "A file included with an email message.",
+            "zh": "随电子邮件附带的文件。"
+          },
+          "audio": "audio/en/8b2cc44be266e9da4a9b.m4a"
+        },
+        {
+          "term": "removable drive",
+          "zh": "移动存储设备",
+          "definition": {
+            "en": "Storage that can be connected to and removed from a computer.",
+            "zh": "可以连接到计算机并从中移除的存储设备。"
+          },
+          "audio": "audio/en/a80abc58a884829f6563.m4a"
+        }
       ]
     },
     {
@@ -167,6 +724,83 @@
       },
       "questionIds": [
         23
+      ],
+      "lesson": [
+        {
+          "en": "A cookie is data stored by a browser for a website and sent with relevant later requests. It can help the site remember a session or a preference instead of treating every visit as completely new.",
+          "zh": "Cookie 是浏览器为网站保存、并在相关后续请求中发送的数据。它能帮助网站记住会话或偏好，而不是把每次访问都当作全新的访问。"
+        },
+        {
+          "en": "Privacy concerns arise when identifiers help link activities and build a profile of a person. The concern is what information can be connected and used, not that the cookie itself runs a malicious program.",
+          "zh": "当标识符帮助关联活动并建立个人画像时，就会产生隐私问题。问题在于哪些信息可以被关联和使用，而不是 Cookie 本身会运行恶意程序。"
+        },
+        {
+          "en": "Different cookies have different purposes, so the word cookie alone does not tell you whether a use is appropriate. Keeping a user logged in and tracking activity are different uses of stored data.",
+          "zh": "不同 Cookie 有不同用途，因此仅凭 Cookie 这个词无法判断其使用是否适当。维持用户登录和跟踪活动，是存储数据的不同用途。"
+        }
+      ],
+      "example": {
+        "en": "A shopping site remembers your basket using stored session data. An advertising identifier that links repeated visits illustrates how similar stored data can also be used for tracking.",
+        "zh": "购物网站利用保存的会话数据记住购物篮。广告标识符关联多次访问，则展示了类似的存储数据如何也可被用于跟踪。"
+      },
+      "pitfall": {
+        "en": "Q23 uses the phrase “could become spyware.” Preserve that wording as the source answer, but understand that cookies are data rather than executable spyware.",
+        "zh": "Q23 使用了“可能成为间谍软件”的说法。可以记住这是原题答案的措辞，但应理解 Cookie 是数据，不是可执行的间谍程序。"
+      },
+      "statements": [
+        {
+          "en": "Cookies are stored data, not executable programs.",
+          "zh": "Cookie 是存储的数据，不是可执行程序。",
+          "audio": "audio/en/0b7e6bb9310302c1cfaf.m4a"
+        },
+        {
+          "en": "Cookies can support sessions, preferences, and tracking.",
+          "zh": "Cookie 可以支持会话、偏好设置和跟踪。",
+          "audio": "audio/en/0cfe39419cd0bf4188fb.m4a"
+        },
+        {
+          "en": "Tracking can threaten privacy even when no malware is installed.",
+          "zh": "即使没有安装恶意软件，跟踪也可能威胁隐私。",
+          "audio": "audio/en/9ff44baf61f2af55275c.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "cookie",
+          "zh": "浏览器存储的小段数据",
+          "definition": {
+            "en": "Data used by a website through the browser to retain state.",
+            "zh": "网站通过浏览器使用的、帮助保留状态的数据。"
+          },
+          "audio": "audio/en/2868403029550e78cd29.m4a"
+        },
+        {
+          "term": "privacy",
+          "zh": "隐私",
+          "definition": {
+            "en": "Protection of personal information and limits on how it is collected or used.",
+            "zh": "对个人信息的保护，以及对收集和使用方式的限制。"
+          },
+          "audio": "audio/en/8d0d52abe9db72200cdf.m4a"
+        },
+        {
+          "term": "tracking",
+          "zh": "跟踪",
+          "definition": {
+            "en": "Linking activity across visits or interactions.",
+            "zh": "关联多次访问或交互中的活动。"
+          },
+          "audio": "audio/en/5afc3b3a8a1df51908de.m4a"
+        },
+        {
+          "term": "session",
+          "zh": "会话",
+          "definition": {
+            "en": "A period or sequence of related interactions with a service.",
+            "zh": "与服务进行的一段或一系列相关交互。"
+          },
+          "audio": "audio/en/0291e06e270ff39d043c.m4a"
+        }
       ]
     },
     {
@@ -188,6 +822,83 @@
         25,
         26,
         27
+      ],
+      "lesson": [
+        {
+          "en": "Social engineering targets human judgment. An attacker may create trust, urgency, or fear so that a person shares information or performs an action that defeats a security rule.",
+          "zh": "社会工程针对人的判断。攻击者可能制造信任、紧迫感或恐惧，诱使人分享信息或执行突破安全规则的操作。"
+        },
+        {
+          "en": "Phishing is a deceptive message or interaction that impersonates a trusted source. The quiz emphasizes fake bank or business emails, but the central idea is the false identity and the requested action.",
+          "zh": "钓鱼是冒充可信来源的欺骗性消息或交互。题库重点举出假冒银行或企业的邮件，但核心在于伪造身份以及诱导受害者执行操作。"
+        },
+        {
+          "en": "Spam describes unsolicited messages; the quiz specifically defines it as unsolicited commercial email. A message can be both spam and phishing, but unsolicited advertising is not automatically an attempt to steal credentials.",
+          "zh": "垃圾邮件描述未经请求的消息；题库特指未经请求的商业邮件。一条消息可以同时属于垃圾邮件和钓鱼，但未经请求的广告并不自动等于窃取凭据的攻击。"
+        }
+      ],
+      "example": {
+        "en": "A caller pretends to be an IT colleague and asks an employee to send a confidential file. This is social engineering even if no malicious software or technical exploit is used.",
+        "zh": "来电者假装是 IT 同事，要求员工发送机密文件。即使没有使用恶意软件或技术漏洞，这仍属于社会工程。"
+      },
+      "pitfall": {
+        "en": "Social engineering does not require breaking encryption or guessing a password. In Q27, tricking someone into sending a file or granting access is enough.",
+        "zh": "社会工程不要求破解加密或猜中密码。Q27 中，欺骗他人发送文件或授予访问权，就已经符合这种攻击方式。"
+      },
+      "statements": [
+        {
+          "en": "Social engineering exploits human judgment to defeat security measures.",
+          "zh": "社会工程利用人的判断弱点突破安全措施。",
+          "audio": "audio/en/d14b064200cfea768200.m4a"
+        },
+        {
+          "en": "Phishing impersonates a trusted source to deceive a victim.",
+          "zh": "钓鱼通过冒充可信来源欺骗受害者。",
+          "audio": "audio/en/9c34910246021f4cae84.m4a"
+        },
+        {
+          "en": "The sample quiz defines spam as unsolicited commercial email.",
+          "zh": "样题将垃圾邮件定义为未经请求的商业邮件。",
+          "audio": "audio/en/52bc2d1af48b0245c498.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "social engineering",
+          "zh": "社会工程",
+          "definition": {
+            "en": "Manipulating people into actions that undermine security.",
+            "zh": "操纵他人执行损害安全的行动。"
+          },
+          "audio": "audio/en/ba1aa1c9a4474a24e1b7.m4a"
+        },
+        {
+          "term": "phishing",
+          "zh": "网络钓鱼",
+          "definition": {
+            "en": "Deception through messages or interactions that imitate trusted sources.",
+            "zh": "通过模仿可信来源的消息或交互实施欺骗。"
+          },
+          "audio": "audio/en/6aab0e7e54b9813c2799.m4a"
+        },
+        {
+          "term": "unsolicited",
+          "zh": "未经请求的",
+          "definition": {
+            "en": "Not asked for by the recipient.",
+            "zh": "不是接收者主动要求接收的。"
+          },
+          "audio": "audio/en/68f15b63743017da42be.m4a"
+        },
+        {
+          "term": "credentials",
+          "zh": "身份凭据",
+          "definition": {
+            "en": "Information or objects used to prove an identity, such as passwords.",
+            "zh": "用于证明身份的信息或物品，例如密码。"
+          },
+          "audio": "audio/en/8246fb5872da977132fa.m4a"
+        }
       ]
     }
   ],

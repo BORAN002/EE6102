@@ -26,6 +26,79 @@
       },
       "questionIds": [
         1
+      ],
+      "lesson": [
+        {
+          "en": "An assessment asks what the organization must protect, what could harm it, and which protections already exist. A valuable asset, a possible threat, and an exploitable weakness are different parts of this picture.",
+          "zh": "评估要弄清组织必须保护什么、什么可能造成损害，以及已有何种保护。有价值的资产、可能发生的威胁和可被利用的弱点，是这幅图景中的不同部分。"
+        },
+        {
+          "en": "The findings help prioritize security work before selecting products. A tool is useful only when it addresses a real need; buying advanced technology first may leave the main weakness untouched.",
+          "zh": "评估结果帮助组织在选择产品之前确定安全工作的优先次序。工具只有针对实际需求才有价值；先买先进技术，可能仍未解决主要弱点。"
+        }
+      ],
+      "example": {
+        "en": "A university finds that former students still have active accounts. Reviewing and removing unnecessary access addresses that finding more directly than buying a new fingerprint reader.",
+        "zh": "某大学发现毕业生账号仍可登录。针对这一发现，检查并移除不必要权限，比购买新的指纹读取器更直接。"
+      },
+      "pitfall": {
+        "en": "In Q1, both assessment and technology may belong in the overall plan, but the word first makes assessment the correct starting point.",
+        "zh": "Q1 中，评估与技术都可能属于整体计划，但 first（首先）要求选择正确的起点，也就是评估。"
+      },
+      "statements": [
+        {
+          "en": "Security planning begins with an assessment of the current security state.",
+          "zh": "安全规划从评估当前安全状况开始。",
+          "audio": "audio/en/ada2a4882bf0e251f737.m4a"
+        },
+        {
+          "en": "An assessment identifies assets, threats, vulnerabilities, and existing controls.",
+          "zh": "评估识别资产、威胁、漏洞和已有控制措施。",
+          "audio": "audio/en/d99d04570f8e09727e89.m4a"
+        },
+        {
+          "en": "Security controls should address the risks identified by the assessment.",
+          "zh": "安全控制措施应针对评估识别出的风险。",
+          "audio": "audio/en/3f8673adf462636cea62.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "assessment",
+          "zh": "评估",
+          "definition": {
+            "en": "An examination of the current situation to identify needs and weaknesses.",
+            "zh": "检查当前状况，以识别需求和薄弱环节。"
+          },
+          "audio": "audio/en/53edcc73dbad2ef6b5e0.m4a"
+        },
+        {
+          "term": "asset",
+          "zh": "资产",
+          "definition": {
+            "en": "Something valuable that the organization needs to protect.",
+            "zh": "组织需要保护的有价值的东西。"
+          },
+          "audio": "audio/en/9a78adc73863dbca16c1.m4a"
+        },
+        {
+          "term": "vulnerability",
+          "zh": "漏洞；弱点",
+          "definition": {
+            "en": "A weakness that a threat may exploit.",
+            "zh": "可能被威胁利用的薄弱之处。"
+          },
+          "audio": "audio/en/f11bddca35f1b14c09b6.m4a"
+        },
+        {
+          "term": "control",
+          "zh": "控制措施",
+          "definition": {
+            "en": "A measure intended to reduce security risk.",
+            "zh": "旨在降低安全风险的措施。"
+          },
+          "audio": "audio/en/673bb96dc5d77163927f.m4a"
+        }
       ]
     },
     {
@@ -45,6 +118,79 @@
       "questionIds": [
         2,
         3
+      ],
+      "lesson": [
+        {
+          "en": "Technical staff can configure systems, but they cannot supply every budget, business decision, or organization-wide rule on their own. Management support gives the security project resources and authority to operate.",
+          "zh": "技术人员能配置系统，但不能独自提供所有预算、业务决策和组织层面的规则。管理层支持为安全项目提供运作所需的资源和执行权力。"
+        },
+        {
+          "en": "Support is needed during planning, implementation, and continued operation. Managers show commitment by funding necessary work and following the same security procedures expected of employees.",
+          "zh": "规划、实施和持续运行阶段都需要支持。管理者通过为必要工作提供资金，并遵守对员工同样适用的安全程序，体现实际承诺。"
+        }
+      ],
+      "example": {
+        "en": "A manager funds staff training and uses the required login checks personally. This makes the security rule more credible than an email asking employees to comply while managers bypass it.",
+        "zh": "经理为员工培训提供预算，并亲自使用规定的登录检查。与一边发邮件要求员工遵守、一边自己绕过规则相比，这种做法更能体现规则的可信度。"
+      },
+      "pitfall": {
+        "en": "Q2 says throughout the project stages, not only at the initial stage. Q3 asks for practical support; an announcement alone does not supply funding or set an example.",
+        "zh": "Q2 强调 throughout the project stages（贯穿项目各阶段），并非只在初始阶段。Q3 要求实际支持；仅有声明不能提供资金或发挥示范作用。"
+      },
+      "statements": [
+        {
+          "en": "Top management support is essential throughout all project stages.",
+          "zh": "高层管理者的支持在项目各阶段都至关重要。",
+          "audio": "audio/en/9e1bfa7c80640715bac3.m4a"
+        },
+        {
+          "en": "Management should provide an adequate budget for cybersecurity.",
+          "zh": "管理层应为网络安全提供充足预算。",
+          "audio": "audio/en/13be7f694a0a47c06abe.m4a"
+        },
+        {
+          "en": "Managers demonstrate commitment by following security procedures themselves.",
+          "zh": "管理者通过亲自遵守安全程序来体现承诺。",
+          "audio": "audio/en/8ec0359ac80d5651233a.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "top management",
+          "zh": "高层管理者",
+          "definition": {
+            "en": "Senior leaders who set direction and allocate resources.",
+            "zh": "确定方向并分配资源的高级管理人员。"
+          },
+          "audio": "audio/en/0c7581c4a1b9b404f5f6.m4a"
+        },
+        {
+          "term": "adequate budget",
+          "zh": "充足预算",
+          "definition": {
+            "en": "Enough funding to carry out the required security work.",
+            "zh": "足以完成所需安全工作的资金。"
+          },
+          "audio": "audio/en/992f7c8b9da565cf8eed.m4a"
+        },
+        {
+          "term": "throughout",
+          "zh": "贯穿始终",
+          "definition": {
+            "en": "During every part of a period or process.",
+            "zh": "在某段时间或某个过程的各个部分中。"
+          },
+          "audio": "audio/en/42b826ffa139c3712a41.m4a"
+        },
+        {
+          "term": "lead by example",
+          "zh": "以身作则",
+          "definition": {
+            "en": "Demonstrate the behavior that others are expected to follow.",
+            "zh": "亲自展示要求他人遵守的行为。"
+          },
+          "audio": "audio/en/67f381eba3e15b4b406f.m4a"
+        }
       ]
     },
     {
@@ -64,6 +210,79 @@
       "questionIds": [
         4,
         5
+      ],
+      "lesson": [
+        {
+          "en": "A policy states the required behavior or decision in a situation. A procedure translates that direction into concrete steps, so staff know how to carry it out.",
+          "zh": "政策规定某种情况下应有的行为或决策。程序把这一方向转换为具体步骤，使员工知道如何落实。"
+        },
+        {
+          "en": "A policy must be understandable and workable alongside legitimate tasks. If compliance is impractical, users may create shortcuts that undermine protection; acceptance does not mean users may rewrite the rule themselves.",
+          "zh": "政策必须便于理解，并且能与正常工作共同执行。如果遵守政策不切实际，用户可能采取削弱保护的捷径；用户能接受政策，并不意味着可以自行改写规则。"
+        }
+      ],
+      "example": {
+        "en": "A policy says that lost access cards must be reported. The procedure explains whom to contact, how to submit the report, and how the old card is disabled.",
+        "zh": "政策规定门禁卡丢失后必须报告。程序则说明联系谁、怎样提交报告，以及如何停用旧卡。"
+      },
+      "pitfall": {
+        "en": "In Q4, actions that put policy guidance into operation describe procedures. In Q5, acceptable means sensible and practical, not freely changeable by each user.",
+        "zh": "Q4 中，将政策指导落实到运行中的行动描述的是 procedures（程序）。Q5 中 acceptable 指合理、可执行，并非每个用户都能随意修改。"
+      },
+      "statements": [
+        {
+          "en": "A policy states what should be done under specific circumstances.",
+          "zh": "政策说明在特定情况下应该做什么。",
+          "audio": "audio/en/de8b05b44c534cb7d0cf.m4a"
+        },
+        {
+          "en": "A procedure describes how to implement policy guidance.",
+          "zh": "程序说明如何落实政策指导。",
+          "audio": "audio/en/1888da6ba4e69ec36038.m4a"
+        },
+        {
+          "en": "Impractical security policies may encourage users to bypass them.",
+          "zh": "不切实际的安全政策可能促使用户绕过它们。",
+          "audio": "audio/en/6f5f684e770220d4b1c1.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "policy",
+          "zh": "政策",
+          "definition": {
+            "en": "A statement of required behavior or organizational direction.",
+            "zh": "关于规定行为或组织方向的声明。"
+          },
+          "audio": "audio/en/a49241d0e7bc6659728a.m4a"
+        },
+        {
+          "term": "procedure",
+          "zh": "程序；操作步骤",
+          "definition": {
+            "en": "A sequence of actions used to implement a policy.",
+            "zh": "用于落实政策的一系列行动。"
+          },
+          "audio": "audio/en/d4c68136ef099f3846de.m4a"
+        },
+        {
+          "term": "acceptable",
+          "zh": "可接受的；合理的",
+          "definition": {
+            "en": "Practical and sensible enough for users to follow.",
+            "zh": "合理且实际可行，使用户能够遵守。"
+          },
+          "audio": "audio/en/30031fe8bcf2bf699adb.m4a"
+        },
+        {
+          "term": "bypass",
+          "zh": "绕过",
+          "definition": {
+            "en": "Avoid a required process or protective control.",
+            "zh": "避开规定的流程或保护措施。"
+          },
+          "audio": "audio/en/0f8cc57d7949ffc3aaa2.m4a"
+        }
       ]
     },
     {
@@ -83,6 +302,79 @@
       "questionIds": [
         6,
         7
+      ],
+      "lesson": [
+        {
+          "en": "In this course, a standard specifies requirements that must be followed. A guideline recommends a way to act while allowing the decision maker to judge whether it fits the situation.",
+          "zh": "在本课程中，标准规定必须遵守的要求。指南建议一种行动方式，同时允许决策者判断它是否适合具体情况。"
+        },
+        {
+          "en": "Q7 adds a course-specific distinction: considering a guideline carefully is required, while adopting every recommendation is discretionary. Considering advice and obeying a mandatory requirement are different actions.",
+          "zh": "Q7 还作出课程特定的区分：认真考虑指南是必须的，但是否采用每项建议可以酌情判断。考虑建议与遵守强制要求，是两种不同的行为。"
+        }
+      ],
+      "example": {
+        "en": "An organizational standard may require approved encryption for confidential files. A guideline may suggest a convenient approved tool, while allowing another suitable choice.",
+        "zh": "组织标准可以要求机密文件使用获准的加密方式。指南可以推荐一款方便使用的获准工具，同时允许选择另一款适合的工具。"
+      },
+      "pitfall": {
+        "en": "Do not read discretionary as irrelevant. The quiz requires careful consideration, but that does not make every guideline legally mandatory in every organization.",
+        "zh": "不要把 discretionary（可酌情决定的）理解为无关紧要。题库要求认真考虑，但这不意味着所有组织中的每条指南都具有法律强制性。"
+      },
+      "statements": [
+        {
+          "en": "Standards are mandatory within the applicable organizational framework.",
+          "zh": "在适用的组织框架内，标准是强制性的。",
+          "audio": "audio/en/32627cf75e62c167db1d.m4a"
+        },
+        {
+          "en": "Guidelines recommend actions and allow discretion in their application.",
+          "zh": "指南提出行动建议，并允许在应用时酌情判断。",
+          "audio": "audio/en/319ba74540897e80e549.m4a"
+        },
+        {
+          "en": "This quiz requires decision makers to consider guidelines carefully.",
+          "zh": "本题库要求决策者认真考虑指南。",
+          "audio": "audio/en/aa426c8cd642ecb963bf.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "standard",
+          "zh": "标准",
+          "definition": {
+            "en": "A requirement that must be followed within its applicable scope.",
+            "zh": "在其适用范围内必须遵守的要求。"
+          },
+          "audio": "audio/en/fe247256515b529f5066.m4a"
+        },
+        {
+          "term": "guideline",
+          "zh": "指南",
+          "definition": {
+            "en": "Recommended guidance that permits judgment in application.",
+            "zh": "允许在应用时自行判断的建议性指导。"
+          },
+          "audio": "audio/en/9ef4a7900f2bf4ae5605.m4a"
+        },
+        {
+          "term": "mandatory",
+          "zh": "强制性的",
+          "definition": {
+            "en": "Required rather than optional.",
+            "zh": "必须做到，而不是可自由选择。"
+          },
+          "audio": "audio/en/033dd044925788fa0c22.m4a"
+        },
+        {
+          "term": "discretionary",
+          "zh": "可酌情决定的",
+          "definition": {
+            "en": "Left to a decision maker’s judgment.",
+            "zh": "允许决策者根据判断作出选择。"
+          },
+          "audio": "audio/en/56c0bd211c70e3540a6d.m4a"
+        }
       ]
     },
     {
@@ -102,6 +394,92 @@
       "questionIds": [
         8,
         9
+      ],
+      "lesson": [
+        {
+          "en": "Authentication checks a claimed identity: are you really the account owner? Authorization checks permissions: may this account read a file, change a record, or use a service?",
+          "zh": "身份认证核验所声称的身份：你真的是账号主人吗？授权检查权限：这个账号能否读取文件、修改记录或使用服务？"
+        },
+        {
+          "en": "The classic authentication factors are knowledge, possession, and inherence. A password is something you know, a token is something you have, and a fingerprint is something you are.",
+          "zh": "经典认证因素包括知识、持有物和固有特征。密码是你知道的东西，令牌是你拥有的东西，指纹是你本身的特征。"
+        },
+        {
+          "en": "Using two passwords still uses the knowledge category twice. Multi-factor authentication combines different factor categories, rather than simply asking two questions of the same kind.",
+          "zh": "使用两个密码仍然只是重复使用知识类别。多因素认证组合不同类别的认证因素，而不是简单地提出两个同类问题。"
+        }
+      ],
+      "example": {
+        "en": "A student logs in with a password: the system authenticates the student. The system then permits viewing personal grades but denies editing them: that is authorization.",
+        "zh": "学生输入密码登录，系统由此认证学生身份。随后系统允许查看自己的成绩，却禁止修改成绩，这就是授权。"
+      },
+      "pitfall": {
+        "en": "Q9 mentions permission, but its key phrase is assessing the identity, so its answer is authentication. In Q8, something you see is not one of the three classic factors.",
+        "zh": "Q9 虽然提到 permission（权限），但关键短语是 assessing the identity（核验身份），因此答案是 authentication。Q8 中 something you see 不属于经典三类认证因素。"
+      },
+      "statements": [
+        {
+          "en": "Authentication verifies identity, while authorization determines permissions.",
+          "zh": "身份认证核验身份，而授权决定权限。",
+          "audio": "audio/en/9afb25c528bfc23aa889.m4a"
+        },
+        {
+          "en": "The three classic authentication factors are something you know, have, and are.",
+          "zh": "经典三类身份认证因素是你知道的、你拥有的和你本身的特征。",
+          "audio": "audio/en/2210040728a79b5c6751.m4a"
+        },
+        {
+          "en": "Successful authentication does not grant permission to perform every action.",
+          "zh": "身份认证成功并不意味着获准执行所有操作。",
+          "audio": "audio/en/136cbac92dcfb1ecda6b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "authentication",
+          "zh": "身份认证",
+          "definition": {
+            "en": "Verification that a claimed identity is genuine.",
+            "zh": "验证所声称的身份是否真实。"
+          },
+          "audio": "audio/en/f647bc595b94dc54f898.m4a"
+        },
+        {
+          "term": "authorization",
+          "zh": "授权",
+          "definition": {
+            "en": "Determination of which resources or actions an identity may access.",
+            "zh": "决定某个身份可以访问哪些资源或执行哪些操作。"
+          },
+          "audio": "audio/en/fd983b7946e1ecde56a9.m4a"
+        },
+        {
+          "term": "credential",
+          "zh": "凭据",
+          "definition": {
+            "en": "Evidence presented to support an identity claim, such as a password.",
+            "zh": "用于支持身份声明的证据，例如密码。"
+          },
+          "audio": "audio/en/7a828443e02bfe3533f8.m4a"
+        },
+        {
+          "term": "factor",
+          "zh": "认证因素",
+          "definition": {
+            "en": "A category of evidence used to verify identity.",
+            "zh": "用于核验身份的一类证据。"
+          },
+          "audio": "audio/en/bf187993b96aa7b6a2f5.m4a"
+        },
+        {
+          "term": "possession",
+          "zh": "持有；拥有",
+          "definition": {
+            "en": "Having a device or object used as authentication evidence.",
+            "zh": "持有可用作认证证据的设备或物品。"
+          },
+          "audio": "audio/en/95396b4d2ebf1139ff8c.m4a"
+        }
       ]
     },
     {
@@ -120,6 +498,79 @@
       },
       "questionIds": [
         10
+      ],
+      "lesson": [
+        {
+          "en": "A predictable password can be guessed using likely words and patterns instead of trying every possible combination. Short passwords also offer fewer combinations when other conditions are the same.",
+          "zh": "可预测的密码可能通过常见词语和模式被猜中，而无需尝试每种组合。在其他条件相同时，较短密码的候选组合也更少。"
+        },
+        {
+          "en": "Password reuse creates a separate risk: an attacker who learns a password from one service can try it on another. Guessing difficulty and the damage caused by reuse are related security concerns, but they are not the same mechanism.",
+          "zh": "密码重复使用还会产生另一种风险：攻击者从一个服务获知密码后，可以在另一个服务尝试它。猜测难度与重复使用所造成的损害都与安全有关，但机制并不相同。"
+        }
+      ],
+      "example": {
+        "en": "A student uses the same simple password on a forum and a university portal. If the forum leaks it, an attacker may try that password on the portal without cracking it again.",
+        "zh": "某学生在论坛和大学门户使用同一个简单密码。如果论坛泄露该密码，攻击者可能直接在门户尝试它，无需重新破解。"
+      },
+      "pitfall": {
+        "en": "Q10 marks short, simple, reusable passwords as easy to crack or guess. Its word always is too absolute: storage, attempt limits, and online versus offline attacks affect actual difficulty.",
+        "zh": "Q10 将短、简单且重复使用的密码判断为容易破解或猜中。但题干 always（总是）过于绝对：存储方式、尝试次数限制以及在线或离线攻击都会影响实际难度。"
+      },
+      "statements": [
+        {
+          "en": "Predictable passwords are vulnerable to guessing attacks.",
+          "zh": "可预测的密码容易受到猜测攻击。",
+          "audio": "audio/en/a7ea6d05f6c5241caa4c.m4a"
+        },
+        {
+          "en": "Reusing a password can spread the impact of a single account leak.",
+          "zh": "重复使用密码可能扩大一次账号泄露的影响。",
+          "audio": "audio/en/1d7846610b868289d0ae.m4a"
+        },
+        {
+          "en": "Actual password attack difficulty also depends on the system’s protections.",
+          "zh": "密码攻击的实际难度还取决于系统的保护措施。",
+          "audio": "audio/en/5b1cad18341d0e21414c.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "predictable",
+          "zh": "可预测的",
+          "definition": {
+            "en": "Easy to anticipate from common choices or known information.",
+            "zh": "容易根据常见选择或已知信息推测。"
+          },
+          "audio": "audio/en/62a4cadffb0a93595211.m4a"
+        },
+        {
+          "term": "reuse",
+          "zh": "重复使用",
+          "definition": {
+            "en": "Use the same password for more than one account or service.",
+            "zh": "在多个账号或服务中使用同一个密码。"
+          },
+          "audio": "audio/en/3e573aa427baaa5f38a6.m4a"
+        },
+        {
+          "term": "crack",
+          "zh": "破解",
+          "definition": {
+            "en": "Recover a secret by testing candidates or exploiting weaknesses.",
+            "zh": "通过测试候选值或利用弱点找出秘密。"
+          },
+          "audio": "audio/en/9a0aa3f11327f25007d7.m4a"
+        },
+        {
+          "term": "rate limiting",
+          "zh": "速率限制",
+          "definition": {
+            "en": "Restrict how many attempts can be made within a period.",
+            "zh": "限制一段时间内可进行的尝试次数。"
+          },
+          "audio": "audio/en/2181ca94ad8013899022.m4a"
+        }
       ]
     },
     {
@@ -140,6 +591,92 @@
         11,
         12,
         15
+      ],
+      "lesson": [
+        {
+          "en": "Biometrics use body traits or behavioral patterns as evidence of identity. During enrollment, the system captures features and creates a reference template for later comparisons.",
+          "zh": "生物识别使用身体特征或行为模式作为身份证据。在注册阶段，系统采集特征并创建参考模板，供以后比较。"
+        },
+        {
+          "en": "Verification compares a new sample with the template for a claimed identity, usually one to one. Identification searches across multiple enrolled identities, usually one to many.",
+          "zh": "验证把新样本与所声称身份的模板比较，通常是一对一。识别则在多个已注册身份中搜索，通常是一对多。"
+        },
+        {
+          "en": "Fingerprint readers can make access convenient, but a biometric sample must still be captured, processed, and matched correctly. Sensor quality and resistance to fake samples influence the security of the complete system.",
+          "zh": "指纹读取器能使访问更便利，但仍须正确采集、处理并匹配生物特征样本。传感器质量和抵御伪造样本的能力会影响整个系统的安全性。"
+        }
+      ],
+      "example": {
+        "en": "A phone first stores a fingerprint template during setup. Later it compares the finger placed on the reader with an enrolled template to decide whether the match is sufficient.",
+        "zh": "手机首先在设置过程中存储指纹模板。之后，它把放在读取器上的手指特征与已注册模板比较，判断匹配是否充分。"
+      },
+      "pitfall": {
+        "en": "Q12 selects fingerprint readers as the course’s common example. Q15 marks easily deceived, but this is an overgeneralization; actual spoof resistance varies between implementations.",
+        "zh": "Q12 将指纹读取器作为课程中的常见例子。Q15 标注 easily deceived（容易受到欺骗），但这一说法过于笼统；不同实现的防伪能力并不相同。"
+      },
+      "statements": [
+        {
+          "en": "Biometrics use physiological or behavioral characteristics to check identity.",
+          "zh": "生物识别使用生理或行为特征检查身份。",
+          "audio": "audio/en/f760fbf9da346333ec14.m4a"
+        },
+        {
+          "en": "Enrollment creates a reference template for later biometric comparisons.",
+          "zh": "注册会创建参考模板，供后续生物识别比较使用。",
+          "audio": "audio/en/34f5ba8ec049b355d309.m4a"
+        },
+        {
+          "en": "Biometric authentication can be convenient without being immune to spoofing.",
+          "zh": "生物识别认证可以很便利，但并不意味着无法伪造。",
+          "audio": "audio/en/bc11eb4f895f32793fa7.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "biometrics",
+          "zh": "生物识别",
+          "definition": {
+            "en": "Recognition using physiological or behavioral characteristics.",
+            "zh": "利用生理或行为特征进行识别。"
+          },
+          "audio": "audio/en/9f03e2a6bad993ba9471.m4a"
+        },
+        {
+          "term": "enrollment",
+          "zh": "注册；录入",
+          "definition": {
+            "en": "The initial process of recording an identity’s reference biometric data.",
+            "zh": "首次记录某个身份的参考生物特征数据的过程。"
+          },
+          "audio": "audio/en/33d8fdd6e8e1e11cbb06.m4a"
+        },
+        {
+          "term": "template",
+          "zh": "模板",
+          "definition": {
+            "en": "Stored reference features used for matching a new sample.",
+            "zh": "用于与新样本匹配的已存储参考特征。"
+          },
+          "audio": "audio/en/f2c33a6d2cea4d50307a.m4a"
+        },
+        {
+          "term": "verification",
+          "zh": "验证",
+          "definition": {
+            "en": "Checking a sample against a specifically claimed identity.",
+            "zh": "检查样本是否符合某个明确声称的身份。"
+          },
+          "audio": "audio/en/cdb1b28b77b42de495c2.m4a"
+        },
+        {
+          "term": "identification",
+          "zh": "识别",
+          "definition": {
+            "en": "Searching possible identities to determine who a person is.",
+            "zh": "从可能的身份中搜索，以确定某人是谁。"
+          },
+          "audio": "audio/en/eed634877e8d10c81da9.m4a"
+        }
       ]
     },
     {
@@ -159,6 +696,92 @@
       "questionIds": [
         13,
         14
+      ],
+      "lesson": [
+        {
+          "en": "False acceptance admits an unauthorized person as a valid match. False rejection denies a genuine user even though that user should be accepted; the two errors harm security and usability in different ways.",
+          "zh": "错误接纳把未经授权的人当作合法匹配而放行。错误拒绝则拒绝本应获准的真实用户；这两类错误分别以不同方式影响安全性与可用体验。"
+        },
+        {
+          "en": "With the same system and data, a stricter matching threshold usually reduces false acceptance but increases false rejection. The crossover error rate is the operating point where the two error rates are equal.",
+          "zh": "在同一系统和数据条件下，更严格的匹配阈值通常降低错误接纳，却增加错误拒绝。交叉错误率对应两种错误率相等的运行点。"
+        },
+        {
+          "en": "Deception describes an intentional attempt to fool the system, whereas false acceptance and false rejection describe decisions. An attack can attempt deception and fail; an accidental bad match can cause false acceptance without deliberate deception.",
+          "zh": "欺骗描述蓄意蒙骗系统的尝试，而错误接纳与错误拒绝描述判定结果。欺骗尝试可能失败；意外的错误匹配也可能在没有蓄意欺骗时造成错误接纳。"
+        }
+      ],
+      "example": {
+        "en": "If a stranger’s finger unlocks your phone, that is false acceptance. If your own finger is refused, that is false rejection; deliberately presenting a fake finger is deception.",
+        "zh": "如果陌生人的手指解锁了你的手机，这是错误接纳。如果你自己的手指被拒绝，这是错误拒绝；蓄意出示假手指则是欺骗。"
+      },
+      "pitfall": {
+        "en": "Do not choose false acceptance merely because Q14 mentions an attacker. The wording deliberately attempts asks about the action, so the quiz answer is deception.",
+        "zh": "不要仅因 Q14 提到攻击者就选择错误接纳。deliberately attempts（蓄意尝试）询问的是行为，因此题库答案是 deception（欺骗）。"
+      },
+      "statements": [
+        {
+          "en": "False acceptance incorrectly admits an unauthorized user.",
+          "zh": "错误接纳会错误地放行未经授权的用户。",
+          "audio": "audio/en/8127a285613b92dddc4d.m4a"
+        },
+        {
+          "en": "False rejection incorrectly denies a legitimate user.",
+          "zh": "错误拒绝会错误地拒绝合法用户。",
+          "audio": "audio/en/0c476da9dfeeda9eafd5.m4a"
+        },
+        {
+          "en": "Deception is a deliberate attempt to fool an authentication system.",
+          "zh": "欺骗是蓄意蒙骗身份认证系统的尝试。",
+          "audio": "audio/en/29a97b10bbe0fc794c3b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "false acceptance",
+          "zh": "错误接纳",
+          "definition": {
+            "en": "Incorrectly accepting an unauthorized person as a valid match.",
+            "zh": "把未经授权的人错误地接纳为合法匹配。"
+          },
+          "audio": "audio/en/812c0aa77d46752f8568.m4a"
+        },
+        {
+          "term": "false rejection",
+          "zh": "错误拒绝",
+          "definition": {
+            "en": "Incorrectly rejecting a legitimate user.",
+            "zh": "错误地拒绝合法用户。"
+          },
+          "audio": "audio/en/f803ab76baac696d50d3.m4a"
+        },
+        {
+          "term": "deception",
+          "zh": "欺骗",
+          "definition": {
+            "en": "A deliberate attempt to mislead a system.",
+            "zh": "蓄意误导系统的尝试。"
+          },
+          "audio": "audio/en/8827e82a4115003f022e.m4a"
+        },
+        {
+          "term": "threshold",
+          "zh": "阈值",
+          "definition": {
+            "en": "The matching score boundary used to accept or reject a sample.",
+            "zh": "用于接纳或拒绝样本的匹配得分边界。"
+          },
+          "audio": "audio/en/47f99d6926c37e3c3f71.m4a"
+        },
+        {
+          "term": "impostor",
+          "zh": "冒用者",
+          "definition": {
+            "en": "A person presenting themselves as someone else.",
+            "zh": "将自己冒充为另一个人的人。"
+          },
+          "audio": "audio/en/5e6194b61f9a1f96d14f.m4a"
+        }
       ]
     }
   ],

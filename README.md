@@ -9,7 +9,11 @@ A bilingual study website based on all five supplied Sample Quiz PDFs.
 **Repository / 源码:** https://github.com/BORAN002/EE6102
 
 - 115 questions: 27 / 20 / 15 / 35 / 18 across Parts 1–5.
-- 44 concept notes, with definitions, memory sentences and linked questions.
+- 44 expanded concept lessons with explanations, examples, common distinctions and linked questions.
+- Three knowledge views: Understand, Memorize and Vocabulary.
+- 132 full bilingual sentences to memorize, with optional hidden Chinese translations for self-testing.
+- 182 distinct vocabulary terms with Chinese meanings and bilingual definitions.
+- 314 bundled English audio clips for sentences and vocabulary, with 0.75× / 1× / 1.25× playback and sentence queues.
 - English, Chinese and bilingual display.
 - Review mode highlights the marked source answer in bold.
 - Practice mode hides answers until submission, with explanations, mistakes and bookmarks.
@@ -37,6 +41,21 @@ Then open http://localhost:8080. No build or dependency installation is required
 ```sh
 python3 scripts/validate-content.py
 node --check app.js
+node --check knowledge.js
+node --test scripts/study-audio.test.mjs
 ```
 
-The content validator checks completeness, bilingual fields, source keys, PDF availability and bidirectional concept associations. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
+The content validator checks completeness, bilingual fields, source keys, PDF availability, bidirectional concept associations, audio references and audio file hashes. The audio tests cover playback queues, switching tracks, cancellation and failure handling. GitHub Pages publishes the root of the `main` branch; `.nojekyll` disables Jekyll processing.
+
+## Regenerate pronunciation audio
+
+Audio is synthesized in US English with the macOS Samantha voice. Visitors play ordinary M4A files; no speech service, account or browser speech-synthesis support is required. Clips load only when requested.
+
+After editing vocabulary or memorization sentences, run this authoring command on macOS (requires `say` and `afconvert`):
+
+```sh
+python3 scripts/generate-audio.py
+python3 scripts/validate-content.py
+```
+
+Use `--parts 3 4` to regenerate selected chapters. A vocabulary entry can set `say` to spell out an abbreviation. The manifest records the spoken text, voice and file checksum.

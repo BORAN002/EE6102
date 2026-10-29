@@ -29,6 +29,94 @@
         2,
         3,
         5
+      ],
+      "lesson": [
+        {
+          "en": "Industry 4.0 links machines, sensors, software, and people so that production can use shared data. IoT collects observations, networks carry them, cloud resources process them, and analytics can support decisions.",
+          "zh": "工业 4.0 将机器、传感器、软件和人员连接起来，使生产能够利用共享数据。物联网收集观测数据，网络传输数据，云资源处理数据，分析工具则可以支持决策。"
+        },
+        {
+          "en": "Connectivity creates more routes through which information and commands can move. A poorly protected device or connection may therefore affect more than one machine, making security part of the whole production system.",
+          "zh": "互联增加了信息和指令能够流动的路径。因此，一个保护不足的设备或连接可能影响不止一台机器，使安全成为整个生产系统的问题。"
+        },
+        {
+          "en": "For the Sample Quiz, remember the association between Industry 4.0 and Germany. The technology question expects several technologies together, rather than a single invention that explains the entire concept.",
+          "zh": "针对样题，需要记住工业 4.0 与德国的关联。技术范围题考的是多种技术的结合，而不是用一项发明解释整个概念。"
+        }
+      ],
+      "example": {
+        "en": "Temperature sensors on a factory machine send measurements to a shared platform, which helps staff plan maintenance. If those measurements are altered, the same connected system may support a wrong decision.",
+        "zh": "工厂机器上的温度传感器把测量值发送到共享平台，帮助员工安排维护。如果这些测量值被篡改，同一个互联系统也可能促成错误决策。"
+      },
+      "pitfall": {
+        "en": "Connected does not mean secure, and a vulnerability does not mean an attack has already succeeded. In Q1, Germany is absent from the listed countries, so the marked answer is “None of the above.”",
+        "zh": "已连接不等于已安全，存在漏洞也不等于攻击已经成功。Q1 的国家选项中没有德国，因此标注答案是“以上都不是”。"
+      },
+      "statements": [
+        {
+          "en": "Industry 4.0 integrates connected devices, networks, computing, and intelligent analysis.",
+          "zh": "工业 4.0 整合互联设备、网络、计算与智能分析。",
+          "audio": "audio/en/79a1e31d059b0fb2b8e1.m4a"
+        },
+        {
+          "en": "IoT devices support industrial connectivity but can introduce security vulnerabilities.",
+          "zh": "物联网设备支持工业互联，但也可能引入安全漏洞。",
+          "audio": "audio/en/72e83c4eff7e358c3faf.m4a"
+        },
+        {
+          "en": "The Sample Quiz associates the origin of Industry 4.0 with Germany.",
+          "zh": "样题将工业 4.0 的起源与德国关联。",
+          "audio": "audio/en/919fd3245bf0e79855b6.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "Industry 4.0",
+          "zh": "工业 4.0",
+          "definition": {
+            "en": "A model of industrial development based on connected and intelligent production.",
+            "zh": "以互联和智能生产为基础的工业发展模式。"
+          },
+          "say": "Industry four point zero",
+          "audio": "audio/en/51c30f355a381c2b9f37.m4a"
+        },
+        {
+          "term": "IoT",
+          "zh": "物联网",
+          "definition": {
+            "en": "Internet of Things: connected physical devices that exchange data.",
+            "zh": "Internet of Things 的缩写，指交换数据的互联物理设备。"
+          },
+          "say": "Internet of Things",
+          "audio": "audio/en/9d7ac9188917452e946f.m4a"
+        },
+        {
+          "term": "connectivity",
+          "zh": "连接能力；互联",
+          "definition": {
+            "en": "The ability of devices or systems to communicate.",
+            "zh": "设备或系统彼此通信的能力。"
+          },
+          "audio": "audio/en/63ab2bfbc3012d1aacd2.m4a"
+        },
+        {
+          "term": "vulnerability",
+          "zh": "漏洞；弱点",
+          "definition": {
+            "en": "A weakness that could be exploited to affect security.",
+            "zh": "可能被利用并影响安全的薄弱之处。"
+          },
+          "audio": "audio/en/f11bddca35f1b14c09b6.m4a"
+        },
+        {
+          "term": "virtualization",
+          "zh": "虚拟化",
+          "definition": {
+            "en": "Representing or providing computing or system functions through virtual models or resources.",
+            "zh": "通过虚拟模型或资源表示或提供计算及系统功能。"
+          },
+          "audio": "audio/en/84f3e08e56c38a3a23e7.m4a"
+        }
       ]
     },
     {
@@ -47,6 +135,83 @@
       },
       "questionIds": [
         4
+      ],
+      "lesson": [
+        {
+          "en": "A digital twin represents a real asset, process, or system in a digital form. Connecting observations from the physical object to the model helps people understand how the real object behaves.",
+          "zh": "数字孪生以数字形式表示真实的资产、过程或系统。将物理对象的观测数据与模型关联，有助于人们理解真实对象的运行方式。"
+        },
+        {
+          "en": "The digital representation supports analysis and testing before changes are applied to the physical object. The slides emphasize product improvement and virtual prototypes as useful applications.",
+          "zh": "数字表示支持在改变物理对象之前进行分析和测试。课件强调，产品改进与虚拟原型是它的重要应用。"
+        },
+        {
+          "en": "The model and the connection to its physical counterpart both need protection. Incorrect data can make a useful simulation produce misleading conclusions, even if the physical machine itself has not been damaged.",
+          "zh": "模型及其与物理对应物之间的连接都需要保护。错误数据可能使有用的模拟产生误导性结论，即使物理机器本身尚未受损。"
+        }
+      ],
+      "example": {
+        "en": "An engineer studies a digital model of a pump using its operating measurements to compare maintenance options. This can reduce the need to experiment directly on the working pump.",
+        "zh": "工程师利用泵的运行测量数据研究其数字模型，比较不同维护方案。这可以减少直接在运行中的泵上进行实验的需要。"
+      },
+      "pitfall": {
+        "en": "A digital twin is not a second physical machine. In Q4, “virtual representation” and using digital copies for improvement describe compatible aspects, so both statements can be correct.",
+        "zh": "数字孪生不是第二台物理机器。Q4 中，“虚拟表示”和利用数字副本进行改进描述的是相容的两个方面，因此两项陈述可以同时正确。"
+      },
+      "statements": [
+        {
+          "en": "A digital twin is a digital representation of a physical asset, process, or system.",
+          "zh": "数字孪生是物理资产、过程或系统的数字表示。",
+          "audio": "audio/en/9a1218e12ebeb33fa154.m4a"
+        },
+        {
+          "en": "Digital twins can support simulation, product improvement, and virtual prototyping.",
+          "zh": "数字孪生可以支持模拟、产品改进和虚拟原型开发。",
+          "audio": "audio/en/fd968786ddb86e1e1497.m4a"
+        },
+        {
+          "en": "Reliable digital twins depend on the integrity of their data and models.",
+          "zh": "可靠的数字孪生依赖其数据与模型的完整性。",
+          "audio": "audio/en/c7182c7b3676d5310188.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "digital twin",
+          "zh": "数字孪生",
+          "definition": {
+            "en": "A digital representation connected to a real-world counterpart.",
+            "zh": "与现实对应物相联系的数字表示。"
+          },
+          "audio": "audio/en/65e02c1da2890b592603.m4a"
+        },
+        {
+          "term": "replica",
+          "zh": "副本",
+          "definition": {
+            "en": "A representation or copy of something else.",
+            "zh": "对另一事物的表示或复制。"
+          },
+          "audio": "audio/en/98c7af8f7c34629c2183.m4a"
+        },
+        {
+          "term": "prototype",
+          "zh": "原型",
+          "definition": {
+            "en": "An initial model used to explore or test a design.",
+            "zh": "用于探索或测试设计的初步模型。"
+          },
+          "audio": "audio/en/773ce321d47a595313a8.m4a"
+        },
+        {
+          "term": "simulation",
+          "zh": "模拟",
+          "definition": {
+            "en": "Using a model to study how a system might behave.",
+            "zh": "利用模型研究系统可能的行为。"
+          },
+          "audio": "audio/en/a65683e16a8974519b91.m4a"
+        }
       ]
     },
     {
@@ -65,6 +230,84 @@
       },
       "questionIds": [
         6
+      ],
+      "lesson": [
+        {
+          "en": "Cloud computing makes remote computing resources available through a network. Moving data to a remote service changes where it is stored and processed, but the data still needs confidentiality, integrity, and availability.",
+          "zh": "云计算通过网络提供远程计算资源。将数据移到远程服务，会改变其存储与处理位置，但数据仍然需要机密性、完整性和可用性。"
+        },
+        {
+          "en": "A distributed denial of service attack uses multiple sources to disrupt or exhaust a service. Its direct aim is to make the service difficult or impossible for legitimate users to access, which is an availability problem.",
+          "zh": "分布式拒绝服务攻击使用多个来源干扰服务或耗尽服务资源。其直接目标是让合法用户难以或无法访问服务，因此属于可用性问题。"
+        },
+        {
+          "en": "Other attacks may expose stored records or alter their contents. Classifying these effects connects cloud security back to the CIA triad from Part 1.",
+          "zh": "其他攻击可能泄露存储的记录，或修改记录内容。对这些影响进行分类，就能把云安全与第一章的 CIA 三要素联系起来。"
+        }
+      ],
+      "example": {
+        "en": "A cloud grade portal is unreachable during a traffic flood: availability. Student records are exposed publicly: confidentiality. A stored grade is changed without permission: integrity.",
+        "zh": "云端成绩门户在流量洪泛期间无法访问：可用性；学生档案被公开暴露：机密性；存储的成绩被擅自修改：完整性。"
+      },
+      "pitfall": {
+        "en": "DDoS does not have to steal or alter data to be a successful disruption. Q6 asks about the other properties as well, so confidentiality and integrity must both be considered.",
+        "zh": "DDoS 不需要窃取或修改数据，也可能成功造成服务中断。Q6 同时问到了其他属性，因此机密性与完整性都要考虑。"
+      },
+      "statements": [
+        {
+          "en": "Cloud computing uses network-accessible remote resources to store and process data.",
+          "zh": "云计算使用可通过网络访问的远程资源存储和处理数据。",
+          "audio": "audio/en/aabf3ee0b6ec5da1fc47.m4a"
+        },
+        {
+          "en": "Distributed denial of service attacks threaten service availability.",
+          "zh": "分布式拒绝服务攻击威胁服务可用性。",
+          "audio": "audio/en/0fc83ce14f49bb89872f.m4a"
+        },
+        {
+          "en": "Unauthorized disclosure threatens confidentiality, while unauthorized modification threatens integrity.",
+          "zh": "未经授权披露威胁机密性，未经授权修改威胁完整性。",
+          "audio": "audio/en/cab9979e733f0621bbcb.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "cloud computing",
+          "zh": "云计算",
+          "definition": {
+            "en": "Accessing remote computing resources through a network.",
+            "zh": "通过网络访问远程计算资源。"
+          },
+          "audio": "audio/en/207097d858709628d6ec.m4a"
+        },
+        {
+          "term": "DDoS",
+          "zh": "分布式拒绝服务",
+          "definition": {
+            "en": "A denial of service attack originating from multiple sources.",
+            "zh": "由多个来源发起的拒绝服务攻击。"
+          },
+          "say": "distributed denial of service",
+          "audio": "audio/en/d2f06a3e6a7173e694c5.m4a"
+        },
+        {
+          "term": "disclosure",
+          "zh": "披露；泄露",
+          "definition": {
+            "en": "Making information available to someone.",
+            "zh": "使某人能够获得信息；未经许可时可能构成泄露。"
+          },
+          "audio": "audio/en/057fd7473709baf9e412.m4a"
+        },
+        {
+          "term": "tampering",
+          "zh": "篡改",
+          "definition": {
+            "en": "Changing data or a system without appropriate authorization.",
+            "zh": "未经适当授权改变数据或系统。"
+          },
+          "audio": "audio/en/1b86e62fb78fbd0269b3.m4a"
+        }
       ]
     },
     {
@@ -84,6 +327,83 @@
       "questionIds": [
         7,
         8
+      ],
+      "lesson": [
+        {
+          "en": "People influence security through the decisions they make and the procedures they follow. A legitimate employee may have access to valuable information, so an ordinary mistake can have a large effect.",
+          "zh": "人的决策及其对流程的执行会影响安全。合法员工可能拥有重要信息的访问权，因此一个普通错误也可能造成较大影响。"
+        },
+        {
+          "en": "Separate deliberate misconduct from unintentional behavior. Fraud or retaliation involves intent; entering an incorrect address or omitting an important step may cause harm without malicious intent.",
+          "zh": "要区分蓄意的不当行为和无意的行为。欺诈或报复涉及主观意图；输入错误地址或漏掉重要步骤，也可能在没有恶意的情况下造成损害。"
+        },
+        {
+          "en": "The quiz lists errors and omissions, fraud, and actions by disgruntled employees. These categories show why technical controls and clear procedures must support people rather than assume they will never make mistakes.",
+          "zh": "题库列出了错误与疏漏、欺诈，以及心怀不满员工的行为。这些类别说明，技术控制和清晰流程需要支持人员，而不能假设人永远不会犯错。"
+        }
+      ],
+      "example": {
+        "en": "One employee accidentally sends a customer file to the wrong recipient; another deliberately copies it to misuse it. Both are security concerns, but only the second behavior is intentionally malicious.",
+        "zh": "一名员工误把客户文件发给错误收件人；另一名员工故意复制文件以进行滥用。两者都是安全问题，但只有第二种行为具有蓄意恶意。"
+      },
+      "pitfall": {
+        "en": "Q7 emphasizes employee behavior, but do not turn “the main reason” into a universal statistical rule. Also, an unintentional act can still cause a serious security incident.",
+        "zh": "Q7 强调员工行为，但不要将“主要原因”扩展为普遍适用的统计规律。此外，无意行为也可能造成严重安全事件。"
+      },
+      "statements": [
+        {
+          "en": "Employee behavior can cause security incidents intentionally or unintentionally.",
+          "zh": "员工行为可能有意或无意地造成安全事件。",
+          "audio": "audio/en/6cf465b6aaae3c97857f.m4a"
+        },
+        {
+          "en": "Errors and omissions do not require malicious intent.",
+          "zh": "错误与疏漏并不要求行为者具有恶意。",
+          "audio": "audio/en/c5cb812cc5bea27e53b8.m4a"
+        },
+        {
+          "en": "Fraud and retaliation are different from accidental mistakes.",
+          "zh": "欺诈和报复不同于意外失误。",
+          "audio": "audio/en/022476ee40547093785b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "unintentional",
+          "zh": "无意的；非故意的",
+          "definition": {
+            "en": "Happening without a deliberate intention to cause the result.",
+            "zh": "并非有意造成该结果。"
+          },
+          "audio": "audio/en/d0f024f5b4826463236b.m4a"
+        },
+        {
+          "term": "omission",
+          "zh": "疏漏；遗漏",
+          "definition": {
+            "en": "A required action or detail that is left out.",
+            "zh": "遗漏了应执行的行动或应包含的细节。"
+          },
+          "audio": "audio/en/84b31c8785421d4264a4.m4a"
+        },
+        {
+          "term": "fraud",
+          "zh": "欺诈",
+          "definition": {
+            "en": "Deliberate deception used to obtain an improper benefit.",
+            "zh": "为获取不当利益而故意实施的欺骗。"
+          },
+          "audio": "audio/en/de93473a22607ac3571b.m4a"
+        },
+        {
+          "term": "disgruntled",
+          "zh": "心怀不满的",
+          "definition": {
+            "en": "Dissatisfied or resentful, as in a disgruntled employee.",
+            "zh": "不满意或心存怨恨的，例如心怀不满的员工。"
+          },
+          "audio": "audio/en/1b8d4b793ee8420cbaa5.m4a"
+        }
       ]
     },
     {
@@ -104,6 +424,92 @@
         9,
         10,
         11
+      ],
+      "lesson": [
+        {
+          "en": "Awareness helps people notice security risks and recognize their responsibilities. Training goes further by teaching the actions needed to carry out a task securely.",
+          "zh": "安全意识帮助人们注意到安全风险并认识自身责任。培训则更进一步，教授安全完成任务所需的具体行动。"
+        },
+        {
+          "en": "Knowing that suspicious messages exist is awareness; practicing how to check and report one is training. Education develops broader understanding that can help people reason about unfamiliar situations.",
+          "zh": "知道可疑消息存在，属于意识；练习如何检查和报告可疑消息，属于培训。教育培养更广泛的理解，帮助人们判断不熟悉的情境。"
+        },
+        {
+          "en": "The quiz expects required participation and allocated time rather than a policy that staff cannot realistically follow. Awareness of accountability and potential penalties may deter misconduct, but it does not guarantee that misconduct disappears.",
+          "zh": "题库要求必须参加，并安排相应时间，而不是制定员工实际上无法落实的政策。了解责任和潜在处罚可能威慑不当行为，但不能保证不当行为完全消失。"
+        }
+      ],
+      "example": {
+        "en": "A poster reminds staff not to share passwords. A training session then lets them practice using approved account-recovery steps, with work time reserved for attendance.",
+        "zh": "海报提醒员工不要共享密码；培训课程随后让他们练习获准的账号恢复步骤，并安排工作时间参加。"
+      },
+      "pitfall": {
+        "en": "Awareness and training are related but not identical. “Deterrent” means discouraging an action; it does not mean detecting an attack or guaranteeing prevention.",
+        "zh": "意识和培训相互关联，但并不相同。Deterrent 指劝阻或威慑某种行为，不是检测攻击，也不是保证完全预防。"
+      },
+      "statements": [
+        {
+          "en": "Security awareness helps people recognize risks and responsibilities.",
+          "zh": "安全意识帮助人们识别风险并认识责任。",
+          "audio": "audio/en/f2ae0bbcfb7eacbee0c5.m4a"
+        },
+        {
+          "en": "Security training teaches what people should do and how they should do it.",
+          "zh": "安全培训教授人们应该做什么，以及应该怎样做。",
+          "audio": "audio/en/cb4cbab5ba3b7a10720a.m4a"
+        },
+        {
+          "en": "An effective awareness policy requires participation and allocates time for it.",
+          "zh": "有效的意识政策要求参与，并为参与安排时间。",
+          "audio": "audio/en/e199362b81de05d6aa33.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "awareness",
+          "zh": "意识；认知",
+          "definition": {
+            "en": "Recognition of a risk and its relevance to one’s responsibilities.",
+            "zh": "认识某项风险及其与自身责任的关系。"
+          },
+          "audio": "audio/en/120b8a95ec6f96f22b5f.m4a"
+        },
+        {
+          "term": "training",
+          "zh": "培训",
+          "definition": {
+            "en": "Instruction and practice for performing a task.",
+            "zh": "为完成某项任务而进行的指导与练习。"
+          },
+          "audio": "audio/en/98e364c902ec0553a771.m4a"
+        },
+        {
+          "term": "accountability",
+          "zh": "责任承担；可问责性",
+          "definition": {
+            "en": "Being answerable for one’s decisions and actions.",
+            "zh": "需要对自身决策和行为作出说明并承担责任。"
+          },
+          "audio": "audio/en/565fbc13e6c575805ce2.m4a"
+        },
+        {
+          "term": "deterrent",
+          "zh": "威慑因素",
+          "definition": {
+            "en": "Something that discourages a person from taking an action.",
+            "zh": "使人不愿实施某种行为的因素。"
+          },
+          "audio": "audio/en/481cc7aab62b2eb78c83.m4a"
+        },
+        {
+          "term": "penalty",
+          "zh": "处罚",
+          "definition": {
+            "en": "A consequence imposed for violating a rule.",
+            "zh": "违反规则后施加的后果。"
+          },
+          "audio": "audio/en/e802e7599a1f35e5b303.m4a"
+        }
       ]
     },
     {
@@ -124,6 +530,84 @@
         12,
         13,
         16
+      ],
+      "lesson": [
+        {
+          "en": "Spear phishing is tailored to a particular person or organization. Details such as a manager’s name or an ongoing project can make a false request appear relevant and believable.",
+          "zh": "鱼叉式钓鱼针对特定个人或组织进行定制。上司姓名或正在进行的项目等细节，可能让虚假请求显得相关且可信。"
+        },
+        {
+          "en": "Vishing uses voice communication, commonly a telephone call, to deceive a person. A familiar-looking caller ID can be spoofed, so the displayed number alone cannot prove the caller’s identity.",
+          "zh": "语音钓鱼利用语音通信，通常通过电话，欺骗他人。看起来熟悉的来电号码可能被伪造，因此仅凭显示号码不能证明来电者身份。"
+        },
+        {
+          "en": "The labels describe different dimensions: spear phishing emphasizes targeting, while vishing emphasizes the communication channel. A carefully targeted phone call can therefore involve both ideas.",
+          "zh": "这两个标签描述不同维度：鱼叉式钓鱼强调针对性，语音钓鱼强调通信渠道。因此，一通精心针对某个人的电话可以同时涉及这两种特征。"
+        }
+      ],
+      "example": {
+        "en": "A caller names your supervisor and claims an urgent work issue requires a verification code. The personal detail creates credibility, but it does not prove that the caller is genuine.",
+        "zh": "来电者说出你上司的名字，声称一项紧急工作问题需要验证码。个人细节增强了可信感，却不能证明来电者真实可信。"
+      },
+      "pitfall": {
+        "en": "A scammer knowing facts about you does not authenticate the scammer. Remember “specific target” for spear phishing and “voice or telephone” for vishing.",
+        "zh": "骗子知道你的相关信息，并不能验证骗子的身份。看到“特定目标”要想到鱼叉式钓鱼，看到“语音或电话”要想到语音钓鱼。"
+      },
+      "statements": [
+        {
+          "en": "Spear phishing tailors deception to a specific target.",
+          "zh": "鱼叉式钓鱼针对特定目标定制欺骗内容。",
+          "audio": "audio/en/03d8600d5839b25308a0.m4a"
+        },
+        {
+          "en": "Vishing uses voice communication to deceive victims.",
+          "zh": "语音钓鱼使用语音通信欺骗受害者。",
+          "audio": "audio/en/6669a83a6d8c86a90cc0.m4a"
+        },
+        {
+          "en": "Caller ID can be spoofed and is not sufficient proof of identity.",
+          "zh": "来电显示可以被伪造，不能作为充分的身份证明。",
+          "audio": "audio/en/0941b13f19f154d3baa8.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "spear phishing",
+          "zh": "鱼叉式钓鱼；定向钓鱼",
+          "definition": {
+            "en": "A phishing attempt customized for a particular target.",
+            "zh": "为某个特定目标定制的钓鱼攻击。"
+          },
+          "audio": "audio/en/1f204cfd51788e4888ca.m4a"
+        },
+        {
+          "term": "vishing",
+          "zh": "语音钓鱼",
+          "definition": {
+            "en": "Phishing conducted through voice communication.",
+            "zh": "通过语音通信实施的钓鱼。"
+          },
+          "audio": "audio/en/98d3c491cf67276a8d80.m4a"
+        },
+        {
+          "term": "caller ID",
+          "zh": "来电显示",
+          "definition": {
+            "en": "The identity or number displayed for an incoming call.",
+            "zh": "来电时显示的身份或电话号码。"
+          },
+          "say": "caller I D",
+          "audio": "audio/en/1911d77ac5c80cc97284.m4a"
+        },
+        {
+          "term": "impersonate",
+          "zh": "冒充",
+          "definition": {
+            "en": "Pretend to be a different person or organization.",
+            "zh": "假装是另一个人或组织。"
+          },
+          "audio": "audio/en/2f4521e688aab8c5ade1.m4a"
+        }
       ]
     },
     {
@@ -143,6 +627,83 @@
       "questionIds": [
         14,
         15
+      ],
+      "lesson": [
+        {
+          "en": "A trust signal is something that makes a source look familiar or credible, such as a name, photograph, logo, or search ranking. These signals are useful for recognition but are often easy to copy.",
+          "zh": "可信线索是让来源显得熟悉或可靠的东西，例如姓名、照片、标志或搜索排名。这些线索有助于辨认外观，但通常也容易被复制。"
+        },
+        {
+          "en": "Authenticity requires stronger evidence than appearance. A fake account can copy a friend’s photo, and a prominent search result can still lead to a deceptive site.",
+          "zh": "真实性需要比外观更强的证据。假账号可以复制朋友的照片，显眼的搜索结果也仍可能指向欺骗性网站。"
+        },
+        {
+          "en": "An independent check uses a contact route that was already known to be genuine rather than the contact details supplied in the suspicious request. This separates verification from the attacker’s own claim.",
+          "zh": "独立核验使用的是事先已确认真实的联系途径，而不是可疑请求自己提供的联系方式。这样可以把核验过程与攻击者自己的说法分离。"
+        }
+      ],
+      "example": {
+        "en": "An account using your friend’s name asks for urgent help. Contacting your friend through a previously used channel checks the request more reliably than trusting the copied name and photograph.",
+        "zh": "一个使用朋友姓名的账号向你紧急求助。通过过去使用过的渠道联系朋友进行核实，比相信复制的姓名和照片更可靠。"
+      },
+      "pitfall": {
+        "en": "Q14 says some prominent search results can be phishing links; it does not say every top result is malicious. Likewise, a familiar photo is a clue to appearance, not proof of account ownership.",
+        "zh": "Q14 说排名靠前的搜索结果中可能有钓鱼链接，并不是说所有靠前结果都有恶意。同样，熟悉的照片只是外观线索，不是账号归属的证明。"
+      },
+      "statements": [
+        {
+          "en": "A familiar name or photograph does not prove that an account is genuine.",
+          "zh": "熟悉的姓名或照片不能证明账号真实可信。",
+          "audio": "audio/en/12b0be2eb0ff38696b9d.m4a"
+        },
+        {
+          "en": "Search ranking alone does not establish a website’s authenticity.",
+          "zh": "搜索排名本身不能确定网站的真实性。",
+          "audio": "audio/en/714cd63cfb6dba8c0e21.m4a"
+        },
+        {
+          "en": "Suspicious requests should be checked through an independently trusted channel.",
+          "zh": "可疑请求应通过独立且可信的渠道核验。",
+          "audio": "audio/en/5b6ea1c6c93f692d587b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "genuine",
+          "zh": "真实的；非假冒的",
+          "definition": {
+            "en": "Actually being the person or thing claimed.",
+            "zh": "确实是其所声称的人或事物。"
+          },
+          "audio": "audio/en/c69b43a726773301639d.m4a"
+        },
+        {
+          "term": "lookalike",
+          "zh": "仿冒品；外观相似者",
+          "definition": {
+            "en": "Something designed to resemble a familiar person, account, or site.",
+            "zh": "刻意模仿熟悉的人、账号或网站外观的对象。"
+          },
+          "audio": "audio/en/759d3fd56cbfb5e3457b.m4a"
+        },
+        {
+          "term": "verify",
+          "zh": "核验；验证",
+          "definition": {
+            "en": "Check a claim using evidence.",
+            "zh": "使用证据检查某项说法。"
+          },
+          "audio": "audio/en/0e667ce83d624db0b638.m4a"
+        },
+        {
+          "term": "independent channel",
+          "zh": "独立渠道",
+          "definition": {
+            "en": "A verification route not controlled or supplied by the suspicious requester.",
+            "zh": "不由可疑请求者控制或提供的核验途径。"
+          },
+          "audio": "audio/en/ea4118e7ab18bf87f14c.m4a"
+        }
       ]
     },
     {
@@ -164,6 +725,92 @@
         18,
         19,
         20
+      ],
+      "lesson": [
+        {
+          "en": "Compliance means meeting the standards and requirements that apply to an organization. The source of a requirement may be a regulator, an authority, or an adopted standard, so the first step is understanding which requirements actually apply.",
+          "zh": "合规意味着满足适用于组织的标准与要求。要求可能来自监管者、主管机构或所采用的标准，因此首先需要弄清楚哪些要求确实适用。"
+        },
+        {
+          "en": "A compliance program connects responsibilities, risk assessment, policies, controls, and checks. A team helps coordinate this work because technical staff, managers, and other functions may each own different parts.",
+          "zh": "合规计划把职责、风险评估、政策、控制措施和检查联系起来。团队有助于协调这项工作，因为技术人员、管理层和其他职能部门可能分别负责不同部分。"
+        },
+        {
+          "en": "Technical controls act through information systems, while physical controls protect spaces and equipment. Policies and training add organizational controls, so a complete security program is broader than a single password or fence.",
+          "zh": "技术控制通过信息系统发挥作用，物理控制保护空间和设备。政策和培训还提供组织层面的控制，因此完整的安全计划比一项密码措施或一道围栏更广泛。"
+        }
+      ],
+      "example": {
+        "en": "A company restricts account access with passwords, limits building entry with a fence, and checks whether staff follow the access policy. The measures address different parts of the same protection program.",
+        "zh": "公司用密码限制账号访问，用围栏限制进入场所，并检查员工是否遵守访问政策。这些措施处理同一防护计划的不同方面。"
+      },
+      "pitfall": {
+        "en": "Compliance is not a guarantee that no attack will succeed. In Q20, passwords are classified as technical controls and cameras or fences as physical controls, even though cameras also use technology.",
+        "zh": "合规不能保证没有攻击会成功。Q20 将密码归为技术控制，将摄像头或围栏归为物理控制，即使摄像头本身也使用技术。"
+      },
+      "statements": [
+        {
+          "en": "Cybersecurity compliance means following applicable standards and requirements.",
+          "zh": "网络安全合规意味着遵守适用的标准与要求。",
+          "audio": "audio/en/5ba1e167e7c0fbba793e.m4a"
+        },
+        {
+          "en": "A compliance team coordinates responsibilities across a compliance program.",
+          "zh": "合规团队协调合规计划中各方面的职责。",
+          "audio": "audio/en/5cb423c30f32876fe542.m4a"
+        },
+        {
+          "en": "Passwords are technical controls, while fences are physical controls.",
+          "zh": "密码属于技术控制，围栏属于物理控制。",
+          "audio": "audio/en/3204f955f01f1f61f3ac.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "compliance",
+          "zh": "合规",
+          "definition": {
+            "en": "Meeting the requirements that apply to an organization or activity.",
+            "zh": "满足适用于组织或活动的要求。"
+          },
+          "audio": "audio/en/bd1d8250a4e1473fc572.m4a"
+        },
+        {
+          "term": "regulatory requirement",
+          "zh": "监管要求",
+          "definition": {
+            "en": "A requirement established by a relevant regulator or authority.",
+            "zh": "由相关监管机构或主管机构制定的要求。"
+          },
+          "audio": "audio/en/d5680d82e287252238a1.m4a"
+        },
+        {
+          "term": "technical control",
+          "zh": "技术控制措施",
+          "definition": {
+            "en": "A protection implemented through an information system.",
+            "zh": "通过信息系统实施的保护措施。"
+          },
+          "audio": "audio/en/a7bf6988667d3408b21c.m4a"
+        },
+        {
+          "term": "physical control",
+          "zh": "物理控制措施",
+          "definition": {
+            "en": "A protection concerning physical spaces, entry, or equipment.",
+            "zh": "涉及实体空间、进入场所或设备的保护措施。"
+          },
+          "audio": "audio/en/a45fcf0f38647c465e79.m4a"
+        },
+        {
+          "term": "risk assessment",
+          "zh": "风险评估",
+          "definition": {
+            "en": "Examining threats, weaknesses, and possible consequences to understand risk.",
+            "zh": "通过检查威胁、弱点和可能后果来理解风险。"
+          },
+          "audio": "audio/en/d4ce35e92e9e77b38f9f.m4a"
+        }
       ]
     }
   ],

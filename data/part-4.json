@@ -27,6 +27,88 @@
       "questionIds": [
         1,
         3
+      ],
+      "lesson": [
+        {
+          "en": "Plaintext is the original data before encryption; ciphertext is the result after encryption. A cipher is the algorithm, while a key is a value that controls a particular use of that algorithm.",
+          "zh": "明文是加密前的原始数据，密文是加密后的结果。Cipher 指算法，Key 指控制算法某次具体运算的值。"
+        },
+        {
+          "en": "A block cipher takes a fixed-size input block and produces a block of ciphertext. A stream cipher instead combines data with a generated keystream; the distinction is how data is processed, not how many users there are.",
+          "zh": "分组密码处理固定大小的输入块并产生密文块；流密码则将数据与生成的密钥流结合。区别在于数据的处理方式，而不是用户数量。"
+        }
+      ],
+      "example": {
+        "en": "Imagine a confidential letter placed inside a locked box: the letter represents plaintext, and the protected contents represent ciphertext. Unlocking the box is analogous to decryption.",
+        "zh": "把保密信放入上锁的箱子：信件相当于明文，受保护的内容相当于密文；开锁取出信件类似解密。"
+      },
+      "pitfall": {
+        "en": "Do not reverse encryption and decryption. Also, a block size is the amount of data processed at once; it is not the key length.",
+        "zh": "不要把加密与解密的方向颠倒。分组长度是每次处理的数据量，不是密钥长度。"
+      },
+      "statements": [
+        {
+          "en": "Encryption converts plaintext into ciphertext.",
+          "zh": "加密将明文转换为密文。",
+          "audio": "audio/en/569fb7617f201de0c1f4.m4a"
+        },
+        {
+          "en": "Decryption recovers plaintext from ciphertext using the appropriate key.",
+          "zh": "解密使用适当的密钥从密文恢复明文。",
+          "audio": "audio/en/80a40d16195b114d6bcb.m4a"
+        },
+        {
+          "en": "A block cipher processes fixed-size blocks of data.",
+          "zh": "分组密码处理固定大小的数据块。",
+          "audio": "audio/en/5320b05251e7930170aa.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "plaintext",
+          "zh": "明文",
+          "definition": {
+            "en": "Original data before encryption.",
+            "zh": "加密之前的原始数据。"
+          },
+          "audio": "audio/en/16a78792401980a4b713.m4a"
+        },
+        {
+          "term": "ciphertext",
+          "zh": "密文",
+          "definition": {
+            "en": "The output of an encryption operation.",
+            "zh": "加密操作的输出。"
+          },
+          "audio": "audio/en/0f97d3fee09493271e5a.m4a"
+        },
+        {
+          "term": "encryption",
+          "zh": "加密",
+          "definition": {
+            "en": "The transformation from plaintext to ciphertext.",
+            "zh": "将明文转换为密文的过程。"
+          },
+          "audio": "audio/en/5aa14a06cdaa755c93cb.m4a"
+        },
+        {
+          "term": "decryption",
+          "zh": "解密",
+          "definition": {
+            "en": "The recovery of plaintext with the appropriate key.",
+            "zh": "使用适当密钥恢复明文的过程。"
+          },
+          "audio": "audio/en/2cac54997229f4968507.m4a"
+        },
+        {
+          "term": "block cipher",
+          "zh": "分组密码",
+          "definition": {
+            "en": "A cipher operating on fixed-size data blocks.",
+            "zh": "以固定大小数据块为单位工作的密码算法。"
+          },
+          "audio": "audio/en/2aa2c2a6367c8bd82e0d.m4a"
+        }
       ]
     },
     {
@@ -49,6 +131,93 @@
         5,
         6,
         7
+      ],
+      "lesson": [
+        {
+          "en": "The sender and receiver share a secret key. Anyone who obtains that key may be able to decrypt protected messages, so the key must be distributed and stored securely.",
+          "zh": "发送者与接收者共享秘密密钥。获得这把密钥的人可能解开受保护消息，因此必须安全分发与保存密钥。"
+        },
+        {
+          "en": "DES is a symmetric block cipher: each block contains 64 data bits, while its effective key contains 56 bits. The conventional 64-bit key representation includes eight parity bits that do not add secret-key strength.",
+          "zh": "DES 是对称分组密码：每组数据有 64 位，有效密钥有 56 位。常见的 64 位密钥表示包含 8 个奇偶校验位，它们不增加秘密密钥强度。"
+        },
+        {
+          "en": "Symmetric encryption is efficient for bulk data. Its quiz disadvantage is secure key distribution, not that it must be slow or that every symmetric algorithm is inherently weak.",
+          "zh": "对称加密适合高效处理大量数据。题目强调的缺点是密钥的安全分发，并非它一定很慢，也不是所有对称算法天然薄弱。"
+        }
+      ],
+      "example": {
+        "en": "Alice and Bob each have a copy of the same box key. Sending Bob a new key through a channel that an eavesdropper can read would undermine the protection.",
+        "zh": "Alice 和 Bob 各持同一把箱子钥匙的副本；如果把新钥匙经窃听者可读取的渠道交给 Bob，保护效果就会被破坏。"
+      },
+      "pitfall": {
+        "en": "DES questions test two different numbers: block size is 64 bits and effective key length is 56 bits. DES is a historical teaching example, not a template for a new secure deployment.",
+        "zh": "DES 题考两个不同数字：分组长度 64 位，有效密钥长度 56 位。DES 是历史教学例子，不应用作新安全部署的范本。"
+      },
+      "statements": [
+        {
+          "en": "Symmetric encryption uses the same shared secret key for encryption and decryption.",
+          "zh": "对称加密使用同一把共享秘密密钥进行加密和解密。",
+          "audio": "audio/en/08f9fe1a240e2c35d7f3.m4a"
+        },
+        {
+          "en": "DES has a 64-bit block size and a 56-bit effective key.",
+          "zh": "DES 的分组长度为 64 位，有效密钥长度为 56 位。",
+          "audio": "audio/en/1d22f8939da913f2d8d4.m4a"
+        },
+        {
+          "en": "Secure key distribution is a major challenge in symmetric cryptography.",
+          "zh": "安全分发密钥是对称密码中的一个主要难点。",
+          "audio": "audio/en/5c26eff3fbfc43c780a0.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "symmetric",
+          "zh": "对称的",
+          "definition": {
+            "en": "Using a shared secret key in this encryption context.",
+            "zh": "在加密语境中指使用共享秘密密钥。"
+          },
+          "audio": "audio/en/a3d00e3a8d8a25ebd9bd.m4a"
+        },
+        {
+          "term": "secret key",
+          "zh": "秘密密钥",
+          "definition": {
+            "en": "A key that must remain known only to authorized parties.",
+            "zh": "只能由获授权方掌握的密钥。"
+          },
+          "audio": "audio/en/b98d0bfcd604c8f77cd5.m4a"
+        },
+        {
+          "term": "key distribution",
+          "zh": "密钥分发",
+          "definition": {
+            "en": "Delivering or establishing keys for the intended participants.",
+            "zh": "向指定参与方交付或为其建立密钥。"
+          },
+          "audio": "audio/en/067d7e1254dd827b1c5e.m4a"
+        },
+        {
+          "term": "parity bit",
+          "zh": "奇偶校验位",
+          "definition": {
+            "en": "A checking bit that is not an additional secret key bit in DES.",
+            "zh": "DES 中用于校验、并非额外秘密密钥位的比特。"
+          },
+          "audio": "audio/en/e8c73b33b69772b46e44.m4a"
+        },
+        {
+          "term": "DES",
+          "zh": "数据加密标准",
+          "definition": {
+            "en": "The symmetric block cipher tested in Questions 4 to 6.",
+            "zh": "第 4 至 6 题考查的对称分组密码。"
+          },
+          "say": "D E S",
+          "audio": "audio/en/574c893573accba4bdb0.m4a"
+        }
       ]
     },
     {
@@ -70,6 +239,79 @@
         9,
         10,
         11
+      ],
+      "lesson": [
+        {
+          "en": "An encryption product is not proven secure by an impressive advertisement. Evaluate its algorithm, parameters, implementation, and independent scrutiny together.",
+          "zh": "加密产品不会因为广告看起来厉害就被证明安全；应综合考察算法、参数、实现方式和独立审查。"
+        },
+        {
+          "en": "An older algorithm may have received more analysis, but age alone is not a security guarantee. A new algorithm requires caution, and an unbreakable claim should prompt examination of the evidence.",
+          "zh": "旧算法可能经历更多分析，但存在时间长本身不能保证安全。新算法需要谨慎评估，看到“无法破解”应检查证据。"
+        }
+      ],
+      "example": {
+        "en": "A vendor promises unbreakable protection but provides no algorithm details or evaluation report. The promise is a claim to investigate, not proof to memorize.",
+        "zh": "厂商宣称保护无法破解，却不给算法细节或评估报告；这是一项需要查证的宣传，不是应背下来的安全证据。"
+      },
+      "pitfall": {
+        "en": "Q8 marks algorithm age, but age is not sufficient proof. Q10 marks a denial of certified encryption; real cryptographic validation programs exist, so keep the source key separate from the technical fact.",
+        "zh": "Q8 标注算法存在时间，但时间长不足以证明安全；Q10 标注否认加密认证的说法，但现实中存在密码验证计划。请区分资料答案和技术事实。"
+      },
+      "statements": [
+        {
+          "en": "A claim of unbreakable encryption is not evidence of security.",
+          "zh": "声称加密无法破解并不构成安全证据。",
+          "audio": "audio/en/ad51098a86f6df6b53e1.m4a"
+        },
+        {
+          "en": "The age of an algorithm alone does not prove its security.",
+          "zh": "算法存在时间的长短本身不能证明其安全性。",
+          "audio": "audio/en/5017965b60f26dc0f629.m4a"
+        },
+        {
+          "en": "New cryptographic methods require careful evaluation.",
+          "zh": "新的密码方法需要谨慎评估。",
+          "audio": "audio/en/a7a878c0580301990035.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "vendor",
+          "zh": "供应商",
+          "definition": {
+            "en": "The company providing a security product.",
+            "zh": "提供安全产品的公司。"
+          },
+          "audio": "audio/en/7d2d1fec2deb39373e42.m4a"
+        },
+        {
+          "term": "veracity",
+          "zh": "真实性",
+          "definition": {
+            "en": "The truthfulness of a statement or claim.",
+            "zh": "陈述或宣传是否真实。"
+          },
+          "audio": "audio/en/b576dca80387c914ba45.m4a"
+        },
+        {
+          "term": "exaggerated",
+          "zh": "夸大的",
+          "definition": {
+            "en": "Claiming more than the evidence supports.",
+            "zh": "宣传程度超出了证据能支持的范围。"
+          },
+          "audio": "audio/en/5b91519b944f98682735.m4a"
+        },
+        {
+          "term": "certification",
+          "zh": "认证",
+          "definition": {
+            "en": "An assessment against a specified set of requirements.",
+            "zh": "依照特定要求进行的评估认证。"
+          },
+          "audio": "audio/en/736e317d9439a07a6f05.m4a"
+        }
       ]
     },
     {
@@ -92,6 +334,89 @@
         14,
         15,
         17
+      ],
+      "lesson": [
+        {
+          "en": "Asymmetric cryptography uses two mathematically related keys: a public key that can be shared and a private key that must be protected. They form a key pair, not two copies of one secret key.",
+          "zh": "非对称密码使用两把数学相关的密钥：可分享的公钥和必须保护的私钥。它们构成密钥对，而非同一把秘密密钥的两个副本。"
+        },
+        {
+          "en": "Public-key encryption can provide confidentiality, while suitable digital-signature schemes support authentication and integrity. Two keys do not automatically make a system more secure than a symmetric one.",
+          "zh": "公钥加密可提供机密性，合适的数字签名方案则支持身份认证和完整性。使用两把密钥不自动意味着比对称系统更安全。"
+        }
+      ],
+      "example": {
+        "en": "Bob publishes his public encryption key so Alice can encrypt a message for him. Bob keeps the matching private key to decrypt it.",
+        "zh": "Bob 公布自己的公钥，让 Alice 加密发给他的消息；Bob 保管匹配的私钥，用于解密。"
+      },
+      "pitfall": {
+        "en": "Public-key cryptography and asymmetric cryptography name the same broad category. The quiz emphasizes RSA, but its claims about the most widely used algorithm are course context, not a permanent ranking.",
+        "zh": "公钥密码与非对称密码指同一大类。题库重点讲 RSA，但其中“使用最广泛”等说法应按课程语境理解，而非永久排名。"
+      },
+      "statements": [
+        {
+          "en": "Asymmetric cryptography uses a public key and a corresponding private key.",
+          "zh": "非对称密码使用公钥和对应私钥。",
+          "audio": "audio/en/fefceb8b5288e0c0f0b8.m4a"
+        },
+        {
+          "en": "RSA is an asymmetric cryptographic algorithm.",
+          "zh": "RSA 是一种非对称密码算法。",
+          "audio": "audio/en/4f984193c2e10a219ab2.m4a"
+        },
+        {
+          "en": "Using two keys does not automatically make encryption more secure.",
+          "zh": "使用两把密钥并不会自动使加密更安全。",
+          "audio": "audio/en/f2c452555143579f3b5a.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "asymmetric",
+          "zh": "非对称的",
+          "definition": {
+            "en": "Using a related public and private key pair.",
+            "zh": "使用相关联的公钥和私钥对。"
+          },
+          "audio": "audio/en/971af8e1e866adeda448.m4a"
+        },
+        {
+          "term": "public key",
+          "zh": "公钥",
+          "definition": {
+            "en": "The shareable key associated with a private key.",
+            "zh": "与私钥关联、可对外分享的密钥。"
+          },
+          "audio": "audio/en/5aa23e2d9ec51b31019f.m4a"
+        },
+        {
+          "term": "private key",
+          "zh": "私钥",
+          "definition": {
+            "en": "The secret member of an asymmetric key pair.",
+            "zh": "非对称密钥对中必须保密的一把密钥。"
+          },
+          "audio": "audio/en/fdac910efad4b0ae43aa.m4a"
+        },
+        {
+          "term": "key pair",
+          "zh": "密钥对",
+          "definition": {
+            "en": "A related public key and private key.",
+            "zh": "相互关联的一把公钥与一把私钥。"
+          },
+          "audio": "audio/en/340312f286683a2ad7a4.m4a"
+        },
+        {
+          "term": "RSA",
+          "zh": "RSA 公钥算法",
+          "definition": {
+            "en": "The public-key algorithm emphasized in this chapter.",
+            "zh": "本章重点考查的公钥算法。"
+          },
+          "say": "R S A",
+          "audio": "audio/en/e75f069e659c8ca06a68.m4a"
+        }
       ]
     },
     {
@@ -110,6 +435,79 @@
       },
       "questionIds": [
         16
+      ],
+      "lesson": [
+        {
+          "en": "Diffie–Hellman lets two parties calculate the same shared secret after exchanging public values. They do not simply send the final secret key openly over the network.",
+          "zh": "Diffie–Hellman 让双方在交换公开值后计算出相同的共享秘密，并不是把最终秘密密钥直接公开发送到网络上。"
+        },
+        {
+          "en": "The course relates its security to the difficulty of discrete logarithms in suitable groups. Basic unauthenticated Diffie–Hellman does not prove who is on the other end, so an active intermediary can impersonate the parties.",
+          "zh": "课程将其安全性联系到合适群中的离散对数困难性。未经认证的基本 Diffie–Hellman 无法证明对方身份，因此主动中间人可能冒充通信双方。"
+        }
+      ],
+      "example": {
+        "en": "Alice and Bob each keep a private value and exchange derived public values. Each combines what they receive with their own private value to obtain a common secret.",
+        "zh": "Alice 与 Bob 各自保留秘密值，并交换由此产生的公开值；各自结合收到的值与自己的秘密值，得到同一共享秘密。"
+      },
+      "pitfall": {
+        "en": "Key agreement and identity authentication are different tasks. Agreeing on a key does not by itself prove that the other party is Bob.",
+        "zh": "密钥协商和身份认证是不同任务；协商出密钥本身并不能证明对方就是 Bob。"
+      },
+      "statements": [
+        {
+          "en": "Diffie–Hellman is a key-agreement method.",
+          "zh": "Diffie–Hellman 是一种密钥协商方法。",
+          "audio": "audio/en/05a777a8da6c53018f86.m4a"
+        },
+        {
+          "en": "The course associates Diffie–Hellman with the difficulty of discrete logarithms.",
+          "zh": "课程将 Diffie–Hellman 与离散对数的计算困难性联系起来。",
+          "audio": "audio/en/512967f8054f1ceaac08.m4a"
+        },
+        {
+          "en": "Unauthenticated key agreement does not verify the identity of the other party.",
+          "zh": "未经认证的密钥协商不会核验对方身份。",
+          "audio": "audio/en/98a85a61a8a950e6f010.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "key agreement",
+          "zh": "密钥协商",
+          "definition": {
+            "en": "A process in which participants derive a common secret.",
+            "zh": "参与方共同导出相同秘密的过程。"
+          },
+          "audio": "audio/en/c1fc8d5a16f115d0e573.m4a"
+        },
+        {
+          "term": "discrete logarithm",
+          "zh": "离散对数",
+          "definition": {
+            "en": "The hard reverse computation highlighted for Diffie–Hellman.",
+            "zh": "课程解释 Diffie–Hellman 时强调的困难逆运算。"
+          },
+          "audio": "audio/en/ffa4488a495ff6be8e04.m4a"
+        },
+        {
+          "term": "shared secret",
+          "zh": "共享秘密",
+          "definition": {
+            "en": "A secret value known to the intended participants.",
+            "zh": "由指定参与方共同掌握的秘密值。"
+          },
+          "audio": "audio/en/e294c28dfc96c60d17f5.m4a"
+        },
+        {
+          "term": "impersonation",
+          "zh": "身份冒充",
+          "definition": {
+            "en": "Pretending to be a different participant.",
+            "zh": "假装成另一名参与者。"
+          },
+          "audio": "audio/en/bc160a15208c21924046.m4a"
+        }
       ]
     },
     {
@@ -130,6 +528,83 @@
         18,
         19,
         20
+      ],
+      "lesson": [
+        {
+          "en": "Start with two distinct prime numbers, p and q. Their product is the modulus n; Euler’s totient is phi of n, equal to p minus one multiplied by q minus one.",
+          "zh": "从两个不同质数 p、q 开始，其乘积是模数 n；欧拉函数 φ(n) 等于 (p−1) 与 (q−1) 的乘积。"
+        },
+        {
+          "en": "Choose a public exponent e that is coprime to phi of n, and find a private exponent d such that e times d leaves remainder one modulo phi of n. The quiz calculation focuses on distinguishing n from phi of n.",
+          "zh": "选取与 φ(n) 互素的公钥指数 e，再找私钥指数 d，使 ed 除以 φ(n) 余 1。样题计算重点是区分 n 和 φ(n)。"
+        },
+        {
+          "en": "Multiplying two large primes is easy compared with recovering well-chosen large prime factors from their product. The tiny numbers in the quiz illustrate the formula; they are not secure RSA parameters.",
+          "zh": "将两个大质数相乘很容易，但从适当选取的大质数乘积恢复因子很困难。样题的小数字只用于展示公式，不是安全的 RSA 参数。"
+        }
+      ],
+      "example": {
+        "en": "For p = 5 and q = 11, n = 5 × 11 = 55, while φ(n) = 4 × 10 = 40. Q18 therefore selects “None of the above,” and Q19 selects 55.",
+        "zh": "当 p=5、q=11 时，n=5×11=55，而 φ(n)=4×10=40。所以 Q18 选“以上都不是”，Q19 选 55。"
+      },
+      "pitfall": {
+        "en": "Do not use p times q when the question asks for phi. Also, toy RSA arithmetic without a secure encoding scheme is not a complete real-world encryption system.",
+        "zh": "题目问 φ 时，不要直接算 pq。另外，没有安全编码方案的玩具 RSA 运算不是完整的实际加密系统。"
+      },
+      "statements": [
+        {
+          "en": "The RSA modulus is the product of two distinct prime numbers.",
+          "zh": "RSA 模数是两个不同质数的乘积。",
+          "audio": "audio/en/9299d7322c1dea7cc55c.m4a"
+        },
+        {
+          "en": "For distinct primes p and q, phi of n equals p minus one times q minus one.",
+          "zh": "对于不同质数 p、q，φ(n) 等于 (p−1)(q−1)。",
+          "audio": "audio/en/2e8c3abb16d06577e5f5.m4a"
+        },
+        {
+          "en": "When p is five and q is eleven, n is fifty-five and phi of n is forty.",
+          "zh": "当 p 为 5、q 为 11 时，n 为 55，φ(n) 为 40。",
+          "audio": "audio/en/7f2ac90b058d1019093e.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "prime number",
+          "zh": "质数",
+          "definition": {
+            "en": "An integer greater than one divisible only by one and itself.",
+            "zh": "大于 1 且只能被 1 和自身整除的整数。"
+          },
+          "audio": "audio/en/034d159100436acc1e90.m4a"
+        },
+        {
+          "term": "modulus",
+          "zh": "模数",
+          "definition": {
+            "en": "The number that defines a modular arithmetic operation.",
+            "zh": "定义模运算所使用的数。"
+          },
+          "audio": "audio/en/59feacb816a6403daf20.m4a"
+        },
+        {
+          "term": "totient",
+          "zh": "欧拉函数",
+          "definition": {
+            "en": "The count of positive integers up to n that are coprime to n.",
+            "zh": "不大于 n 且与 n 互素的正整数个数。"
+          },
+          "audio": "audio/en/5624cd4354d499073ad2.m4a"
+        },
+        {
+          "term": "factorization",
+          "zh": "因数分解",
+          "definition": {
+            "en": "Recovering factors whose product is the given number.",
+            "zh": "找出相乘后等于给定数的因子。"
+          },
+          "audio": "audio/en/9b04696e26c1ffbea2c7.m4a"
+        }
       ]
     },
     {
@@ -151,6 +626,79 @@
         22,
         23,
         24
+      ],
+      "lesson": [
+        {
+          "en": "For confidential delivery, ask who should be able to read the message. If Bob is the receiver, the sender encrypts with Bob’s public key, and Bob decrypts with Bob’s private key.",
+          "zh": "保密传输时先问：谁应该能读消息？如果 Bob 是接收者，发送者用 Bob 的公钥加密，Bob 用自己的私钥解密。"
+        },
+        {
+          "en": "This differs from a signature: the sender signs with the sender’s private key to support verification of the source. Receiver keys protect confidentiality; sender signing keys establish who signed.",
+          "zh": "这与签名不同：发送者用自己的私钥签名，以支持验证来源。接收者的加密密钥用于保密，发送者的签名密钥用于确认谁签了名。"
+        }
+      ],
+      "example": {
+        "en": "Carol sends Bob a confidential assignment. Carol uses Bob’s public key; Bob uses his private key. Carol’s private key would be relevant if Carol also signs the assignment.",
+        "zh": "Carol 给 Bob 发送保密作业：Carol 用 Bob 的公钥，Bob 用自己的私钥；只有当 Carol 还需要给作业签名时，才会用到她的私有签名密钥。"
+      },
+      "pitfall": {
+        "en": "Q23 marks “variable keys depending on the application.” For confidentiality alone, all students can use one professor public key and the professor can use its matching private key; extra requirements change the count.",
+        "zh": "Q23 标注“取决于应用的可变密钥数量”。若只要求作业保密，所有学生可使用教授同一把公钥，教授用对应私钥解密；额外要求才会改变密钥数量。"
+      },
+      "statements": [
+        {
+          "en": "For confidentiality, encrypt with the receiver’s public key.",
+          "zh": "为实现保密，应使用接收者的公钥加密。",
+          "audio": "audio/en/6eac95030075502b0c07.m4a"
+        },
+        {
+          "en": "The receiver decrypts with the corresponding private key.",
+          "zh": "接收者使用对应私钥解密。",
+          "audio": "audio/en/71ef1743c5e9dd063b97.m4a"
+        },
+        {
+          "en": "The sender uses the sender’s private signing key to create a digital signature.",
+          "zh": "发送者使用自己的私有签名密钥创建数字签名。",
+          "audio": "audio/en/b4f23eb2b3408f90d04c.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "sender",
+          "zh": "发送者",
+          "definition": {
+            "en": "The party sending a message.",
+            "zh": "发送消息的一方。"
+          },
+          "audio": "audio/en/09a35b73d18c49b6c453.m4a"
+        },
+        {
+          "term": "receiver",
+          "zh": "接收者",
+          "definition": {
+            "en": "The intended party receiving a message.",
+            "zh": "预期接收消息的一方。"
+          },
+          "audio": "audio/en/b6ca11b909e8679ece45.m4a"
+        },
+        {
+          "term": "confidentiality",
+          "zh": "机密性",
+          "definition": {
+            "en": "Protection against unauthorized disclosure of information.",
+            "zh": "保护信息不被未经授权地披露。"
+          },
+          "audio": "audio/en/61c564e42127ec94e89c.m4a"
+        },
+        {
+          "term": "corresponding",
+          "zh": "相对应的",
+          "definition": {
+            "en": "Belonging to the same related key pair in this context.",
+            "zh": "在这里指属于同一相关密钥对。"
+          },
+          "audio": "audio/en/794c8b7a88d757d3bfb9.m4a"
+        }
       ]
     },
     {
@@ -170,6 +718,79 @@
       "questionIds": [
         25,
         32
+      ],
+      "lesson": [
+        {
+          "en": "A public key can be shared widely, but you still need to know whose key it is. A digital certificate binds an identified subject to a public key using a signature from a certificate authority.",
+          "zh": "公钥可以广泛分享，但你仍需要知道它属于谁。数字证书通过证书颁发机构的签名，将指定主体的身份与公钥绑定。"
+        },
+        {
+          "en": "A verifier checks the certificate’s signature and trust chain, and whether it is valid for the intended identity and use. The certificate contains a public key; it does not reveal the subject’s private key.",
+          "zh": "验证者检查证书签名、信任链，以及证书是否适用于预期身份和用途。证书包含公钥，不会公开主体的私钥。"
+        }
+      ],
+      "example": {
+        "en": "A certificate for a university website helps your browser establish that a public key belongs to the expected website identity. A self-written label saying “university key” is not equivalent evidence.",
+        "zh": "大学网站的证书帮助浏览器确认某把公钥属于预期的网站身份；自己写上“大学的密钥”并不能提供同等证据。"
+      },
+      "pitfall": {
+        "en": "A certificate identifies the owner of a public key; a message signature protects evidence about a particular message. They are related but are not interchangeable.",
+        "zh": "证书确认公钥对应的身份；消息签名提供关于特定消息的证据。两者有关联，但不能互换。"
+      },
+      "statements": [
+        {
+          "en": "A digital certificate binds an identity to a public key.",
+          "zh": "数字证书将身份与公钥绑定。",
+          "audio": "audio/en/209d02d94bb92d6038dd.m4a"
+        },
+        {
+          "en": "A certificate authority digitally signs certificates.",
+          "zh": "证书颁发机构对证书进行数字签名。",
+          "audio": "audio/en/ab4c0628e40aef2bf97b.m4a"
+        },
+        {
+          "en": "A digital certificate does not disclose the subject’s private key.",
+          "zh": "数字证书不会披露证书主体的私钥。",
+          "audio": "audio/en/c793ddfed3b10c76dda8.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "digital certificate",
+          "zh": "数字证书",
+          "definition": {
+            "en": "A signed document associating an identity with a public key.",
+            "zh": "将身份与公钥关联的已签名文档。"
+          },
+          "audio": "audio/en/5f230400583712a7fc19.m4a"
+        },
+        {
+          "term": "certificate authority",
+          "zh": "证书颁发机构",
+          "definition": {
+            "en": "An issuer that signs certificates within a trust system.",
+            "zh": "在信任体系中签发证书的机构。"
+          },
+          "audio": "audio/en/bac84000208995461877.m4a"
+        },
+        {
+          "term": "bind",
+          "zh": "绑定",
+          "definition": {
+            "en": "To establish an association between two things.",
+            "zh": "建立两者之间的关联。"
+          },
+          "audio": "audio/en/51511934b7c815b6b374.m4a"
+        },
+        {
+          "term": "validity",
+          "zh": "有效性",
+          "definition": {
+            "en": "Whether a certificate is currently acceptable for its intended use.",
+            "zh": "证书当前是否适合其预期用途。"
+          },
+          "audio": "audio/en/daf804e20882da2129a7.m4a"
+        }
       ]
     },
     {
@@ -190,6 +811,93 @@
         26,
         27,
         33
+      ],
+      "lesson": [
+        {
+          "en": "A cryptographic hash function turns data into a fixed-length digest. For a given hash function, the same input produces the same digest, while different messages can in principle collide because the output space is finite.",
+          "zh": "密码学哈希函数把数据变成固定长度摘要。对给定函数，相同输入产生相同摘要；由于输出空间有限，不同消息原则上可能发生碰撞。"
+        },
+        {
+          "en": "To check integrity, compare the digest of received data against a trusted expected digest. If an attacker can replace both the message and its unprotected digest, the comparison alone does not prove the sender’s identity.",
+          "zh": "检查完整性时，将收到数据的摘要与可信的预期摘要比较；若攻击者能同时替换消息及未受保护的摘要，仅做比较不能证明发送者身份。"
+        },
+        {
+          "en": "Hashing has no decryption key that recovers the original message. SHA names a family of hash algorithms; it does not name the digest of one particular message.",
+          "zh": "哈希不存在一把用于解密并恢复原文的密钥。SHA 是哈希算法族的名称，不是某条特定消息摘要的名称。"
+        }
+      ],
+      "example": {
+        "en": "A trusted software publisher provides a download digest. A different digest for your downloaded file means the file does not match the expected data.",
+        "zh": "可信的软件发布者提供下载摘要；若下载文件的摘要不同，就说明该文件与预期数据不一致。"
+      },
+      "pitfall": {
+        "en": "The quiz calls hashing “one-way encryption,” but this is informal wording. Hashing is not reversible encryption and does not provide confidentiality for the original message.",
+        "zh": "题目把哈希叫作“单向加密”，这是非严格措辞。哈希不是可逆加密，也不为原始消息本身提供机密性。"
+      },
+      "statements": [
+        {
+          "en": "A cryptographic hash function produces a fixed-length message digest.",
+          "zh": "密码学哈希函数生成固定长度的消息摘要。",
+          "audio": "audio/en/c2264b16a8d00e5e0a8d.m4a"
+        },
+        {
+          "en": "Hashing supports data integrity checks.",
+          "zh": "哈希支持数据完整性检查。",
+          "audio": "audio/en/8163c31c5e5fa215b8a2.m4a"
+        },
+        {
+          "en": "An unkeyed hash alone does not authenticate the sender.",
+          "zh": "单独的无密钥哈希不能认证发送者。",
+          "audio": "audio/en/5c9dc64967c2d731da72.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "hash function",
+          "zh": "哈希函数",
+          "definition": {
+            "en": "A function mapping input data to a digest.",
+            "zh": "将输入数据映射为摘要的函数。"
+          },
+          "audio": "audio/en/5b8729c29bdc7e0f7ca8.m4a"
+        },
+        {
+          "term": "digest",
+          "zh": "摘要",
+          "definition": {
+            "en": "The output value of a hash function.",
+            "zh": "哈希函数的输出值。"
+          },
+          "audio": "audio/en/c865e83e8b4610718fb2.m4a"
+        },
+        {
+          "term": "integrity",
+          "zh": "完整性",
+          "definition": {
+            "en": "Protection against unauthorized alteration of data.",
+            "zh": "保护数据不被未经授权地修改。"
+          },
+          "audio": "audio/en/95cc58aa84369f8eade0.m4a"
+        },
+        {
+          "term": "collision",
+          "zh": "碰撞",
+          "definition": {
+            "en": "Different inputs producing the same digest.",
+            "zh": "不同输入产生相同摘要。"
+          },
+          "audio": "audio/en/dc7901bb2c63c8181495.m4a"
+        },
+        {
+          "term": "SHA",
+          "zh": "安全哈希算法",
+          "definition": {
+            "en": "A family of cryptographic hash algorithms.",
+            "zh": "一组密码学哈希算法。"
+          },
+          "say": "S H A",
+          "audio": "audio/en/5187e4a73b86e6f72c40.m4a"
+        }
       ]
     },
     {
@@ -211,6 +919,83 @@
         29,
         30,
         31
+      ],
+      "lesson": [
+        {
+          "en": "The signer creates a signature using a private signing key. A verifier uses the corresponding public key and the received message to check whether the signature is valid.",
+          "zh": "签名者用私有签名密钥产生签名；验证者使用对应公钥和收到的消息来检查签名是否有效。"
+        },
+        {
+          "en": "A valid signature supports message integrity and source authentication when the public key’s identity binding is trusted and the private key has been protected. Signing alone does not hide the message.",
+          "zh": "在公钥身份绑定可信、私钥得到保护的前提下，有效签名支持消息完整性与来源认证。只做签名不会隐藏消息。"
+        },
+        {
+          "en": "The course illustrates signing through a signed hash. Real signature schemes have precise signing and verification operations; do not assume every scheme literally encrypts a hash with a private key.",
+          "zh": "课程通过“签名的哈希”讲解签名。实际签名方案有严格的签名和验证运算，不应认为所有方案都是直接用私钥加密哈希。"
+        }
+      ],
+      "example": {
+        "en": "Carol signs an assignment, and Bob verifies it with Carol’s public key. If the assignment is changed after signing, verification should fail; encryption is separately needed if the contents must be kept secret.",
+        "zh": "Carol 给作业签名，Bob 用 Carol 的公钥验证。签名后若作业被修改，验证应失败；如果内容还需要保密，则需要另外加密。"
+      },
+      "pitfall": {
+        "en": "Do not use the receiver’s keys when the question asks who signs. Confidential encryption uses receiver keys; signature creation and verification use the signer’s key pair.",
+        "zh": "题目问谁签名时不要选接收者的密钥；保密加密用接收者的密钥，创建和验证签名使用签名者的密钥对。"
+      },
+      "statements": [
+        {
+          "en": "A sender creates a digital signature using the sender’s private signing key.",
+          "zh": "发送者使用自己的私有签名密钥创建数字签名。",
+          "audio": "audio/en/d2e9ff9a54a06b27eebc.m4a"
+        },
+        {
+          "en": "A verifier checks a digital signature using the signer’s public key.",
+          "zh": "验证者使用签名者公钥核验数字签名。",
+          "audio": "audio/en/d2f558ab8d98985f453c.m4a"
+        },
+        {
+          "en": "A digital signature supports integrity and source authentication, but does not itself provide confidentiality.",
+          "zh": "数字签名支持完整性与来源认证，但本身不提供机密性。",
+          "audio": "audio/en/68e5d188af6555b1232b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "digital signature",
+          "zh": "数字签名",
+          "definition": {
+            "en": "A cryptographic value used to verify a message and its signer.",
+            "zh": "用于验证消息及其签名者的密码学值。"
+          },
+          "audio": "audio/en/fa7b530e8d874595564e.m4a"
+        },
+        {
+          "term": "signer",
+          "zh": "签名者",
+          "definition": {
+            "en": "The party creating a signature with a private signing key.",
+            "zh": "使用私有签名密钥创建签名的一方。"
+          },
+          "audio": "audio/en/69fc99f1de104990a705.m4a"
+        },
+        {
+          "term": "verification",
+          "zh": "验证",
+          "definition": {
+            "en": "Checking whether a signature is valid for a message and public key.",
+            "zh": "检查签名对给定消息和公钥是否有效。"
+          },
+          "audio": "audio/en/cdb1b28b77b42de495c2.m4a"
+        },
+        {
+          "term": "authentication",
+          "zh": "身份认证、来源认证",
+          "definition": {
+            "en": "Checking a claimed identity or message source.",
+            "zh": "核验所声称的身份或消息来源。"
+          },
+          "audio": "audio/en/f647bc595b94dc54f898.m4a"
+        }
       ]
     },
     {
@@ -230,6 +1015,79 @@
       "questionIds": [
         34,
         35
+      ],
+      "lesson": [
+        {
+          "en": "A hybrid cryptosystem combines the strengths of asymmetric and symmetric methods. Public-key mechanisms establish or protect a shared session key; symmetric encryption handles the larger volume of session data.",
+          "zh": "混合密码系统结合非对称与对称方法的长处：公钥机制建立或保护共享会话密钥，对称加密处理较大量的会话数据。"
+        },
+        {
+          "en": "The session key is used for a communication session and is distinct from a long-term identity key. Establishing the key securely and authenticating the exchange are important parts of the overall protocol.",
+          "zh": "会话密钥用于一次通信会话，与长期身份密钥不同。安全建立密钥并认证交换过程，是整体协议的重要环节。"
+        }
+      ],
+      "example": {
+        "en": "Two participants first establish a shared session key using a public-key mechanism. They then encrypt the actual file with a symmetric cipher instead of performing a public-key operation on every piece of file data.",
+        "zh": "双方先利用公钥机制建立共享会话密钥，再用对称密码加密实际文件，而不是对文件的每一部分都执行公钥运算。"
+      },
+      "pitfall": {
+        "en": "In Q34, the role being tested is key exchange; in Q35, the role is encrypting session data. Identify which stage the question asks about.",
+        "zh": "Q34 考查密钥交换阶段，Q35 考查会话数据加密阶段；先看清题目问的是哪一步。"
+      },
+      "statements": [
+        {
+          "en": "A hybrid cryptosystem combines asymmetric and symmetric cryptography.",
+          "zh": "混合密码系统结合非对称密码与对称密码。",
+          "audio": "audio/en/02a2fa80128053a4d90d.m4a"
+        },
+        {
+          "en": "Public-key mechanisms can establish a shared session key.",
+          "zh": "公钥机制可用于建立共享会话密钥。",
+          "audio": "audio/en/03675752d4a1b6de3fc0.m4a"
+        },
+        {
+          "en": "Symmetric encryption protects the session data in the course’s hybrid model.",
+          "zh": "在课程的混合模型中，对称加密保护会话数据。",
+          "audio": "audio/en/28b6f756c989f8970093.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "hybrid",
+          "zh": "混合的",
+          "definition": {
+            "en": "Combining different cryptographic methods in one system.",
+            "zh": "在一个系统中结合不同的密码方法。"
+          },
+          "audio": "audio/en/bf05f7143843dc96ae10.m4a"
+        },
+        {
+          "term": "session key",
+          "zh": "会话密钥",
+          "definition": {
+            "en": "A key used to protect data within a communication session.",
+            "zh": "用于保护一次通信会话中数据的密钥。"
+          },
+          "audio": "audio/en/c910ab862b4daf866fc5.m4a"
+        },
+        {
+          "term": "key exchange",
+          "zh": "密钥交换",
+          "definition": {
+            "en": "The process of establishing keys between participants.",
+            "zh": "在参与方之间建立密钥的过程。"
+          },
+          "audio": "audio/en/d8e27f6aa57de389e01b.m4a"
+        },
+        {
+          "term": "bulk data",
+          "zh": "大量数据",
+          "definition": {
+            "en": "The main volume of content protected during a session.",
+            "zh": "会话期间需要保护的主体数据内容。"
+          },
+          "audio": "audio/en/3778f9c1f3ea6c6a6d40.m4a"
+        }
       ]
     }
   ],

@@ -28,6 +28,93 @@
         1,
         2,
         5
+      ],
+      "lesson": [
+        {
+          "en": "Before protecting application data, communicating parties need compatible security settings and shared key material. The handshake performs this setup and authenticates the parties as required by the chosen protocol and configuration.",
+          "zh": "保护应用数据之前，通信双方需要兼容的安全设置与共享密钥材料。握手完成这一准备过程，并按所选协议和配置的要求验证通信方身份。"
+        },
+        {
+          "en": "A cipher suite identifies a combination of cryptographic algorithms. A client advertises supported suites so that the peers can choose compatible parameters; the exact algorithms included in a suite depend on the TLS version.",
+          "zh": "密码套件标识一组密码算法。客户端声明自己支持的套件，使双方能选择兼容参数；套件具体包含哪些算法取决于 TLS 版本。"
+        },
+        {
+          "en": "Think of the handshake as agreeing on how to communicate securely before sending the protected conversation. HTTPS carries HTTP over TLS, while the record layer uses the established keys to protect the actual data.",
+          "zh": "可以把握手理解为在发送受保护的对话之前，先约定怎样安全通信。HTTPS 在 TLS 之上传送 HTTP，而记录层使用已建立的密钥保护实际数据。"
+        }
+      ],
+      "example": {
+        "en": "A browser connects to a university website, checks the server’s identity through the configured certificate-validation process, and establishes connection keys. It then sends the protected login request.",
+        "zh": "浏览器连接大学网站，按配置的证书验证流程检查服务器身份，并建立连接密钥。随后，它发送受保护的登录请求。"
+      },
+      "pitfall": {
+        "en": "Q1 selects the handshake as the most complex TLS component. In Q2, distinguish one cipher suite from the list of supported suites; the source uses SSL/TLS as a historical combined label.",
+        "zh": "Q1 将握手选为 TLS 中最复杂的部分。Q2 要区分单个密码套件与支持的套件列表；原资料把 SSL/TLS 作为历史沿用的合称。"
+      },
+      "statements": [
+        {
+          "en": "The TLS handshake establishes security parameters and shared key material.",
+          "zh": "TLS 握手建立安全参数与共享密钥材料。",
+          "audio": "audio/en/ca1b5afdffa2fffddf79.m4a"
+        },
+        {
+          "en": "A cipher suite identifies a combination of cryptographic algorithms.",
+          "zh": "密码套件标识一组密码算法。",
+          "audio": "audio/en/f7af00b3186c48343e77.m4a"
+        },
+        {
+          "en": "HTTPS protects HTTP communication by using TLS.",
+          "zh": "HTTPS 使用 TLS 保护 HTTP 通信。",
+          "audio": "audio/en/bdf36b3caf3c847c79db.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "TLS",
+          "zh": "传输层安全协议",
+          "definition": {
+            "en": "A protocol for protecting communication between applications.",
+            "zh": "用于保护应用程序之间通信的协议。"
+          },
+          "say": "T L S",
+          "audio": "audio/en/1519cc28593abc679de2.m4a"
+        },
+        {
+          "term": "handshake",
+          "zh": "握手",
+          "definition": {
+            "en": "An initial exchange that establishes the connection’s security settings.",
+            "zh": "建立连接安全设置的初始消息交换。"
+          },
+          "audio": "audio/en/5a5c8bed49b35cff36be.m4a"
+        },
+        {
+          "term": "cipher suite",
+          "zh": "密码套件",
+          "definition": {
+            "en": "An identified combination of cryptographic algorithms.",
+            "zh": "具有明确标识的一组密码算法。"
+          },
+          "audio": "audio/en/1aeeccc870b35ca66a33.m4a"
+        },
+        {
+          "term": "negotiate",
+          "zh": "协商",
+          "definition": {
+            "en": "Agree on compatible settings from the available choices.",
+            "zh": "从可用选项中商定兼容的设置。"
+          },
+          "audio": "audio/en/6d83e963c91790fd999e.m4a"
+        },
+        {
+          "term": "peer",
+          "zh": "通信对端",
+          "definition": {
+            "en": "The other party participating in a protocol exchange.",
+            "zh": "参与协议交换的另一方。"
+          },
+          "audio": "audio/en/8f736dd42e1f391be132.m4a"
+        }
       ]
     },
     {
@@ -46,6 +133,83 @@
       },
       "questionIds": [
         3
+      ],
+      "lesson": [
+        {
+          "en": "The record layer carries and protects data using the security parameters and keys established for the connection. It turns a stream of application data into protocol records that can be transmitted and checked.",
+          "zh": "记录层使用为连接建立的安全参数与密钥来传送并保护数据。它把应用数据流组织成可传输、可检查的协议记录。"
+        },
+        {
+          "en": "Confidentiality concerns who can read the contents; integrity concerns whether the contents have been changed without authorization. These are separate goals, so detecting tampering is not the same as hiding a message.",
+          "zh": "机密性关注谁能读取内容；完整性关注内容是否被未经授权地修改。这是两个不同目标，因此检测篡改不等于隐藏消息。"
+        },
+        {
+          "en": "The sample quiz attributes confidentiality and message integrity to SSL record protection. Keep the layer’s data-protection role separate from the handshake’s setup and authentication role.",
+          "zh": "样题将机密性与消息完整性归于 SSL 记录保护。应区分记录层的数据保护作用，以及握手的参数建立和身份认证作用。"
+        }
+      ],
+      "example": {
+        "en": "During a protected form submission, an observer should not be able to read the form contents. If the protected record is modified, its integrity check should fail rather than silently accepting the change.",
+        "zh": "提交受保护的表单时，旁观者不应能读取表单内容。如果受保护的记录被修改，完整性检查应失败，而不是默默接受修改。"
+      },
+      "pitfall": {
+        "en": "In Q3, the missing service is confidentiality. Availability means being able to use a service when needed, which is not the second record-protection service asked for here.",
+        "zh": "Q3 缺少的服务是 confidentiality（机密性）。Availability（可用性）指需要时能够使用服务，并非本题询问的另一项记录保护服务。"
+      },
+      "statements": [
+        {
+          "en": "TLS record protection provides confidentiality and message integrity for protected data.",
+          "zh": "TLS 记录保护为受保护数据提供机密性与消息完整性。",
+          "audio": "audio/en/9314075edbbd75951f40.m4a"
+        },
+        {
+          "en": "Confidentiality prevents unauthorized disclosure of information.",
+          "zh": "机密性防止未经授权的信息披露。",
+          "audio": "audio/en/a040522260e0e1e67c85.m4a"
+        },
+        {
+          "en": "Integrity protection detects unauthorized changes to protected data.",
+          "zh": "完整性保护检测对受保护数据的未经授权修改。",
+          "audio": "audio/en/d54819d5f48c01016af3.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "record protocol",
+          "zh": "记录协议",
+          "definition": {
+            "en": "The protocol layer that carries and protects connection data.",
+            "zh": "传送并保护连接数据的协议层。"
+          },
+          "audio": "audio/en/de3ee5110030c9ab6da9.m4a"
+        },
+        {
+          "term": "confidentiality",
+          "zh": "机密性",
+          "definition": {
+            "en": "Protection against unauthorized disclosure of information.",
+            "zh": "防止未经授权披露信息。"
+          },
+          "audio": "audio/en/61c564e42127ec94e89c.m4a"
+        },
+        {
+          "term": "integrity",
+          "zh": "完整性",
+          "definition": {
+            "en": "Protection against unauthorized alteration of data.",
+            "zh": "保护数据不被未经授权地修改。"
+          },
+          "audio": "audio/en/95cc58aa84369f8eade0.m4a"
+        },
+        {
+          "term": "tampering",
+          "zh": "篡改",
+          "definition": {
+            "en": "Changing data without authorization.",
+            "zh": "未经授权地修改数据。"
+          },
+          "audio": "audio/en/1b86e62fb78fbd0269b3.m4a"
+        }
       ]
     },
     {
@@ -64,6 +228,79 @@
       },
       "questionIds": [
         4
+      ],
+      "lesson": [
+        {
+          "en": "A TLS connection needs a way to report protocol conditions to the other endpoint. Alert messages provide that channel, communicating conditions such as a problem detected during processing or orderly closure of the connection.",
+          "zh": "TLS 连接需要向另一端报告协议状态的方式。告警消息提供这一通道，传递处理过程中发现的问题或正常关闭连接等情况。"
+        },
+        {
+          "en": "Different protocol components answer different questions: the handshake establishes settings, the record layer protects data, and alerts communicate connection conditions. A certificate binds an identity to a public key, so it has a different purpose from an alert.",
+          "zh": "不同协议组件回答不同问题：握手建立参数，记录层保护数据，告警传递连接状态。证书将身份与公钥绑定，因此用途与告警不同。"
+        }
+      ],
+      "example": {
+        "en": "If one endpoint detects an unacceptable protocol condition, it can send an alert to its peer. An orderly TLS shutdown can use a close-notify alert rather than simply leaving the peer guessing.",
+        "zh": "如果一端检测到不可接受的协议状态，可以向对端发送告警。正常关闭 TLS 连接可以使用关闭通知告警，而不是让对端自行猜测。"
+      },
+      "pitfall": {
+        "en": "The word alert does not always mean a successful cyberattack. In Q4, conveying SSL-related alerts describes the alert protocol, not a digital signature or certificate.",
+        "zh": "alert（告警）并不总意味着网络攻击已经成功。Q4 中，传递 SSL 相关告警描述的是告警协议，而非数字签名或数字证书。"
+      },
+      "statements": [
+        {
+          "en": "The TLS alert protocol communicates connection conditions to the peer.",
+          "zh": "TLS 告警协议向通信对端传递连接状态。",
+          "audio": "audio/en/46f93a6ffec9eaed0323.m4a"
+        },
+        {
+          "en": "An alert is a protocol message rather than a digital certificate.",
+          "zh": "告警是一种协议消息，而不是数字证书。",
+          "audio": "audio/en/0636f04337b22920da7f.m4a"
+        },
+        {
+          "en": "An alert can report a problem or signal an orderly connection closure.",
+          "zh": "告警可以报告问题，也可以表示正常关闭连接。",
+          "audio": "audio/en/816b1570742ade1a6894.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "alert",
+          "zh": "告警",
+          "definition": {
+            "en": "A protocol message reporting a connection-related condition.",
+            "zh": "报告连接相关状态的协议消息。"
+          },
+          "audio": "audio/en/28fd6cc2d28008c67ecd.m4a"
+        },
+        {
+          "term": "endpoint",
+          "zh": "端点",
+          "definition": {
+            "en": "One end of a communication connection.",
+            "zh": "通信连接的一端。"
+          },
+          "audio": "audio/en/be4e3186076735078112.m4a"
+        },
+        {
+          "term": "convey",
+          "zh": "传递",
+          "definition": {
+            "en": "Communicate information to another party.",
+            "zh": "把信息传达给另一方。"
+          },
+          "audio": "audio/en/d2e5f84b37e295afc411.m4a"
+        },
+        {
+          "term": "closure",
+          "zh": "关闭",
+          "definition": {
+            "en": "The process of ending a connection.",
+            "zh": "结束连接的过程。"
+          },
+          "audio": "audio/en/827180d9ff1b8cc3a025.m4a"
+        }
       ]
     },
     {
@@ -85,6 +322,92 @@
         8,
         11,
         12
+      ],
+      "lesson": [
+        {
+          "en": "A firewall controls traffic according to a policy, much like a checkpoint checks traffic passing through it. The rules determine which communications are allowed, rather than assuming every incoming message is safe.",
+          "zh": "防火墙按照政策控制流量，类似检查通过车辆的关卡。规则决定允许哪些通信，而不是假设所有进入的消息都安全。"
+        },
+        {
+          "en": "A firewall can be a network device, software on one computer, or coordinated systems. A personal firewall operates on an individual host and controls traffic between that host and its networks.",
+          "zh": "防火墙可以是网络设备、单台计算机上的软件，或协同工作的多个系统。个人防火墙运行在单台主机上，控制该主机与所连接网络之间的流量。"
+        },
+        {
+          "en": "A firewall can directly inspect only traffic that reaches its enforcement point. Other attack paths, harmful actions through allowed traffic, and mistakes in its rules mean a firewall is one layer of protection rather than a complete security solution.",
+          "zh": "防火墙只能直接检查到达其执行点的流量。其他攻击路径、允许流量中的有害行为，以及规则中的错误，都说明防火墙只是其中一层保护，而非完整安全方案。"
+        }
+      ],
+      "example": {
+        "en": "A university firewall may allow access to its public website while blocking direct Internet access to an internal database. A malicious file copied from a USB drive does not pass through that network firewall.",
+        "zh": "大学防火墙可以允许访问公开网站，同时阻止互联网直接访问内部数据库。从 U 盘复制的恶意文件不会经过这道网络防火墙。"
+      },
+      "pitfall": {
+        "en": "Q12 is false because an attack that bypasses a firewall cannot be inspected by that firewall. In Q11, the source’s personnel is a typo for personal, meaning a firewall for one computer.",
+        "zh": "Q12 为错误，因为绕过防火墙的攻击不能被这道防火墙检查。Q11 原文的 personnel 是 personal 的笔误，指保护单台计算机的个人防火墙。"
+      },
+      "statements": [
+        {
+          "en": "A firewall enforces a policy on traffic passing through it.",
+          "zh": "防火墙对经过它的流量执行政策。",
+          "audio": "audio/en/90418c9f165b33c48582.m4a"
+        },
+        {
+          "en": "A personal firewall controls network traffic for an individual computer.",
+          "zh": "个人防火墙控制单台计算机的网络流量。",
+          "audio": "audio/en/ae5a766bacf5b9a75035.m4a"
+        },
+        {
+          "en": "A firewall cannot directly inspect traffic that bypasses it.",
+          "zh": "防火墙无法直接检查绕过它的流量。",
+          "audio": "audio/en/28bdf2368a3186b0c47b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "firewall",
+          "zh": "防火墙",
+          "definition": {
+            "en": "A control that allows or blocks traffic according to rules.",
+            "zh": "按照规则允许或阻止流量的控制措施。"
+          },
+          "audio": "audio/en/637d4596cedb080c70eb.m4a"
+        },
+        {
+          "term": "personal firewall",
+          "zh": "个人防火墙",
+          "definition": {
+            "en": "Firewall software protecting the network traffic of one host.",
+            "zh": "保护单台主机网络流量的防火墙软件。"
+          },
+          "audio": "audio/en/8b8c0ba37587efa5e1e8.m4a"
+        },
+        {
+          "term": "perimeter",
+          "zh": "边界",
+          "definition": {
+            "en": "A boundary between network areas with different trust assumptions.",
+            "zh": "具有不同信任假设的网络区域之间的边界。"
+          },
+          "audio": "audio/en/6b53f8dd5c318ad07068.m4a"
+        },
+        {
+          "term": "enforce",
+          "zh": "执行；强制落实",
+          "definition": {
+            "en": "Apply a rule so that it controls actual behavior or traffic.",
+            "zh": "应用规则，使其实际约束行为或流量。"
+          },
+          "audio": "audio/en/8854c9fc26a5d0d70e6d.m4a"
+        },
+        {
+          "term": "bypass",
+          "zh": "绕过",
+          "definition": {
+            "en": "Take a path that avoids a protective checkpoint.",
+            "zh": "走一条避开保护关卡的路径。"
+          },
+          "audio": "audio/en/0f8cc57d7949ffc3aaa2.m4a"
+        }
       ]
     },
     {
@@ -104,6 +427,79 @@
       "questionIds": [
         7,
         9
+      ],
+      "lesson": [
+        {
+          "en": "A packet filter checks information in packet headers, such as source and destination addresses, transport protocol, and ports. It compares those values with its rules to decide whether to forward or discard the packet.",
+          "zh": "包过滤器检查报头信息，例如源地址、目标地址、传输协议和端口。它把这些值与规则比较，决定转发还是丢弃数据包。"
+        },
+        {
+          "en": "A traditional stateless filter treats each packet separately. Stateful inspection adds information about the connection, while application-aware inspection can consider protocol content; these are different levels of context.",
+          "zh": "传统无状态过滤器单独处理每个数据包。有状态检查增加连接信息，理解应用的检查还可以考虑协议内容；这些是不同层次的上下文。"
+        }
+      ],
+      "example": {
+        "en": "A rule may allow traffic to a web server’s permitted destination port and discard traffic to a blocked port. A basic header check does not, by itself, decide whether every webpage request is harmless.",
+        "zh": "一条规则可以允许发往 Web 服务器获准目标端口的流量，并丢弃发往被封锁端口的流量。单纯检查报头，本身不能判断每个网页请求是否无害。"
+      },
+      "pitfall": {
+        "en": "Q7 describes a traditional packet filter, so independently checking packets is correct. Do not extend that description to every firewall, because stateful and application-level controls use additional context.",
+        "zh": "Q7 描述传统包过滤器，因此逐包独立检查的说法正确。不要把这一描述推广到所有防火墙，因为有状态及应用层控制会利用更多上下文。"
+      },
+      "statements": [
+        {
+          "en": "A packet filter applies rules to individual packet headers.",
+          "zh": "包过滤器对各个数据包的报头应用规则。",
+          "audio": "audio/en/1bf8618870248db59580.m4a"
+        },
+        {
+          "en": "A stateless packet filter does not track the state of a connection.",
+          "zh": "无状态包过滤器不跟踪连接状态。",
+          "audio": "audio/en/4b7306933fc406faf0ea.m4a"
+        },
+        {
+          "en": "Packet filtering can forward or discard a packet according to policy.",
+          "zh": "包过滤可以按照政策转发或丢弃数据包。",
+          "audio": "audio/en/1dd42ea042d74f6ae03b.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "packet",
+          "zh": "数据包",
+          "definition": {
+            "en": "A unit of data transmitted across a network.",
+            "zh": "通过网络传输的一个数据单元。"
+          },
+          "audio": "audio/en/9033aaaaa8a6631e7c58.m4a"
+        },
+        {
+          "term": "header",
+          "zh": "报头",
+          "definition": {
+            "en": "Packet metadata describing addressing and protocol information.",
+            "zh": "描述地址与协议等信息的数据包元数据。"
+          },
+          "audio": "audio/en/8b67a1360d1dcfe24633.m4a"
+        },
+        {
+          "term": "stateless",
+          "zh": "无状态的",
+          "definition": {
+            "en": "Processing each packet without remembering connection state.",
+            "zh": "处理每个数据包时不记忆连接状态。"
+          },
+          "audio": "audio/en/4b373cd521a664b75f6d.m4a"
+        },
+        {
+          "term": "discard",
+          "zh": "丢弃",
+          "definition": {
+            "en": "Drop a packet instead of forwarding it.",
+            "zh": "丢掉数据包，而不把它继续转发。"
+          },
+          "audio": "audio/en/815395342a9956df464f.m4a"
+        }
       ]
     },
     {
@@ -122,6 +518,80 @@
       },
       "questionIds": [
         10
+      ],
+      "lesson": [
+        {
+          "en": "A source IP address is a field in a packet, not a certificate proving who sent it. Spoofing means forging that field so the packet appears to come from a different source.",
+          "zh": "源 IP 地址是数据包中的一个字段，并非证明发送者身份的证书。欺骗是指伪造该字段，使数据包看起来来自另一个来源。"
+        },
+        {
+          "en": "The quiz’s attacker sends a packet from outside while claiming an internal source address. This targets rules that trust an address too readily; the false claim does not necessarily let the attacker receive replies sent to that address.",
+          "zh": "题目中的攻击者从外部发送数据包，却声称使用内部源地址。这针对的是过度信任地址的规则；伪造声明并不一定使攻击者能收到发往该地址的回复。"
+        }
+      ],
+      "example": {
+        "en": "A letter can carry a forged return address even though it was posted elsewhere. Similarly, a packet can claim an internal source IP address without actually originating from that internal host.",
+        "zh": "信件可以写上伪造的回邮地址，即使它是在别处寄出的。同样，数据包可以声称使用内部源 IP 地址，却并非真正来自那台内部主机。"
+      },
+      "pitfall": {
+        "en": "Q10 is about falsifying the source address, so the answer is spoofing. It is not authentication: writing a trusted-looking address does not verify the sender’s identity.",
+        "zh": "Q10 讨论伪造源地址，因此答案是 spoofing（欺骗）。这不是 authentication（身份认证）：填写一个看似可信的地址，并没有验证发送者身份。"
+      },
+      "statements": [
+        {
+          "en": "IP address spoofing falsifies a packet’s source address.",
+          "zh": "IP 地址欺骗伪造数据包的源地址。",
+          "audio": "audio/en/8f0048849e45c3d2e8d0.m4a"
+        },
+        {
+          "en": "A claimed source address is not proof of the sender’s identity.",
+          "zh": "声称的源地址不能证明发送者身份。",
+          "audio": "audio/en/3a3f881fe00df45ec525.m4a"
+        },
+        {
+          "en": "An external attacker may spoof an internal address to exploit address-based trust.",
+          "zh": "外部攻击者可能伪造内部地址，以利用基于地址的信任。",
+          "audio": "audio/en/d0f83b338160d3de219f.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "IP spoofing",
+          "zh": "IP 地址欺骗",
+          "definition": {
+            "en": "Forging the source IP address in a packet.",
+            "zh": "伪造数据包中的源 IP 地址。"
+          },
+          "say": "I P spoofing",
+          "audio": "audio/en/431ed9a59c450d4d7550.m4a"
+        },
+        {
+          "term": "source address",
+          "zh": "源地址",
+          "definition": {
+            "en": "The address a packet claims as its origin.",
+            "zh": "数据包声称的来源地址。"
+          },
+          "audio": "audio/en/6bf1af13b429bdce8469.m4a"
+        },
+        {
+          "term": "forge",
+          "zh": "伪造",
+          "definition": {
+            "en": "Create false information that appears genuine.",
+            "zh": "制作看起来真实的虚假信息。"
+          },
+          "audio": "audio/en/d29304b8c1d1a380b300.m4a"
+        },
+        {
+          "term": "internal host",
+          "zh": "内部主机",
+          "definition": {
+            "en": "A computer within the organization’s network area.",
+            "zh": "组织网络区域内的一台计算机。"
+          },
+          "audio": "audio/en/fe7c8372b56d421e94e3.m4a"
+        }
       ]
     },
     {
@@ -142,6 +612,95 @@
         13,
         15,
         16
+      ],
+      "lesson": [
+        {
+          "en": "An intrusion detection system looks for evidence of suspicious or malicious activity. It analyzes what it can observe and raises alerts; a detection result may still be a false alarm or may miss an attack.",
+          "zh": "入侵检测系统寻找可疑或恶意活动的证据。它分析可观察到的活动并发出告警；检测结果仍可能误报，也可能漏掉攻击。"
+        },
+        {
+          "en": "A host-based IDS observes one host’s events, such as login logs, processes, or file changes. A network-based IDS observes traffic at its network monitoring points, so the difference concerns where evidence is collected.",
+          "zh": "主机型 IDS 观察单台主机上的事件，例如登录日志、进程或文件变化。网络型 IDS 观察网络监控点的流量，因此两者的区别在于从哪里收集证据。"
+        },
+        {
+          "en": "Scope and detection method are separate choices: either type may use signatures or behavioral analysis. Detection and prevention are also distinct roles; blocking requires a prevention or response capability.",
+          "zh": "观察范围与检测方法是两种不同选择：两类系统都可以使用签名或行为分析。检测与防御也是不同职责；阻断攻击需要防御或响应能力。"
+        }
+      ],
+      "example": {
+        "en": "An alert about a system file changing on one laptop is a host-level observation. An alert about suspicious packets crossing a network monitoring point is a network-level observation.",
+        "zh": "关于某台笔记本系统文件发生变化的告警，属于主机层面的观察。关于可疑数据包经过网络监控点的告警，属于网络层面的观察。"
+      },
+      "pitfall": {
+        "en": "Q15 emphasizes a single host, while Q16 emphasizes network traffic. HIDS versus NIDS does not mean signature detection versus anomaly detection; those are different classification axes.",
+        "zh": "Q15 强调单台主机，Q16 强调网络流量。HIDS 与 NIDS 的区别并不等于签名检测与异常检测的区别，它们属于不同的分类维度。"
+      },
+      "statements": [
+        {
+          "en": "A host-based IDS monitors activity on an individual host.",
+          "zh": "主机型入侵检测系统监控单台主机上的活动。",
+          "audio": "audio/en/e45c2b2a09bf208673d0.m4a"
+        },
+        {
+          "en": "A network-based IDS monitors traffic at network observation points.",
+          "zh": "网络型入侵检测系统监控网络观察点的流量。",
+          "audio": "audio/en/7abddd39fe3e39a826c8.m4a"
+        },
+        {
+          "en": "An intrusion detection system can produce false alarms or miss attacks.",
+          "zh": "入侵检测系统可能误报，也可能漏掉攻击。",
+          "audio": "audio/en/8bb12ee147a85c51b6a2.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "IDS",
+          "zh": "入侵检测系统",
+          "definition": {
+            "en": "A system that monitors activity for signs of intrusion.",
+            "zh": "监控活动以寻找入侵迹象的系统。"
+          },
+          "say": "I D S",
+          "audio": "audio/en/55aa13b0c7c5ebae86f2.m4a"
+        },
+        {
+          "term": "HIDS",
+          "zh": "主机型入侵检测系统",
+          "definition": {
+            "en": "An intrusion detection system focused on host-level evidence.",
+            "zh": "重点分析主机层面证据的入侵检测系统。"
+          },
+          "say": "H I D S",
+          "audio": "audio/en/3392d410afc41adeb0e3.m4a"
+        },
+        {
+          "term": "NIDS",
+          "zh": "网络型入侵检测系统",
+          "definition": {
+            "en": "An intrusion detection system focused on network traffic.",
+            "zh": "重点分析网络流量的入侵检测系统。"
+          },
+          "say": "N I D S",
+          "audio": "audio/en/5febfe0b00dd617eb3b5.m4a"
+        },
+        {
+          "term": "false positive",
+          "zh": "误报",
+          "definition": {
+            "en": "An alert that incorrectly labels legitimate activity as malicious.",
+            "zh": "把合法活动错误地判定为恶意活动的告警。"
+          },
+          "audio": "audio/en/d16b81a1ce6196b95a92.m4a"
+        },
+        {
+          "term": "false negative",
+          "zh": "漏报",
+          "definition": {
+            "en": "A failure to detect malicious activity that is present.",
+            "zh": "未能发现实际存在的恶意活动。"
+          },
+          "audio": "audio/en/b2a42e0119a423ca83b2.m4a"
+        }
       ]
     },
     {
@@ -162,6 +721,92 @@
         14,
         17,
         18
+      ],
+      "lesson": [
+        {
+          "en": "Signature detection asks whether observed activity matches a known attack pattern. It depends on suitable signatures, so a new or changed attack may be missed if no applicable pattern exists.",
+          "zh": "签名检测询问观察到的活动是否匹配已知攻击模式。它依赖适用的签名，因此若没有相应模式，新的或改变后的攻击就可能被漏掉。"
+        },
+        {
+          "en": "Anomaly detection asks whether activity deviates from an expected baseline. A profile built from legitimate user behavior is one way to model normality; unusual behavior can be suspicious without necessarily being malicious.",
+          "zh": "异常检测询问活动是否偏离预期基线。根据合法用户行为建立画像，是描述正常状态的一种方式；异常行为可以值得怀疑，但并不一定是恶意行为。"
+        },
+        {
+          "en": "The two methods answer different questions, so they can complement each other. A network sensor or a host sensor may use either method; where you monitor and how you detect are separate decisions.",
+          "zh": "两种方法回答不同的问题，因此可以互相补充。网络传感器和主机传感器都可以使用其中任一种方法；在哪里监控与怎样检测是两种不同决策。"
+        }
+      ],
+      "example": {
+        "en": "Matching traffic to a known attack sequence is signature detection. Flagging an account that suddenly downloads far more data than its usual baseline is anomaly detection.",
+        "zh": "把流量与已知攻击序列匹配，属于签名检测。发现某账号突然下载远超平时基线的数据并发出告警，属于异常检测。"
+      },
+      "pitfall": {
+        "en": "Q17’s wording describes signature detection (B), but the PDF marks anomaly detection (D); site scoring follows that source key. In Q18, profile-based detection is a specific form of anomaly detection, while the source selects the broader category D.",
+        "zh": "Q17 的题干描述签名检测（B），但 PDF 标注异常检测（D）；网站计分沿用资料答案。Q18 中，基于画像的检测属于异常检测的具体形式，而资料选择较宽泛的类别 D。"
+      },
+      "statements": [
+        {
+          "en": "Signature detection searches for known attack patterns.",
+          "zh": "签名检测查找已知攻击模式。",
+          "audio": "audio/en/a7e7ca4264dcfe19b1b7.m4a"
+        },
+        {
+          "en": "Anomaly detection identifies deviations from expected behavior.",
+          "zh": "异常检测识别偏离预期行为的情况。",
+          "audio": "audio/en/0896c90abceb5c7a3ae4.m4a"
+        },
+        {
+          "en": "Unusual behavior is not automatically malicious behavior.",
+          "zh": "不寻常的行为并不自动等于恶意行为。",
+          "audio": "audio/en/1310237c4f04ef9f4b4f.m4a"
+        }
+      ],
+      "vocabulary": [
+        {
+          "term": "signature detection",
+          "zh": "签名检测；特征检测",
+          "definition": {
+            "en": "Detection based on known attack patterns, not digital signatures.",
+            "zh": "基于已知攻击模式的检测，并非数字签名验证。"
+          },
+          "audio": "audio/en/0f9d310022cf427355d3.m4a"
+        },
+        {
+          "term": "anomaly",
+          "zh": "异常",
+          "definition": {
+            "en": "An observation that differs from the expected normal pattern.",
+            "zh": "与预期正常模式不同的观察结果。"
+          },
+          "audio": "audio/en/b9ba5e2bcc21be9fc967.m4a"
+        },
+        {
+          "term": "baseline",
+          "zh": "基线",
+          "definition": {
+            "en": "A reference describing expected or normal behavior.",
+            "zh": "描述预期或正常行为的参考标准。"
+          },
+          "audio": "audio/en/092b5df447585692ae71.m4a"
+        },
+        {
+          "term": "profile",
+          "zh": "画像",
+          "definition": {
+            "en": "A model of a user’s or system’s usual activity.",
+            "zh": "用户或系统通常活动的模型。"
+          },
+          "audio": "audio/en/dd8f462bf2cd744ce5b0.m4a"
+        },
+        {
+          "term": "deviation",
+          "zh": "偏离",
+          "definition": {
+            "en": "A difference between an observation and its reference pattern.",
+            "zh": "观察结果与参考模式之间的差异。"
+          },
+          "audio": "audio/en/ede4d3e4b26fc48d9367.m4a"
+        }
       ]
     }
   ],

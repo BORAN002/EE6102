@@ -1,0 +1,1886 @@
+{
+  "audio/en/374013d45df92bbadb0b.m4a": {
+    "text": "Cybersecurity combines technologies, policies, standards, and management practices.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "14338e976c63be08efd31afd4b0eb0ae85f3dbf02ebbe6bf9b877a8fad8ca1c5"
+  },
+  "audio/en/af1d2607ffb617a39bea.m4a": {
+    "text": "Organizations need cybersecurity because they depend on information systems.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4676911c9dec42f05130b9c18cbbca63fd14535e3e0742b1dcabe814792c727b"
+  },
+  "audio/en/c04777aa74fb415c2781.m4a": {
+    "text": "Accidental exposure of sensitive information can still be a security breach.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "44609455468b64b658ce2ad0757df4631a0f681b551197d6520b0fffab1873f5"
+  },
+  "audio/en/446fe0628ae4b3c9b819.m4a": {
+    "text": "cybersecurity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b9377948e90084bdc951b136f97e8f06574b172a2c2918e753b97b63fe7183f6"
+  },
+  "audio/en/cb6192865f3e51b93947.m4a": {
+    "text": "breach",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c291711f2966d90b3526461ab3ae953aa49660095d25f6f0d3c334c0cc7fb4ef"
+  },
+  "audio/en/5b7b25dc4c082da6f8ba.m4a": {
+    "text": "sensitive information",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "399fa4b7b3703e79215e7aac464aa24f4bf84b36927e8271e3608b6915d083c3"
+  },
+  "audio/en/68fa8462f382160583c8.m4a": {
+    "text": "management practice",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f03a9a5d2b3f389651f149eb6b4f0c39603aeaaf820c89fba073a8e8425685ea"
+  },
+  "audio/en/41a6fc9dcff8e97cd8ac.m4a": {
+    "text": "The CIA triad consists of confidentiality, integrity, and availability.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bc4f9743424740f64485ad7d079c73acaf4710feaa8076126b159e6bf478d897"
+  },
+  "audio/en/402b760d04625d4830fb.m4a": {
+    "text": "Denial of service attacks threaten availability.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "633d671fd9f21060cb2d33fc090876d46ffaeaab9ba6689bbc388faf45508647"
+  },
+  "audio/en/50537065a42d31ad4cc6.m4a": {
+    "text": "Authenticity concerns whether an identity or information source is genuine.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4763e05a3cf48a3c0bb412fb0caa76c8e9001d95cf4aeebad1085f87d726f197"
+  },
+  "audio/en/61c564e42127ec94e89c.m4a": {
+    "text": "confidentiality",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "9023a14d0c49363dc4e5dfb0c0fac4857efaebbeb3e7d8263d849c6cf74a2fb8"
+  },
+  "audio/en/95cc58aa84369f8eade0.m4a": {
+    "text": "integrity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "14c95be634af27227abc0f44ea6ac0b7843d9d1ef1bb73c2398e41e1b2c3b7be"
+  },
+  "audio/en/63010a65198e3d7dbfcc.m4a": {
+    "text": "availability",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6c37644847376e8bd6ff539bcb9e6db37350295a6936ee14451bbfe418152c61"
+  },
+  "audio/en/6dc423cf6c7b77df8374.m4a": {
+    "text": "authenticity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ab74bfbf6a9a09a53a08607c5161f69844965d17dfe7ea11898e0885ac90c92d"
+  },
+  "audio/en/095147c2f7ca2dbd06e5.m4a": {
+    "text": "denial of service",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "58faf5eb9891bfce7ba51b1066803b5b943ed5b0da00a6c600dd9216a8970ec0"
+  },
+  "audio/en/8b8b440655a211728e7a.m4a": {
+    "text": "The security cycle contains planning, protection, and response.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0eb46ff8b42a870550fbf75cf013b6bfb2a77795dd2090f88a20d217d689addd"
+  },
+  "audio/en/8675e9a571f0df49751f.m4a": {
+    "text": "Protection implements the controls and operations defined by the security plan.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ba78bb5384ca67af45827021748439cfe8aab6f292688dfd2b07a55e559beadc"
+  },
+  "audio/en/99b078b197c82b733e07.m4a": {
+    "text": "The sample quiz defines response as recovery according to plan.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c24fc889a37502e72a84cab207e8bea9be1e4db4c676cc36bab24fe8da4375f0"
+  },
+  "audio/en/66a70ca253e64408ff63.m4a": {
+    "text": "planning",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "24a8094d8f83e74fff6be8057b2b73a9ce3bd3b5bb8be8008b10655385379f6b"
+  },
+  "audio/en/cb3803ef74f0f7509036.m4a": {
+    "text": "protection",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "378f1efc06a2600d562edf4870711811c720daf1ffe7055cd355e7b0a90fc4be"
+  },
+  "audio/en/2a305b7d9006adfa234b.m4a": {
+    "text": "response",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "df2fbbe4a5be762866eb611e96eacd1ec63bfe3f739aac20d4ad8d071ab1b752"
+  },
+  "audio/en/eccf1e123897879e7943.m4a": {
+    "text": "recovery",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "aefb18a70feaa9835d5b4133bf19935617df0598b68523adb8c418c8e7bc442c"
+  },
+  "audio/en/ad29d3b702a2ace63f22.m4a": {
+    "text": "A threat landscape describes relevant attackers, capabilities, and attack methods.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2cbf171c5e4992d830ac674e2939fef4b0a2626689197497df045f942fb958a0"
+  },
+  "audio/en/e42e238f2ffddb5e04a7.m4a": {
+    "text": "Attack motivation explains why an attacker acts.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b9e84f1ecc65a2dfc94f613775526a0a27cecffbc1796748af6f091d77252e2c"
+  },
+  "audio/en/01e551fc24a04c17a5ce.m4a": {
+    "text": "Automation, speed, and remote reach can increase the scale of online attacks.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2dd108b2015ee88ab786c62839488e7d215d4f3914d2c7155005764c024a33b5"
+  },
+  "audio/en/ed90204a5cbcf1dc76e9.m4a": {
+    "text": "threat landscape",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8b01559128338f3b42f6fc4a84bd9949a48a7208b23607a0b1eb8bd5a1290c3f"
+  },
+  "audio/en/9bc596fd2491056ae2bb.m4a": {
+    "text": "motivation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "5606ad6f08f9987782bcb8d0db824e15e652c69f05761c6bf5ecad1dda83896c"
+  },
+  "audio/en/b9efbc667ebcfcdd3dc6.m4a": {
+    "text": "espionage",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ca3279ad998a97113fd95e9fe0ceba23ae5ac8bc7efcbc05d4572973333df369"
+  },
+  "audio/en/2c8a34b0c4fca56f2d7d.m4a": {
+    "text": "automation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d3e9f7a8d0a43b1b2e27fde3fb5c03708549346db952245a94c95da2c6d35811"
+  },
+  "audio/en/463e13ebcd430624664e.m4a": {
+    "text": "Masquerading makes information appear to come from an identity that is not its true source.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c47bb6befd996c40eac5e34b47b44e75b8a18799d935ada9ce0f304b17636d4f"
+  },
+  "audio/en/35e1c6b7598046acbcb0.m4a": {
+    "text": "Authorization determines which resources and actions an identity may access.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "99442f1639eb69f4e484c9546300e54b52d9feccce26231423d502f3813407e7"
+  },
+  "audio/en/184b332296df5205ccac.m4a": {
+    "text": "Access beyond granted permission is unauthorized access.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f0ea6bf9a03649b569c47d241c56da9d1e2c5363fd296e7636492634c906ab9c"
+  },
+  "audio/en/5dcf6addb2fa4501a2ad.m4a": {
+    "text": "masquerading",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "22faa4803d6a51bdc84e0400b1e00b54669d932b9e9da15e0c1bc2f11df554b9"
+  },
+  "audio/en/a12ae30503927ffbd2c6.m4a": {
+    "text": "spoofing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "9ad95a9376a4ad3617ba562cbf7679fac7aff8002f274f40ba71d6f4ab854f5d"
+  },
+  "audio/en/fd983b7946e1ecde56a9.m4a": {
+    "text": "authorization",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1acc7fedb4841a47da4df9e91cc83a199a3f109fd345498d12fe6ad120102870"
+  },
+  "audio/en/d5497f2f1bc10e5325a0.m4a": {
+    "text": "exceed",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "816eaa57fb732bf8fc1bbb629211dad23aa32a1ac318cba099389832bcb465e3"
+  },
+  "audio/en/c0f6ef4176532b0bbc51.m4a": {
+    "text": "A virus requires a host, while a worm is a standalone program.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "41e7cd5322fb56d398360366b4e90e4c14efea4163ddc4cb988ae7d395d6bc8d"
+  },
+  "audio/en/bbc82091249de547198d.m4a": {
+    "text": "A logic bomb activates when a predefined condition is met.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fa6b42ed8c5fa8c665a70453e24b5e415c07afda89c31d393cf23ec7f32e607f"
+  },
+  "audio/en/db856457494ac877edf6.m4a": {
+    "text": "Spyware collects information without appropriate authorization.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8f0011bc57935dab49a04942215b72ad5a727a9775202304f0d7a112684c52ec"
+  },
+  "audio/en/852652c1f7a6592e7d20.m4a": {
+    "text": "malware",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c0ce6b9785904810bcd988f1e1da8c58323f7c1887501b46b2a10d9f33ec5d0b"
+  },
+  "audio/en/45e708bd6c3c7e86a9c8.m4a": {
+    "text": "host program",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3f61da142426311bf7b785c2c135b6dcece324c46b02c9f275308ad360849872"
+  },
+  "audio/en/81f4cdbc3502c4a27dc8.m4a": {
+    "text": "worm",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "df57150c1f29104a11943033e115c2c14b54de002f3ea186bd3a5962068f19f3"
+  },
+  "audio/en/51928ee05dec82c852fd.m4a": {
+    "text": "logic bomb",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "80fb344a77c85d7d70dfd2e0926f642a7ed216ba112febbd3d1b2062f09a1de6"
+  },
+  "audio/en/f87c28e5c61565ff05e8.m4a": {
+    "text": "spyware",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b6a95ec955b83e18b65ebdc00149615d97369a4d02079da2b8d78b43b5ec00a4"
+  },
+  "audio/en/955d2bbb8b3ab91193d0.m4a": {
+    "text": "Delivery describes how malware reaches a target device.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e4d14bc8a47ddad23f6d1675e691dab750410bbd377c5ba910c398e8c6013ade"
+  },
+  "audio/en/8dff21eee9fc7e72593e.m4a": {
+    "text": "Propagation describes how malware spreads between targets.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c02e5d027113f982bd953decb614baf6e362e318f23c0062dce0e9a07d197b6d"
+  },
+  "audio/en/aadd54a4e0cdcef3fb3f.m4a": {
+    "text": "A malicious payload performs the harmful action of the malware.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fe7890464915a7b1778ab6196daec03c059a0e8e7d4a46efd7b87aa1d8d42838"
+  },
+  "audio/en/2db822ee17f016de0c17.m4a": {
+    "text": "payload",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "9510fcc11d302f46c76e5e232f2252df75430109f0b5ba1fd68e4539678a128b"
+  },
+  "audio/en/620c957b1128acf373f6.m4a": {
+    "text": "propagation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fefb132be203b7f6f879c03207ecf1f61c7e0b09c90bb58297b6286c3a3f3704"
+  },
+  "audio/en/8b2cc44be266e9da4a9b.m4a": {
+    "text": "attachment",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "422583eacf2a676dae760661bf122a0414b6ec6d500c8a5d73ceef0f53f8c6d4"
+  },
+  "audio/en/a80abc58a884829f6563.m4a": {
+    "text": "removable drive",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "26e4a7754ab85a367cda02dfcf61750dc5082eaa52303685fe938f10c221ed74"
+  },
+  "audio/en/0b7e6bb9310302c1cfaf.m4a": {
+    "text": "Cookies are stored data, not executable programs.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "103d6ad04a375e3a63788c3c82ad8a60e4b7d4237958c7eb3fbf474b727204cd"
+  },
+  "audio/en/0cfe39419cd0bf4188fb.m4a": {
+    "text": "Cookies can support sessions, preferences, and tracking.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "433b1882a43d01a773cad0fcb6ae5408beda4fe5590b8c0bc1a36a393f3df659"
+  },
+  "audio/en/9ff44baf61f2af55275c.m4a": {
+    "text": "Tracking can threaten privacy even when no malware is installed.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cbecc3b12f267ff168a7bcbc9b4007ed54ca460e789415565da717198fbea27b"
+  },
+  "audio/en/2868403029550e78cd29.m4a": {
+    "text": "cookie",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7f5b8a1194db93bd33b5f57cb78d865f259014062ab31391ff904c9abfebbe21"
+  },
+  "audio/en/8d0d52abe9db72200cdf.m4a": {
+    "text": "privacy",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "417fe68abded4bcc276dde2ab394397e2ff27b0d37cd767299305d1fd312ea7c"
+  },
+  "audio/en/5afc3b3a8a1df51908de.m4a": {
+    "text": "tracking",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b29c87856e5a7053e689fc5647a7a0a1556c2f44cf1c2d39c347c1422ceb0c36"
+  },
+  "audio/en/0291e06e270ff39d043c.m4a": {
+    "text": "session",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "56a97dd1f03c528d0af23826992971fc9f72c7e9380ad161451623bf9db3b309"
+  },
+  "audio/en/d14b064200cfea768200.m4a": {
+    "text": "Social engineering exploits human judgment to defeat security measures.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bd5573c019e498727e6268c44b48b1c6ef107b8192b56eaf9d284f5cdc991110"
+  },
+  "audio/en/9c34910246021f4cae84.m4a": {
+    "text": "Phishing impersonates a trusted source to deceive a victim.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "9b8482e043f50a25cdb89242d2f85de7f3135b71b70fe86d153bea9c51ed89a2"
+  },
+  "audio/en/52bc2d1af48b0245c498.m4a": {
+    "text": "The sample quiz defines spam as unsolicited commercial email.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cd970211eec16f3c30f37f92e85bc3ee75bf0105c78df31cb741ae98fa6bf09c"
+  },
+  "audio/en/ba1aa1c9a4474a24e1b7.m4a": {
+    "text": "social engineering",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6220d67a5e37ef1808a94321b21db23ed26d2d6f13773a12cb02cc4474cc5a13"
+  },
+  "audio/en/6aab0e7e54b9813c2799.m4a": {
+    "text": "phishing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "618e1322ffb65ea5edb19112fe218a3e0bfc8612771e7b9a8c15ae7b7c3e5d36"
+  },
+  "audio/en/68f15b63743017da42be.m4a": {
+    "text": "unsolicited",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d1f00a4a1c99f11e42f54a954ce4c0b9a1f92a21f97c763123e69cf26ea7c256"
+  },
+  "audio/en/8246fb5872da977132fa.m4a": {
+    "text": "credentials",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4b5a82291cef8fd329477b30a52665cf72c3e8b1777af251d759eb81acfaa98c"
+  },
+  "audio/en/79a1e31d059b0fb2b8e1.m4a": {
+    "text": "Industry 4.0 integrates connected devices, networks, computing, and intelligent analysis.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3552c4b11b52fdf2c6fa1e273a2c61b7ec2a6573b7e4cc620e1fa37a9e46b0b6"
+  },
+  "audio/en/72e83c4eff7e358c3faf.m4a": {
+    "text": "IoT devices support industrial connectivity but can introduce security vulnerabilities.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0c76d66c57ba4b7f79bc4cac12458acf647b8891d8d9fadeb21ae23d433b2678"
+  },
+  "audio/en/919fd3245bf0e79855b6.m4a": {
+    "text": "The Sample Quiz associates the origin of Industry 4.0 with Germany.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f228f9d1ff7c97cce130668dbd4e12654b4b94fe6fcb39a50794e5a6420709c7"
+  },
+  "audio/en/51c30f355a381c2b9f37.m4a": {
+    "text": "Industry four point zero",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "30324a288afb82962e304146c7e37e3f5449d519fca0f98b8f355002d0f0480a"
+  },
+  "audio/en/9d7ac9188917452e946f.m4a": {
+    "text": "Internet of Things",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c7332527aa114460a5f76c8db78b17b0db73a6df0f771a1254e308a49cfba6d7"
+  },
+  "audio/en/63ab2bfbc3012d1aacd2.m4a": {
+    "text": "connectivity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4fe22274e95595c0af2d9f4ab0ea47657f3d6c396827eee2ee345a4eff44a99c"
+  },
+  "audio/en/f11bddca35f1b14c09b6.m4a": {
+    "text": "vulnerability",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2813b5d9b97d11a1aece8f38f99bd9cd4874846a13854ebb0f68ca81c2cb7524"
+  },
+  "audio/en/84f3e08e56c38a3a23e7.m4a": {
+    "text": "virtualization",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a7e700cf221c321d06705eb938aeb9ef9ecb6bffa71a4b9a90ed769a76a3e999"
+  },
+  "audio/en/9a1218e12ebeb33fa154.m4a": {
+    "text": "A digital twin is a digital representation of a physical asset, process, or system.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cf3dd953634ac479f283efd8575e32b9754e037d47c64b73f0dc210d7ff5ff83"
+  },
+  "audio/en/fd968786ddb86e1e1497.m4a": {
+    "text": "Digital twins can support simulation, product improvement, and virtual prototyping.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ebf4063118a0ee25fd823178a7d8ec8316da2befb20cbcdc1cb3251611f0514a"
+  },
+  "audio/en/c7182c7b3676d5310188.m4a": {
+    "text": "Reliable digital twins depend on the integrity of their data and models.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "383f358bf4cbf108233bb86f1e0965830e887a7c505035599d10664b8637e749"
+  },
+  "audio/en/65e02c1da2890b592603.m4a": {
+    "text": "digital twin",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2117a3998ef7c63a6095c12a4bacdf693d182b458cd03cc1224f1c6ad96ccec6"
+  },
+  "audio/en/98c7af8f7c34629c2183.m4a": {
+    "text": "replica",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "431e9148dfe16ade1a62825bab461722b32ff981a7bc4fe0b97584db544ef05c"
+  },
+  "audio/en/773ce321d47a595313a8.m4a": {
+    "text": "prototype",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7bd56d8ce41d4ab266c6af8c17091cbf6bb6432db37000a98cf7ce12393ae679"
+  },
+  "audio/en/a65683e16a8974519b91.m4a": {
+    "text": "simulation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0b77021eacce0043a357c43f2b148f1691f84ae9b5506aa35ce477f36f57a6c2"
+  },
+  "audio/en/aabf3ee0b6ec5da1fc47.m4a": {
+    "text": "Cloud computing uses network-accessible remote resources to store and process data.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "300e766e31815195ae8c32994582b261f504818ba5bd0c1f7118e3b5e7a4ca8b"
+  },
+  "audio/en/0fc83ce14f49bb89872f.m4a": {
+    "text": "Distributed denial of service attacks threaten service availability.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d5a4d8cbc1f925f0aff97709eb4e1408a832d39b3871683f48de57c9d71c85b7"
+  },
+  "audio/en/cab9979e733f0621bbcb.m4a": {
+    "text": "Unauthorized disclosure threatens confidentiality, while unauthorized modification threatens integrity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a16248b97039ea662446c1bdc0f25896c582bb969493c1747262fbe2b0e00e6c"
+  },
+  "audio/en/207097d858709628d6ec.m4a": {
+    "text": "cloud computing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7a37624795df8628a7696f0e41e611546cd781c74752e2e6151cecb6261a33ed"
+  },
+  "audio/en/d2f06a3e6a7173e694c5.m4a": {
+    "text": "distributed denial of service",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8a3d072566346189209e2319b64b60acd3973895fcb4755a0afa9c6ad57f6c5c"
+  },
+  "audio/en/057fd7473709baf9e412.m4a": {
+    "text": "disclosure",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "9dcc2a24616bb71bdbc47240994fb792dbe4c8d17130c5076f9d0992ce2d573c"
+  },
+  "audio/en/1b86e62fb78fbd0269b3.m4a": {
+    "text": "tampering",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "342931b107c6bac1a30f31b2078d6d53f1cf476e688cdb8f32a49f03be70185d"
+  },
+  "audio/en/6cf465b6aaae3c97857f.m4a": {
+    "text": "Employee behavior can cause security incidents intentionally or unintentionally.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c8c19e9fee63792ac2c292aaea951239efe5634a831be2bb0682857e89cd5cd2"
+  },
+  "audio/en/c5cb812cc5bea27e53b8.m4a": {
+    "text": "Errors and omissions do not require malicious intent.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a69d86e03e0db51612af65fe0c06ab2ba8f9a79b607f05d45c0f4cca0a8255f6"
+  },
+  "audio/en/022476ee40547093785b.m4a": {
+    "text": "Fraud and retaliation are different from accidental mistakes.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4e1cb31dc5adadc578a9847899c8aece9d8393a1ce65f3e4504fd9ac2af9b473"
+  },
+  "audio/en/d0f024f5b4826463236b.m4a": {
+    "text": "unintentional",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "403224a72368063f224b58e1c0f2e59b27a23b4c7f9b8fca9a52a798ca84d9f6"
+  },
+  "audio/en/84b31c8785421d4264a4.m4a": {
+    "text": "omission",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bc6a01fc79832a38b664a8d0d95735eac162a3ca477f22a061a034f28a692450"
+  },
+  "audio/en/de93473a22607ac3571b.m4a": {
+    "text": "fraud",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e734e9de5e17d4f960179d8c472a20b87c345873eff0c6ec19fce585a69aff0a"
+  },
+  "audio/en/1b8d4b793ee8420cbaa5.m4a": {
+    "text": "disgruntled",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3788a27e3a41fc9e19012fa632c3701c73ba9371a938ff07961be4f9ce55c33b"
+  },
+  "audio/en/f2ae0bbcfb7eacbee0c5.m4a": {
+    "text": "Security awareness helps people recognize risks and responsibilities.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "79d658abb9bf6183ab4ccb7c7296f06abff3103b9f88866eb21c97766131e6ab"
+  },
+  "audio/en/cb4cbab5ba3b7a10720a.m4a": {
+    "text": "Security training teaches what people should do and how they should do it.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "125a08f70cfe2334fa9c34abc134651ada26a4279711987c55a095422e78a026"
+  },
+  "audio/en/e199362b81de05d6aa33.m4a": {
+    "text": "An effective awareness policy requires participation and allocates time for it.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3ef14aa683d9c7be6904c59ed1ce4f675c932cee86e65178c5d4ff3c04fbac8a"
+  },
+  "audio/en/120b8a95ec6f96f22b5f.m4a": {
+    "text": "awareness",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "188b2bd155145909f240c75622cf28aafea819129c2edf1880d775c33c762650"
+  },
+  "audio/en/98e364c902ec0553a771.m4a": {
+    "text": "training",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b0cf38c723d60f12ec3681e50e9b4417777b5d55c34968700253b9b136cc65ae"
+  },
+  "audio/en/565fbc13e6c575805ce2.m4a": {
+    "text": "accountability",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "5ce3ac40b861fd7c0022dcef7e374c5c4ebe2bae25fc700e297f6824b218e2d1"
+  },
+  "audio/en/481cc7aab62b2eb78c83.m4a": {
+    "text": "deterrent",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ffe2d22687ff88c9a77b346c95ec0754b458d62b30ca0b4cc8b3cd06d9a645fd"
+  },
+  "audio/en/e802e7599a1f35e5b303.m4a": {
+    "text": "penalty",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a07c3201fba96012d412cdc8d4bd22fe91674fcabfcf17060e0fc401a4ddf9aa"
+  },
+  "audio/en/03d8600d5839b25308a0.m4a": {
+    "text": "Spear phishing tailors deception to a specific target.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "27d7020d768e789a08e1f1d00bb76bdaa54cc6004180c85ce17a6510e81ca4f1"
+  },
+  "audio/en/6669a83a6d8c86a90cc0.m4a": {
+    "text": "Vishing uses voice communication to deceive victims.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2323e37df263e87f4fe0594ad403f667a059c8c11ea50865c5e9d908b64a1fba"
+  },
+  "audio/en/0941b13f19f154d3baa8.m4a": {
+    "text": "Caller ID can be spoofed and is not sufficient proof of identity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d82d6986f2f9febb9a437cec255409af907edab276569566a16b9f5a8da12591"
+  },
+  "audio/en/1f204cfd51788e4888ca.m4a": {
+    "text": "spear phishing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "247aa21962fe50edf618275ec55492d59823ba896231cfb2c75163bd007b90c5"
+  },
+  "audio/en/98d3c491cf67276a8d80.m4a": {
+    "text": "vishing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "48a4eb066eafb071bf21c786189acef985af34c91cc8681087551f9c7bd607e2"
+  },
+  "audio/en/1911d77ac5c80cc97284.m4a": {
+    "text": "caller I D",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "96ced44e8112d01475b764ccf81dcf64e47e37f9007d56c04356420f725c5c5c"
+  },
+  "audio/en/2f4521e688aab8c5ade1.m4a": {
+    "text": "impersonate",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3c41b4db671001985de194fe018dd78da04b3c67ccf00ccd8baeae202e9cac1c"
+  },
+  "audio/en/12b0be2eb0ff38696b9d.m4a": {
+    "text": "A familiar name or photograph does not prove that an account is genuine.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "02c9f715c6d9b00a3e0615e4f7fdb68eda024b1729f8d9ffe560db72af7175c8"
+  },
+  "audio/en/714cd63cfb6dba8c0e21.m4a": {
+    "text": "Search ranking alone does not establish a website's authenticity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "030d8c137a4ee345eb7ecfde293031afbe072cb4cb101333a10c2ad4a68ad570"
+  },
+  "audio/en/5b6ea1c6c93f692d587b.m4a": {
+    "text": "Suspicious requests should be checked through an independently trusted channel.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cc311a00fe4bbb298ac5e95d42114b8664cdd76b7b7881e035f23e4b61ed4910"
+  },
+  "audio/en/c69b43a726773301639d.m4a": {
+    "text": "genuine",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cec1cf56ed594742b2dc6c59d450f9217bc0ee003e665101108957f2fe6a8eff"
+  },
+  "audio/en/759d3fd56cbfb5e3457b.m4a": {
+    "text": "lookalike",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d3f9c9732ff581acddf2af306092d45c8b64d56118e1d52e4fd3058486c60b2f"
+  },
+  "audio/en/0e667ce83d624db0b638.m4a": {
+    "text": "verify",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8e8b18f76941bd0edf8feaf9de8ec18d8572105b189d4e73432df896e3eef6f3"
+  },
+  "audio/en/ea4118e7ab18bf87f14c.m4a": {
+    "text": "independent channel",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d3b2d8e3458f6f82b64f48e36312e1b295cf857c3a92e515fda3c3ebf6365b13"
+  },
+  "audio/en/5ba1e167e7c0fbba793e.m4a": {
+    "text": "Cybersecurity compliance means following applicable standards and requirements.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d49a62241797d82054368ff1d9df6e8a22153ddc66f652de218f4228c7a97e09"
+  },
+  "audio/en/5cb423c30f32876fe542.m4a": {
+    "text": "A compliance team coordinates responsibilities across a compliance program.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a2b89e6225d73e837c9e0b5d01fa745dfd053c970f0ba7a8886a27b89aa3a340"
+  },
+  "audio/en/3204f955f01f1f61f3ac.m4a": {
+    "text": "Passwords are technical controls, while fences are physical controls.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0924a5b2eccc5836261ef7d1377dc2f7d72aa1a4c68a18bff3bd8dcafcbf0438"
+  },
+  "audio/en/bd1d8250a4e1473fc572.m4a": {
+    "text": "compliance",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7bee2de05d602385c09c825fb89ea97fc3908a6a20a5394ed7ab418716e27c4b"
+  },
+  "audio/en/d5680d82e287252238a1.m4a": {
+    "text": "regulatory requirement",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bc17f2b7b36868ed51e8694c6941faddf4f255c0bdbb8f43353063b0cafffa05"
+  },
+  "audio/en/a7bf6988667d3408b21c.m4a": {
+    "text": "technical control",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4c139d33b4005497c0ebe4f73e1b6833b40832c2371bb729c18a07b5fbefa9bc"
+  },
+  "audio/en/a45fcf0f38647c465e79.m4a": {
+    "text": "physical control",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d7423be4d35c45727b090f2819e1e155602d89eb998da49aed5c18304001ce97"
+  },
+  "audio/en/d4ce35e92e9e77b38f9f.m4a": {
+    "text": "risk assessment",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "873bac7d8e6aec54ac73729d84800d3bbbef7069159eea059d982a3f0bb889fb"
+  },
+  "audio/en/ada2a4882bf0e251f737.m4a": {
+    "text": "Security planning begins with an assessment of the current security state.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "23e9c0a94d3fe7b28fe499d998c1c72756b7f8a20ac838e70d74ed26b8a597e0"
+  },
+  "audio/en/d99d04570f8e09727e89.m4a": {
+    "text": "An assessment identifies assets, threats, vulnerabilities, and existing controls.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8e4ca05dc1153f7bdae0ebaecd7d78883ba20b966ab05af5aded95aa2c2a4ad9"
+  },
+  "audio/en/3f8673adf462636cea62.m4a": {
+    "text": "Security controls should address the risks identified by the assessment.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "78d1b41c5b0401e7e49bf7f1c517be4a529286924f363bec4823edab6fedc958"
+  },
+  "audio/en/53edcc73dbad2ef6b5e0.m4a": {
+    "text": "assessment",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "799873cbc97e981fa15e2354b29fddebb72dcc7ddf110e7194e41fd3f0632c08"
+  },
+  "audio/en/9a78adc73863dbca16c1.m4a": {
+    "text": "asset",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "391238f50a09c1499df758d89c82b6ce1b98040e729f421228c07e50a172d102"
+  },
+  "audio/en/673bb96dc5d77163927f.m4a": {
+    "text": "control",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d724cafcbe99c0783eeb2558089bc47add2689a5cbaed80efec41e673c62b4cf"
+  },
+  "audio/en/9e1bfa7c80640715bac3.m4a": {
+    "text": "Top management support is essential throughout all project stages.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b8a790219278abbc1d9d4ec69a3229945693494be32736b3458add63575c3530"
+  },
+  "audio/en/13be7f694a0a47c06abe.m4a": {
+    "text": "Management should provide an adequate budget for cybersecurity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "85c2088e85db85b775c734b341bd139c5172696c6d1ca052def19c4d527b12bf"
+  },
+  "audio/en/8ec0359ac80d5651233a.m4a": {
+    "text": "Managers demonstrate commitment by following security procedures themselves.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ae2ce74d098126b8f8f23f7ec15507ea1a2acb618b5aa2f846c3d0bddf59dacf"
+  },
+  "audio/en/0c7581c4a1b9b404f5f6.m4a": {
+    "text": "top management",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "96ae5b7f46bb36f9a3c6e64e8d711de1724d54a289ca0c6112847b1a3c5a963f"
+  },
+  "audio/en/992f7c8b9da565cf8eed.m4a": {
+    "text": "adequate budget",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "763e82a58bd0ad48170129622903c0566d4964430d7466876c3154e23266cfc0"
+  },
+  "audio/en/42b826ffa139c3712a41.m4a": {
+    "text": "throughout",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "dbd25790bb190072d48d0bbdbb376da79417d9d8f9940772787223344703a7c1"
+  },
+  "audio/en/67f381eba3e15b4b406f.m4a": {
+    "text": "lead by example",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ca0b89a3f15ffb8f6979c0e99d00e7169d9d216477db9749da7345fa76bd831b"
+  },
+  "audio/en/de8b05b44c534cb7d0cf.m4a": {
+    "text": "A policy states what should be done under specific circumstances.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3d754101b0e73bcdeb4b52ba090bd27c544411a4f378e2e9157015a1cddd50d7"
+  },
+  "audio/en/1888da6ba4e69ec36038.m4a": {
+    "text": "A procedure describes how to implement policy guidance.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "12cd3bdbdb2d959d2dd19de6a4af77ae116d9ffd244eeca9ab26710ffcd31ff8"
+  },
+  "audio/en/6f5f684e770220d4b1c1.m4a": {
+    "text": "Impractical security policies may encourage users to bypass them.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "25f47716ee667e8d73229ad0deddd615980c8cdee12bb971bc72451118b3ce9d"
+  },
+  "audio/en/a49241d0e7bc6659728a.m4a": {
+    "text": "policy",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "67ff6da4a7d2a4dbfeb388ce84f5d5d73e2d53dd0d0c006c0b2d9c1bfbb0a3ff"
+  },
+  "audio/en/d4c68136ef099f3846de.m4a": {
+    "text": "procedure",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8c3efccf6d71013505bda0fce58201b7e1d6f1cec8bc944e93b087e28720a5ad"
+  },
+  "audio/en/30031fe8bcf2bf699adb.m4a": {
+    "text": "acceptable",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7770fe6872b8004a7e4e4ee1d2b0d63094117441912994cfa170323cf0b1d8b3"
+  },
+  "audio/en/0f8cc57d7949ffc3aaa2.m4a": {
+    "text": "bypass",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f2c5a598a7e37ec4284de6a31eb7e68ab98e6f4b8634cb1bb4fe0edd743c8d5d"
+  },
+  "audio/en/32627cf75e62c167db1d.m4a": {
+    "text": "Standards are mandatory within the applicable organizational framework.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2a0bc312c22687f29ef9b9dab42b5036634941308f5ca9184a5aec343b52c0e3"
+  },
+  "audio/en/319ba74540897e80e549.m4a": {
+    "text": "Guidelines recommend actions and allow discretion in their application.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8e72e02aae0ab719750cf86455ab909eca687591d8add100dc50ff2f7204e816"
+  },
+  "audio/en/aa426c8cd642ecb963bf.m4a": {
+    "text": "This quiz requires decision makers to consider guidelines carefully.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "556f157824eab6cf7a9d2a6b09e8b8eabac4c0910a6d073cb60b483bff74699f"
+  },
+  "audio/en/fe247256515b529f5066.m4a": {
+    "text": "standard",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0931f0012f9d08972c29335c99f87aec4e36a764ebd256a5aca5aadd9c6edf87"
+  },
+  "audio/en/9ef4a7900f2bf4ae5605.m4a": {
+    "text": "guideline",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e9e659a9daa42eb8ab4acab9b13fa290cadc2e3992e5168c1bcebcef69dd5af3"
+  },
+  "audio/en/033dd044925788fa0c22.m4a": {
+    "text": "mandatory",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "710ca68a0c946f853fc7115dd703a6cb2fdce1bcb00dde85ac8af5542f238a73"
+  },
+  "audio/en/56c0bd211c70e3540a6d.m4a": {
+    "text": "discretionary",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4eec4ba0b5300097cb63ebdacafefa184de6b7e13d75dfd6071612c5e88bab34"
+  },
+  "audio/en/9afb25c528bfc23aa889.m4a": {
+    "text": "Authentication verifies identity, while authorization determines permissions.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "45084af81041bd57b885d5e7fbe9ff3808bc6beb2fd14692f26a51ed87105218"
+  },
+  "audio/en/2210040728a79b5c6751.m4a": {
+    "text": "The three classic authentication factors are something you know, have, and are.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bdb537aff44b972c1ba6bb2ab9faaec79a219aba7b150913b87c6445291d8ddf"
+  },
+  "audio/en/136cbac92dcfb1ecda6b.m4a": {
+    "text": "Successful authentication does not grant permission to perform every action.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fcc9ebde87d35f83c545eeeac502e8bb17994b222d40cc3f1b4d89cac42f4ee7"
+  },
+  "audio/en/f647bc595b94dc54f898.m4a": {
+    "text": "authentication",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c2e7e1601feee917b9d473060c4a5747df63d57a274a8f41f1ef5e4a7c60850d"
+  },
+  "audio/en/7a828443e02bfe3533f8.m4a": {
+    "text": "credential",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3e27d96c685dd453024779039822397cd9b8ab58c1ab62402c29c68719fa8daf"
+  },
+  "audio/en/bf187993b96aa7b6a2f5.m4a": {
+    "text": "factor",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "30f7d56a5905da8276da8422bb37051bfc43799d99d7635821e051b92a8310f2"
+  },
+  "audio/en/95396b4d2ebf1139ff8c.m4a": {
+    "text": "possession",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "733efb328493bc6af51d75e55d08fffcf1f8a5c0a77081e4cb0c5652df99215b"
+  },
+  "audio/en/a7ea6d05f6c5241caa4c.m4a": {
+    "text": "Predictable passwords are vulnerable to guessing attacks.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7bb45ef663db06761b449c2663c7da47e750ca162d18b2804d42af612ed55b7b"
+  },
+  "audio/en/1d7846610b868289d0ae.m4a": {
+    "text": "Reusing a password can spread the impact of a single account leak.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "607b662ac44b9f302a35c0791d60fcfa76ca757dcfbe8f790bde8a5acbcb5ea4"
+  },
+  "audio/en/5b1cad18341d0e21414c.m4a": {
+    "text": "Actual password attack difficulty also depends on the system's protections.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "45b9d2f2617972cf7a698b883a9172b46c56ac82c1cf2ee229ba30734ce91e76"
+  },
+  "audio/en/62a4cadffb0a93595211.m4a": {
+    "text": "predictable",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7df23b88d870f6f6bdca5c58c35717d030ef922e2ad687898c27c9647993fc82"
+  },
+  "audio/en/3e573aa427baaa5f38a6.m4a": {
+    "text": "reuse",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d44f82adf5e56ad9387774b6c15a3b0829296d0b1722ef2f90cba21807e51eed"
+  },
+  "audio/en/9a0aa3f11327f25007d7.m4a": {
+    "text": "crack",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0e5ac0bb61d99e03b58d5a0debf3a57cef2c99bbf06c907607c9cff7d1410710"
+  },
+  "audio/en/2181ca94ad8013899022.m4a": {
+    "text": "rate limiting",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e377896dd9aac25434fa2c746503e6c9ad1866bf3949bfac090294b1743814dd"
+  },
+  "audio/en/f760fbf9da346333ec14.m4a": {
+    "text": "Biometrics use physiological or behavioral characteristics to check identity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "311fee7b3f03b6a972a7d458b4ce01ebda0e6bf07a9744c3b557a6bb803a7bab"
+  },
+  "audio/en/34f5ba8ec049b355d309.m4a": {
+    "text": "Enrollment creates a reference template for later biometric comparisons.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fd1b8f128d8079903c7ce545afaadbc06494a4fdb51232a0ea4476a4e29a1bfd"
+  },
+  "audio/en/bc11eb4f895f32793fa7.m4a": {
+    "text": "Biometric authentication can be convenient without being immune to spoofing.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f7394941544ec4558c86bf05bc225de73882beef78e193d01ec478b249853e24"
+  },
+  "audio/en/9f03e2a6bad993ba9471.m4a": {
+    "text": "biometrics",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c03e8d53448bdadc96441b185d5c74157e66ad3b41e1dc0400a49e084cf80228"
+  },
+  "audio/en/33d8fdd6e8e1e11cbb06.m4a": {
+    "text": "enrollment",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4eb4ff6b571dc67555d15d5efe2997d57988a23eb23ae88d5ccd10d5a124b8bf"
+  },
+  "audio/en/f2c33a6d2cea4d50307a.m4a": {
+    "text": "template",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "65f6cfbbd448388f5fa96abf8354c5b5fc9b59538a430ca611eb77f38aee34b2"
+  },
+  "audio/en/cdb1b28b77b42de495c2.m4a": {
+    "text": "verification",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "182a0d5895d555bb92ad79174fcd14390188871bc12e217b21d030083f98ef94"
+  },
+  "audio/en/eed634877e8d10c81da9.m4a": {
+    "text": "identification",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0e5ae7e26ad810bf0f332bc411dcd8b5108a238e30ab8588cb826748c2a615e7"
+  },
+  "audio/en/8127a285613b92dddc4d.m4a": {
+    "text": "False acceptance incorrectly admits an unauthorized user.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "40746b10520245e07f6020f425beb0388f50fec38b1788493db6fdfa487b0dae"
+  },
+  "audio/en/0c476da9dfeeda9eafd5.m4a": {
+    "text": "False rejection incorrectly denies a legitimate user.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4360b62af57af2aa1b3e9c3cd2fe6291b78161ae2b9968cf2615f09067b123a7"
+  },
+  "audio/en/29a97b10bbe0fc794c3b.m4a": {
+    "text": "Deception is a deliberate attempt to fool an authentication system.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "87caefdfcd32cdb44cbc3cc438b1bcfd2f25e57a77a10ef71a2e9c643b9a7852"
+  },
+  "audio/en/812c0aa77d46752f8568.m4a": {
+    "text": "false acceptance",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ca1f14fd8a7f26f2e2d12975b9962df7b0b1c25944932a1d1de642f17bafb201"
+  },
+  "audio/en/f803ab76baac696d50d3.m4a": {
+    "text": "false rejection",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8bfcefd06f02b9fcda1386dfc0f64c6fb4f59162412c3f0db5f17937687df8d7"
+  },
+  "audio/en/8827e82a4115003f022e.m4a": {
+    "text": "deception",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d10434f80091633c9f779b84963729160b4bc90e190f66a08fc154e64ce25384"
+  },
+  "audio/en/47f99d6926c37e3c3f71.m4a": {
+    "text": "threshold",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "61fe20cc2eaea0bb47537ce6782411c53e3a715984600065caf14b2895c6978e"
+  },
+  "audio/en/5e6194b61f9a1f96d14f.m4a": {
+    "text": "impostor",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "369471feae784a5b03d2348fb676484a824ccd38816e1ebe80251c9caa2c5b95"
+  },
+  "audio/en/569fb7617f201de0c1f4.m4a": {
+    "text": "Encryption converts plaintext into ciphertext.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b8180c4a39a9ef09dec9814cde3442bf1bc69f6038be4f24693e6b37c66c1fd7"
+  },
+  "audio/en/80a40d16195b114d6bcb.m4a": {
+    "text": "Decryption recovers plaintext from ciphertext using the appropriate key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "772a8ade8f834ba41e79a46b6a52a1d938ac9b28e0b0893fe72374f3dc3f4bd1"
+  },
+  "audio/en/5320b05251e7930170aa.m4a": {
+    "text": "A block cipher processes fixed-size blocks of data.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "758da2156815fbb99f91d6685a984130d9a490b2e904215eed41e8e86de97825"
+  },
+  "audio/en/16a78792401980a4b713.m4a": {
+    "text": "plaintext",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2b992085995df3a036747943cd7657744416183812f93a4aea14d9e0176b0986"
+  },
+  "audio/en/0f97d3fee09493271e5a.m4a": {
+    "text": "ciphertext",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b4a22cc3f961fa67a5f50eda76982631bd7638039552a05d5da924206e434edc"
+  },
+  "audio/en/5aa14a06cdaa755c93cb.m4a": {
+    "text": "encryption",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "56e7394f070999fbbc8cd7ae5e39e0a29eba01ead60755ea4eb5c8e3fc395202"
+  },
+  "audio/en/2cac54997229f4968507.m4a": {
+    "text": "decryption",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "5e56dc7bb66304867d11f8fcb536fc927145d4beaf9de0bcc4631ea0b5b5b584"
+  },
+  "audio/en/2aa2c2a6367c8bd82e0d.m4a": {
+    "text": "block cipher",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2910d63c1b10cbf55033d5fe5fabc36716e1c9450059e308d0a32c5c6a5eeec6"
+  },
+  "audio/en/08f9fe1a240e2c35d7f3.m4a": {
+    "text": "Symmetric encryption uses the same shared secret key for encryption and decryption.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "790b2e36de1edc0812e132ef263576efea7ffe32b5e697e033d994c636c23a08"
+  },
+  "audio/en/1d22f8939da913f2d8d4.m4a": {
+    "text": "DES has a 64-bit block size and a 56-bit effective key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a026cee4f2e5ade8896b3350113a32483b77ad8fedc5c5effb4366c0f639691b"
+  },
+  "audio/en/5c26eff3fbfc43c780a0.m4a": {
+    "text": "Secure key distribution is a major challenge in symmetric cryptography.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d34c754b9746347d24a67630d5f374a5bd177fb1a84507126ac93d27de86aeaa"
+  },
+  "audio/en/a3d00e3a8d8a25ebd9bd.m4a": {
+    "text": "symmetric",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "dda7c25d123076cdba66f91d9081bb534e76f320d9696ab42ddeceb18b6c8279"
+  },
+  "audio/en/b98d0bfcd604c8f77cd5.m4a": {
+    "text": "secret key",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d4780f4759f5a800b400a0b4f20ca83489d16f333497c6b050aa6384887b861f"
+  },
+  "audio/en/067d7e1254dd827b1c5e.m4a": {
+    "text": "key distribution",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d55decd42e4911bc18adef9994f13fa58fac316e9d441868a6b01be9491ca248"
+  },
+  "audio/en/e8c73b33b69772b46e44.m4a": {
+    "text": "parity bit",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1bab731bb35c6b0b79c29a8f62ea246c15e1141a49ec4bc1734026d0aa87b17b"
+  },
+  "audio/en/574c893573accba4bdb0.m4a": {
+    "text": "D E S",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "647d5d2df6e8658c3193656cee2aac60320310d044d4a9fbff4dfe1038f2647d"
+  },
+  "audio/en/ad51098a86f6df6b53e1.m4a": {
+    "text": "A claim of unbreakable encryption is not evidence of security.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "baf6866cfa68177f67056efac248d8f45cdbedb38283ca03c9e2ae298a48db41"
+  },
+  "audio/en/5017965b60f26dc0f629.m4a": {
+    "text": "The age of an algorithm alone does not prove its security.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "403e8c8d9b4fbcd31db9c64352869f6d17a1eefdf5b22282b3881e7920abfc00"
+  },
+  "audio/en/a7a878c0580301990035.m4a": {
+    "text": "New cryptographic methods require careful evaluation.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3a4a9c727bd5a881eea620fb0fc0c568d2c032210b3ee64c7fa78daae81e6f84"
+  },
+  "audio/en/7d2d1fec2deb39373e42.m4a": {
+    "text": "vendor",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0a1661139d4bac4f7a84481a96b7051e04caa2b4898f55d5f56de1ea4c90d259"
+  },
+  "audio/en/b576dca80387c914ba45.m4a": {
+    "text": "veracity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c33e4ceba44484c1daf8cde72390ce4e4bf1a1975b8f50114d38e6f75ef6061d"
+  },
+  "audio/en/5b91519b944f98682735.m4a": {
+    "text": "exaggerated",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1187d1504b4a1b65862c7ea5cd84c2a650d943f1996ffdcf0fbfd95913d664fc"
+  },
+  "audio/en/736e317d9439a07a6f05.m4a": {
+    "text": "certification",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f462196bfa0b5f64ba58d1d93893d99cb3954d0d44f618f3f076a42622a78d37"
+  },
+  "audio/en/fefceb8b5288e0c0f0b8.m4a": {
+    "text": "Asymmetric cryptography uses a public key and a corresponding private key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "55f34d6347507575e9904c81b8268c021c6175623e36bde66ecf9524d542d783"
+  },
+  "audio/en/4f984193c2e10a219ab2.m4a": {
+    "text": "RSA is an asymmetric cryptographic algorithm.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6f8f4c56a4a3ad29dfbfd3e7f3413d8122816dc5c720ac69e30a04de70190041"
+  },
+  "audio/en/f2c452555143579f3b5a.m4a": {
+    "text": "Using two keys does not automatically make encryption more secure.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "bbac9c81ac29a326c003a32ff9f5e5d8b30193bf879a3de274a652490577cb9d"
+  },
+  "audio/en/971af8e1e866adeda448.m4a": {
+    "text": "asymmetric",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "530166af985251c4874dcbf53976f036d2c3d5faf1171a963b1f96e067f685f4"
+  },
+  "audio/en/5aa23e2d9ec51b31019f.m4a": {
+    "text": "public key",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0e47f97479a80c9a558a79ac4b3b6337af57d7b16ebe792ec7e315f2349ebfdb"
+  },
+  "audio/en/fdac910efad4b0ae43aa.m4a": {
+    "text": "private key",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d656bb1aa798408dba5104f2c7372dc98a6d8aabdf4f4fb45e4725599b4fb30d"
+  },
+  "audio/en/340312f286683a2ad7a4.m4a": {
+    "text": "key pair",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d0c453e84ebfe23368b2902446f0f2edea760288f061cc12de99ded7d049b40c"
+  },
+  "audio/en/e75f069e659c8ca06a68.m4a": {
+    "text": "R S A",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "5ef4ed0924760d25e188c31a96dd46263f26a19495cb5a40d09812859aff9506"
+  },
+  "audio/en/05a777a8da6c53018f86.m4a": {
+    "text": "Diffie-Hellman is a key-agreement method.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f3f78e29470d5976bd7cb084d211f11b357d1164e72cfd8109e1735019c3169a"
+  },
+  "audio/en/512967f8054f1ceaac08.m4a": {
+    "text": "The course associates Diffie-Hellman with the difficulty of discrete logarithms.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "eac681707f4ea131bca1ff13e9d4dd27faf794994c8f6ccdc703856a87b26895"
+  },
+  "audio/en/98a85a61a8a950e6f010.m4a": {
+    "text": "Unauthenticated key agreement does not verify the identity of the other party.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7bc19749b77eeba1258c7e3da9f3a5ac4b25a6de36ab199c23e793bfedc474a4"
+  },
+  "audio/en/c1fc8d5a16f115d0e573.m4a": {
+    "text": "key agreement",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8a8db3bed8eeb8d2ae2241dde0d1189a73d7fd22b5316575ac4f10e0787e067b"
+  },
+  "audio/en/ffa4488a495ff6be8e04.m4a": {
+    "text": "discrete logarithm",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4032adf80267ae52685bd5e5fab8968554989b274380c49ee56e5d2ea65b70fe"
+  },
+  "audio/en/e294c28dfc96c60d17f5.m4a": {
+    "text": "shared secret",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4b7c0d98a349e2586e47a76d64f46834bb06e71adbe716de58e0d96579de1ec2"
+  },
+  "audio/en/bc160a15208c21924046.m4a": {
+    "text": "impersonation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6e6e0b86064da14102ac3df179d17410a192e351ca18ca13be35f07cb092acad"
+  },
+  "audio/en/9299d7322c1dea7cc55c.m4a": {
+    "text": "The RSA modulus is the product of two distinct prime numbers.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "caaddaeb738382e898ef376c3b13a71edbc01de19d6373e810bd49238ae8f1f7"
+  },
+  "audio/en/2e8c3abb16d06577e5f5.m4a": {
+    "text": "For distinct primes p and q, phi of n equals p minus one times q minus one.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "321796ef71d1522972c27df00728c5774a43bf8d4d7fca7b076f1a6e3da552f3"
+  },
+  "audio/en/7f2ac90b058d1019093e.m4a": {
+    "text": "When p is five and q is eleven, n is fifty-five and phi of n is forty.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ec8896829773641cae90e9d232b5076f3f31cd75eb929ac9f8796ac54bdbaf07"
+  },
+  "audio/en/034d159100436acc1e90.m4a": {
+    "text": "prime number",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6a6610dc1a0ba78d1404afaed4927f9a0017df087477d6ac94fec4b2e9d0df98"
+  },
+  "audio/en/59feacb816a6403daf20.m4a": {
+    "text": "modulus",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "395db8a29cea0ede38712eb90c23fdb246d3bee5ff2c80b7324f256906b3c8cc"
+  },
+  "audio/en/5624cd4354d499073ad2.m4a": {
+    "text": "totient",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ac9e7feb639a5653be41df4d58f2c3017566f6871c2f61db9609513c8cd87fa0"
+  },
+  "audio/en/9b04696e26c1ffbea2c7.m4a": {
+    "text": "factorization",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "10a72aefe9d04110517048a129167e6c472fa08930f0d2772099ef8dcd59fe61"
+  },
+  "audio/en/6eac95030075502b0c07.m4a": {
+    "text": "For confidentiality, encrypt with the receiver's public key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1a13126df900af63ff3688b1c948ea6b245a1f8eba49747c78e42a048b8ae297"
+  },
+  "audio/en/71ef1743c5e9dd063b97.m4a": {
+    "text": "The receiver decrypts with the corresponding private key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d409c49f49f8761d71b10432184de54ce5339321fd90fc48f6b02629d2e0ea46"
+  },
+  "audio/en/b4f23eb2b3408f90d04c.m4a": {
+    "text": "The sender uses the sender's private signing key to create a digital signature.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "530e3dd914e9b8d25c09ad1d44fbb068d6150f823a53d5b6426d4f22ee6d9e3a"
+  },
+  "audio/en/09a35b73d18c49b6c453.m4a": {
+    "text": "sender",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c5920da4a6c55e05a636a0db0bc03f98cde20db59912428dcb78757dc89c1753"
+  },
+  "audio/en/b6ca11b909e8679ece45.m4a": {
+    "text": "receiver",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "90d8177490359cd336ddb72dd5b1229ad993a8b7a34143cc1e04a18d71d1150d"
+  },
+  "audio/en/794c8b7a88d757d3bfb9.m4a": {
+    "text": "corresponding",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b23f3e23c9de54dc9c877686c9c1287ee069561695d67e04082cf6383809be8e"
+  },
+  "audio/en/209d02d94bb92d6038dd.m4a": {
+    "text": "A digital certificate binds an identity to a public key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ec6a984df9990c2ba0d0633630a7d051e0302f2c4ffe86f96fbed4eb21a5ebf5"
+  },
+  "audio/en/ab4c0628e40aef2bf97b.m4a": {
+    "text": "A certificate authority digitally signs certificates.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a97fdec90d63e06ed0bbdf7a5661682dcb55adec51913c657499021ffd1e0492"
+  },
+  "audio/en/c793ddfed3b10c76dda8.m4a": {
+    "text": "A digital certificate does not disclose the subject's private key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fcb01659362c84499bdddab99c249ad0d86ca116dfd3be9076f22d634f67541d"
+  },
+  "audio/en/5f230400583712a7fc19.m4a": {
+    "text": "digital certificate",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "55f8dec8414dbbc781063d94f9cb491c3135b6b003b67f92cb4010dde7e5b9ab"
+  },
+  "audio/en/bac84000208995461877.m4a": {
+    "text": "certificate authority",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "337becf2c2d7787ac7c49eef67023b014fedda47ee06556a2bdf846c4b5049da"
+  },
+  "audio/en/51511934b7c815b6b374.m4a": {
+    "text": "bind",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "d8d58c6fe792cfa74f8c15eb6b60aecb92e6d29489f95ca1b2ec38acaa83ac80"
+  },
+  "audio/en/daf804e20882da2129a7.m4a": {
+    "text": "validity",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "57958d4902f4bac1bb64cb631dd59c7a7815dc48f59ea8ffdb395f2c7d816b85"
+  },
+  "audio/en/c2264b16a8d00e5e0a8d.m4a": {
+    "text": "A cryptographic hash function produces a fixed-length message digest.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6fe8253135640a830fe07dbd270ea41360e79d3f0548c8b1d23ea6d38d36d09d"
+  },
+  "audio/en/8163c31c5e5fa215b8a2.m4a": {
+    "text": "Hashing supports data integrity checks.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a718ef749047b52bd2b7c1dc2a5b8eccba9dc2e2c21e4e6c2ea1583b4953da37"
+  },
+  "audio/en/5c9dc64967c2d731da72.m4a": {
+    "text": "An unkeyed hash alone does not authenticate the sender.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ac0347e35cd2e2df405e242a0f8f3961853d93eae708979f5c7b42930dc2897c"
+  },
+  "audio/en/5b8729c29bdc7e0f7ca8.m4a": {
+    "text": "hash function",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0dfc4b8e8af332035dcbd716575c751f77861afb21d1d60f7f3026a3c5612d93"
+  },
+  "audio/en/c865e83e8b4610718fb2.m4a": {
+    "text": "digest",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f49056bf30d685387d4061f66a39166b0a5944e7518ac5acb022e360a7cfd9a2"
+  },
+  "audio/en/dc7901bb2c63c8181495.m4a": {
+    "text": "collision",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cecf89500c52ac1669d0f788dda004d3915e51735069c2bd4c09a664b84e922a"
+  },
+  "audio/en/5187e4a73b86e6f72c40.m4a": {
+    "text": "S H A",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2ffafcd78ed928e7fcfbe5a954cd512838bb8119c8991dab712b4907446765f4"
+  },
+  "audio/en/d2e9ff9a54a06b27eebc.m4a": {
+    "text": "A sender creates a digital signature using the sender's private signing key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "963a63e3959d9488bbc01a8044b324af7bcd1e90e6b67f2f2f7b9074ff1951fc"
+  },
+  "audio/en/d2f558ab8d98985f453c.m4a": {
+    "text": "A verifier checks a digital signature using the signer's public key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "36806b543b307c0b57bb02f3175ebd15dbf994686dfd2c79d92b5dec8109843a"
+  },
+  "audio/en/68e5d188af6555b1232b.m4a": {
+    "text": "A digital signature supports integrity and source authentication, but does not itself provide confidentiality.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e0a9bdbbcdf8bebc1fcb9af4dce552fa16b3cd1059a93da19a42e49ea4f4b51f"
+  },
+  "audio/en/fa7b530e8d874595564e.m4a": {
+    "text": "digital signature",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "46d5eb38711e40c03b7d21e4bd034a184e1b73727d9ad6832666c5381deeae0d"
+  },
+  "audio/en/69fc99f1de104990a705.m4a": {
+    "text": "signer",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a0181398c62241e7c8f7430e109f97e11df02dd729dcf6de3b7d9abfbd54e6c4"
+  },
+  "audio/en/02a2fa80128053a4d90d.m4a": {
+    "text": "A hybrid cryptosystem combines asymmetric and symmetric cryptography.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f56fbeddb57b543d5d34f311ce9cbec157052e0b9d3407da963a300f9efca6ff"
+  },
+  "audio/en/03675752d4a1b6de3fc0.m4a": {
+    "text": "Public-key mechanisms can establish a shared session key.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e709a535339e2d986bf1ac146511bcc2faa345ffcc4601fa33adf3637a04324b"
+  },
+  "audio/en/28b6f756c989f8970093.m4a": {
+    "text": "Symmetric encryption protects the session data in the course's hybrid model.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "063726d2ca83bb43d6a5fa5f40e21a9782c442ba3e5894d809e10bb1c69fb3de"
+  },
+  "audio/en/bf05f7143843dc96ae10.m4a": {
+    "text": "hybrid",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6188c70da59506005de36357144eb621bff3982a8027ac3149cddc16e711fbb6"
+  },
+  "audio/en/c910ab862b4daf866fc5.m4a": {
+    "text": "session key",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ae57d726359d0938f4da3c9b152e945aa7748b47133382f8d6fddc48130a022a"
+  },
+  "audio/en/d8e27f6aa57de389e01b.m4a": {
+    "text": "key exchange",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c9808f71607fa2332084af40e4a03a0214ce84fc0f6a0dd4f44f6e41823bc2c3"
+  },
+  "audio/en/3778f9c1f3ea6c6a6d40.m4a": {
+    "text": "bulk data",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "20f08f9a6125ad4fd9a7b4bb2124fb1aa2fe8df2489be0662b9e0a81721ec04f"
+  },
+  "audio/en/ca1b5afdffa2fffddf79.m4a": {
+    "text": "The TLS handshake establishes security parameters and shared key material.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "934e71888ac95ff30fef931701cf29be1569169d956f0b60c36c36b072bb5828"
+  },
+  "audio/en/f7af00b3186c48343e77.m4a": {
+    "text": "A cipher suite identifies a combination of cryptographic algorithms.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c1f55228d1c61c723bbbfc9582dd439e7f28dc5f926bb4d8e9c529d52ebfaae1"
+  },
+  "audio/en/bdf36b3caf3c847c79db.m4a": {
+    "text": "HTTPS protects HTTP communication by using TLS.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "61c8cbbab335d12141509a2f53df6f3ae9c2031147fbf3f9d9ad1173085c2a9e"
+  },
+  "audio/en/1519cc28593abc679de2.m4a": {
+    "text": "T L S",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "752e8e3d0836b58ca217c4466facea733e86902cf7540bafaaa728ea9d3c56ea"
+  },
+  "audio/en/5a5c8bed49b35cff36be.m4a": {
+    "text": "handshake",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "46337adbfa7de29e3e57ead0384b21695963b1a4a8040f5330fc299f4beaedcf"
+  },
+  "audio/en/1aeeccc870b35ca66a33.m4a": {
+    "text": "cipher suite",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "51f6ecd2e769a75be0dbc384e2e6bd38c4ed043a3cc5bd6fcdea1e5b9bf9ce51"
+  },
+  "audio/en/6d83e963c91790fd999e.m4a": {
+    "text": "negotiate",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "aad9ed7edc4d8d264b1a41c483f33aea6151c7778d99e9f2f9098a94f9b576e3"
+  },
+  "audio/en/8f736dd42e1f391be132.m4a": {
+    "text": "peer",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cd52849f0a3c2748a8a9866a25e7e66069285984b4264fd2de7f0fd6ae213fba"
+  },
+  "audio/en/9314075edbbd75951f40.m4a": {
+    "text": "TLS record protection provides confidentiality and message integrity for protected data.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "24db580b0c991a846bb1526cf45f024a1c6e349d4819cf73a69140e343544d14"
+  },
+  "audio/en/a040522260e0e1e67c85.m4a": {
+    "text": "Confidentiality prevents unauthorized disclosure of information.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3975737032415e750b5c6fc480ef540a52490a965236805880eb4771c43e347a"
+  },
+  "audio/en/d54819d5f48c01016af3.m4a": {
+    "text": "Integrity protection detects unauthorized changes to protected data.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "641b0f2d7ff8b7aee919687207d83bd7d54e9523d4a6458d35197c202bb3963c"
+  },
+  "audio/en/de3ee5110030c9ab6da9.m4a": {
+    "text": "record protocol",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ede6d837e9293ccfcb9d4a858680fcd7865af2f4947fdfb75b3d10d70305b6fe"
+  },
+  "audio/en/46f93a6ffec9eaed0323.m4a": {
+    "text": "The TLS alert protocol communicates connection conditions to the peer.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "a2b8119ea2ce7e6e04cb785a7b8f8f57cad4b749c0fe17e692fafa099eb97678"
+  },
+  "audio/en/0636f04337b22920da7f.m4a": {
+    "text": "An alert is a protocol message rather than a digital certificate.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "abf7daa8e14d4e23863512c4b07552a94d7683bc3991a599a22a29428490a5fe"
+  },
+  "audio/en/816b1570742ade1a6894.m4a": {
+    "text": "An alert can report a problem or signal an orderly connection closure.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8b5fd903944f13c56916362367d9252e01888e31dbd842d44f0733e57968b8e2"
+  },
+  "audio/en/28fd6cc2d28008c67ecd.m4a": {
+    "text": "alert",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "6c2fac21ef7e5b5069d7dae6baba9dd357de5f934dd10d9332afe04e90b827f4"
+  },
+  "audio/en/be4e3186076735078112.m4a": {
+    "text": "endpoint",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "f0f768f07ac6a0a7b94a84e6864a668312521e928c77458458c213b4265e1fe1"
+  },
+  "audio/en/d2e5f84b37e295afc411.m4a": {
+    "text": "convey",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "3962e52057cbde0e7120259a3bbe4ef1000f684edb0a70911ea6cb3d9e53d232"
+  },
+  "audio/en/827180d9ff1b8cc3a025.m4a": {
+    "text": "closure",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "ba7a4ef33f29561c72070f714b5f82894645018c3794a4a9ad76fd2df63930f0"
+  },
+  "audio/en/90418c9f165b33c48582.m4a": {
+    "text": "A firewall enforces a policy on traffic passing through it.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e45370e1a45c2023ee96e638dce6de8f91be21be4106e3c3ae440deadfc2096b"
+  },
+  "audio/en/ae5a766bacf5b9a75035.m4a": {
+    "text": "A personal firewall controls network traffic for an individual computer.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c0478b320117e69f219ae2170d07c5305ae5678c5c3a96e62ca19f99c31d46e9"
+  },
+  "audio/en/28bdf2368a3186b0c47b.m4a": {
+    "text": "A firewall cannot directly inspect traffic that bypasses it.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2858fc758f2de249e4374be10fe1ba2601a988a2ebf59768f37797c0a461983f"
+  },
+  "audio/en/637d4596cedb080c70eb.m4a": {
+    "text": "firewall",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "89d70559ba653ff7c391a674cf9760f78e4ad3ec4d84f6dac0dc9a553e501b79"
+  },
+  "audio/en/8b8c0ba37587efa5e1e8.m4a": {
+    "text": "personal firewall",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c059b4308702a44e0b6e61ce8dd64f592faf0edb1c910c657484dcca7c99fea0"
+  },
+  "audio/en/6b53f8dd5c318ad07068.m4a": {
+    "text": "perimeter",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c54d9f38c1414ea82ec891c66501dd5252c192f37029c5b3418607841117862c"
+  },
+  "audio/en/8854c9fc26a5d0d70e6d.m4a": {
+    "text": "enforce",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "640487ae478f7a92757726f7b9f47767ca36ca5f9cf11a4599572686493ecf83"
+  },
+  "audio/en/1bf8618870248db59580.m4a": {
+    "text": "A packet filter applies rules to individual packet headers.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4f13c5ecf0b4f5025aaae11edf519ae56901329893615be71ee5037046e0ec05"
+  },
+  "audio/en/4b7306933fc406faf0ea.m4a": {
+    "text": "A stateless packet filter does not track the state of a connection.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "4a041beda04788dde39e2563e2edd6eacafb11e3fbd19e3ee122e917a29b68d0"
+  },
+  "audio/en/1dd42ea042d74f6ae03b.m4a": {
+    "text": "Packet filtering can forward or discard a packet according to policy.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "397d856294b3e84ae956b502781b171eb5af9f4dba89a58e567c588e746bec90"
+  },
+  "audio/en/9033aaaaa8a6631e7c58.m4a": {
+    "text": "packet",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c7e4aa80436a949dbf3a690c6fabbd5625cbe2b2f2f46fce08fb85ab3eb063a6"
+  },
+  "audio/en/8b67a1360d1dcfe24633.m4a": {
+    "text": "header",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1b56e728a43d4d8bdc682c9bad37ffb401f55cee26f3c4fbdca42d7511f0f32b"
+  },
+  "audio/en/4b373cd521a664b75f6d.m4a": {
+    "text": "stateless",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "fca368768c36cb6781bb3669211c61fb73df90c51bc28010a84b0fa65e0c85ff"
+  },
+  "audio/en/815395342a9956df464f.m4a": {
+    "text": "discard",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "97f0dd62794eea7b89f12a4ee53b3875d2fd108834fa3f256faa4932b4e3b8c7"
+  },
+  "audio/en/8f0048849e45c3d2e8d0.m4a": {
+    "text": "IP address spoofing falsifies a packet's source address.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "aa22d1e569dc2c632750d449a146b593fe95e32af6d164bdad0b8b62d5ec181e"
+  },
+  "audio/en/3a3f881fe00df45ec525.m4a": {
+    "text": "A claimed source address is not proof of the sender's identity.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "639e9164f9e30f7780b2aeadb5a76f46b90fb9986328ca42acb40d459485cd62"
+  },
+  "audio/en/d0f83b338160d3de219f.m4a": {
+    "text": "An external attacker may spoof an internal address to exploit address-based trust.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e320ecbe4148dcfecf383311a70cd8e5b59296c800a5ad2201597d776a24659b"
+  },
+  "audio/en/431ed9a59c450d4d7550.m4a": {
+    "text": "I P spoofing",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "8bd5a42c6d57361e7da542b2b22e4ff4ccd80498c726c21ddb3b5e9807b9ed3d"
+  },
+  "audio/en/6bf1af13b429bdce8469.m4a": {
+    "text": "source address",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "835b7b5c2e4bc9a51dc1d30897239dda785520ed4d6c16152f720eee30a90a91"
+  },
+  "audio/en/d29304b8c1d1a380b300.m4a": {
+    "text": "forge",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "e0434b3ef7688292b848ec4a5e32bc1e57a6e973bf8466feadc164d50a5a2bd6"
+  },
+  "audio/en/fe7c8372b56d421e94e3.m4a": {
+    "text": "internal host",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2a8c294abf8a2a8903d5f08c0d507ac0636160ffc5369855fb0b8ca32e891b27"
+  },
+  "audio/en/e45c2b2a09bf208673d0.m4a": {
+    "text": "A host-based IDS monitors activity on an individual host.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "afe8f7289cc55c3d5e2ecb71b1b360a611e266ac1ff63d8adce963da13eac3f6"
+  },
+  "audio/en/7abddd39fe3e39a826c8.m4a": {
+    "text": "A network-based IDS monitors traffic at network observation points.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "1b61ca7108d5fe995b4137b7a1a69f841120249a023853eeff6f7e5b4fda7c14"
+  },
+  "audio/en/8bb12ee147a85c51b6a2.m4a": {
+    "text": "An intrusion detection system can produce false alarms or miss attacks.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "75ae42d3cd06253674954bee490b65db77f8f15403f55793461026c4af83dc43"
+  },
+  "audio/en/55aa13b0c7c5ebae86f2.m4a": {
+    "text": "I D S",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "7e8c5a93d9a88d6a2194ab300aa559678ec780744bf6145d18859c7b08c8882e"
+  },
+  "audio/en/3392d410afc41adeb0e3.m4a": {
+    "text": "H I D S",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "17fbce79bef98d76a30567f6b1f8065d7e7c4c154d0b2c3cab821561e722523b"
+  },
+  "audio/en/5febfe0b00dd617eb3b5.m4a": {
+    "text": "N I D S",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "0ff3dffec7742ebe1a6fc45dd49592bd86facda042dbb09d041796448c900ccf"
+  },
+  "audio/en/d16b81a1ce6196b95a92.m4a": {
+    "text": "false positive",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "2580641acacd01aac8ef1265eff4f8ad4fcc24c1a3a14daa70f8ea7331722fc5"
+  },
+  "audio/en/b2a42e0119a423ca83b2.m4a": {
+    "text": "false negative",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "cef97a35d7e124169c2eb997f40ec2b1ceb04b506040efe69b81ca26f3dd01d7"
+  },
+  "audio/en/a7e7ca4264dcfe19b1b7.m4a": {
+    "text": "Signature detection searches for known attack patterns.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "57a3a7257e69dc7c3ea7a91bd04420bf95e695bb4c3ee2df1fb9bd869f3704d7"
+  },
+  "audio/en/0896c90abceb5c7a3ae4.m4a": {
+    "text": "Anomaly detection identifies deviations from expected behavior.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "df79f6e1a77b802124c25a9c2ae6ea7c0874f2a0577fcf86dd5d3ae0a29fcae8"
+  },
+  "audio/en/1310237c4f04ef9f4b4f.m4a": {
+    "text": "Unusual behavior is not automatically malicious behavior.",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "08331fc35017ba82f71ef48ec9c61f94cf5d505283e7f8e27de3a69619c20738"
+  },
+  "audio/en/0f9d310022cf427355d3.m4a": {
+    "text": "signature detection",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "98b4d46a9280354bc75bc2ed3ea3367203cc1e078970325508977245dd2763f3"
+  },
+  "audio/en/b9ba5e2bcc21be9fc967.m4a": {
+    "text": "anomaly",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "94bb0c258edec01ea03d90ffaf24b03151bb120cb3d2c83b7efe080cd373eb5e"
+  },
+  "audio/en/092b5df447585692ae71.m4a": {
+    "text": "baseline",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "c8c650772897a43fa21a0c5caad9bc3ec52624eec3a3df84551e53121f04d359"
+  },
+  "audio/en/dd8f462bf2cd744ce5b0.m4a": {
+    "text": "profile",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "de259cbeb9ef33d3ac94d40272cc5dee3f45eeb016e503ad05cab63e20e5c9f9"
+  },
+  "audio/en/ede4d3e4b26fc48d9367.m4a": {
+    "text": "deviation",
+    "voice": "Samantha",
+    "wordsPerMinute": 165,
+    "sha256": "b290c246c540616d5cc58865db2e1c3794dc3d7330b9f814ac301add8d45c9dd"
+  }
+}
